@@ -25,9 +25,12 @@ import html
 import json
 import os
 import re
+import smtplib
+import ssl
 import sys
 import time
 import unicodedata
+from email.message import EmailMessage
 from pathlib import Path
 
 import requests
@@ -52,6 +55,17 @@ PALABRAS_CLAVE = [
 # En GitHub se toman de los "Secrets" (ver README). En tu PC podés escribirlos acá.
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
+
+# Avisos por GitHub Issues (automático dentro de GitHub Actions, no requiere nada).
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "")          # "usuario/repo"
+GITHUB_USUARIO = os.environ.get("GITHUB_REPOSITORY_OWNER", "")  # para mencionarte
+
+# Email (opcional). Con Gmail: usá una "contraseña de aplicación".
+EMAIL_USUARIO = os.environ.get("EMAIL_USUARIO", "")   # tu cuenta que envía
+EMAIL_CLAVE = os.environ.get("EMAIL_CLAVE", "")       # contraseña de aplicación
+EMAIL_DESTINO = os.environ.get("EMAIL_DESTINO", "") or EMAIL_USUARIO
+SMTP_SERVIDOR = os.environ.get("SMTP_SERVIDOR", "smtp.gmail.com")
 
 MAX_MENSAJES_POR_CORRIDA = 15  # evita inundarte en la primera ejecución
 
@@ -191,6 +205,45 @@ def enviar_telegram(texto: str) -> None:
         print(f"  [!] No pude enviar a Telegram: {e}")
 
 
+def crear_issue_github(titulo: str, url: str, fecha: str, info: dict) -> None:
+    """Crea un Issue en el repo: GitHub te notifica por app y por email."""
+    if not (GITHUB_TOKEN and GITHUB_REPO):
+        return
+    cuerpo = formatear(titulo, url, fecha, info)
+    if GITHUB_USUARIO:
+        cuerpo = f"@{GITHUB_USUARIO} hay un concurso nuevo de Matemática:\n\n" + cuerpo
+    try:
+        r = requests.post(
+            f"https://api.github.com/repos/{GITHUB_REPO}/issues",
+            headers={
+                "Authorization": f"Bearer {GITHUB_TOKEN}",
+                "Accept": "application/vnd.github+json",
+            },
+            json={"title": f"📐 {titulo}", "body": cuerpo},
+            timeout=20,
+        )
+        if r.status_code >= 300:
+            print(f"  [!] GitHub Issue falló ({r.status_code}): {r.text[:200]}")
+    except requests.RequestException as e:
+        print(f"  [!] No pude crear el Issue: {e}")
+
+
+def enviar_email(items: list) -> None:
+    if not (EMAIL_USUARIO and EMAIL_CLAVE and EMAIL_DESTINO):
+        return
+    msg = EmailMessage()
+    msg["Subject"] = f"📐 {len(items)} concurso(s) nuevo(s) de Matemática"
+    msg["From"] = EMAIL_USUARIO
+    msg["To"] = EMAIL_DESTINO
+    msg.set_content("\n\n".join(formatear(*x) for x in items))
+    try:
+        with smtplib.SMTP_SSL(SMTP_SERVIDOR, 465, context=ssl.create_default_context()) as srv:
+            srv.login(EMAIL_USUARIO, EMAIL_CLAVE)
+            srv.send_message(msg)
+    except (smtplib.SMTPException, OSError) as e:
+        print(f"  [!] No pude enviar el email: {e}")
+
+
 def avisar(items: list) -> None:
     """items = [(titulo, url, fecha, info), ...]"""
     # Ventana de Windows (solo si lo corrés en tu PC)
@@ -206,8 +259,11 @@ def avisar(items: list) -> None:
             )
         except Exception:
             pass
-    # Telegram: un mensaje por concurso
+
+    enviar_email(items)
+
     for x in items[:MAX_MENSAJES_POR_CORRIDA]:
+        crear_issue_github(*x)
         enviar_telegram("NUEVO CONCURSO DE MATEMÁTICA\n\n" + formatear(*x))
         time.sleep(0.5)
     if len(items) > MAX_MENSAJES_POR_CORRIDA:
