@@ -1,0 +1,83 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Concursos CGE//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Concursos docentes - CGE
+X-WR-TIMEZONE:America/Argentina/Buenos_Aires
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:a6bb20fe730bcf72586d6613@concursos-cge
+DTSTAMP:20261030T213404Z
+DTSTART:20261030T180000Z
+DTEND:20261030T190000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 16 “Profesor Gerar
+ do Victorín” – Concordia
+DESCRIPTION:Matemática · 5 hs. · 2.º año “08” · Turno mañana · 
+ Suplente (lunes de 08:00 a 10:10 hs.\, martes de 08:50 a 09:30 hs. y viern
+ es de 08:00 a 08:40 hs.)\nhttps://cge.entrerios.gov.ar/2026/10/escuela-sec
+ undaria-n-o-16-profesor-gerardo-victorin-concordia-48/
+URL:https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-16-profesor
+ -gerardo-victorin-concordia-48/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1ad0ed32d44d554b2c0c84b5@concursos-cge
+DTSTAMP:20261030T213404Z
+DTSTART:20261030T220000Z
+DTEND:20261030T230000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 10 “República de 
+ Entre Ríos” – Concordia
+DESCRIPTION:Matemática · 5 hs. · 1.º año “C” · Turno tarde · Sup
+ lente (lunes de 13:45 a 14:20 hs. y de 14:30 a 15:05 hs.\; martes de 15:05
+  a 15:40 hs. y de 15:50 a 16:25 hs.)\nhttps://cge.entrerios.gov.ar/2026/10
+ /escuela-secundaria-n-o-10-republica-de-entre-rios-concordia-31/
+URL:https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-10-republic
+ a-de-entre-rios-concordia-31/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4f0b78f1db17faf20a3e2649@concursos-cge
+DTSTAMP:20261030T213404Z
+DTSTART:20261102T110000Z
+DTEND:20261102T120000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 18 “Vélez Sarsfie
+ ld” – Concordia
+DESCRIPTION:Matemática · 5 hs. · 1.º año “E” · Turno tarde · Sup
+ lente (Lunes: 14:50 a 15:30 hs. y 15:30 a 16:10 hs. | Miércoles: 13:20 a 
+ 14:00 hs. y 14:50 a 15:30 hs. | Jueves: 16:20 a 17:00 hs.)\nhttps://cge.en
+ trerios.gov.ar/2026/10/escuela-secundaria-n-o-18-velez-sarsfield-concordia
+ -24/
+URL:https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-18-velez-sa
+ rsfield-concordia-24/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
