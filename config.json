@@ -1,0 +1,33 @@
+{
+  "_ayuda": "Editá este archivo desde GitHub (lápiz). Las claves que empiezan con _ se ignoran. Las palabras van SIN tildes y en minúscula.",
+
+  "materias": {
+    "Matemática": ["matematica", "matematicas"]
+  },
+
+  "fuentes": [
+    {
+      "nombre": "Concordia",
+      "url": "https://cge.entrerios.gov.ar/category/concordia-concursos/"
+    }
+  ],
+
+  "paginas": 2,
+
+  "filtros": {
+    "_ayuda": "Todo opcional. turnos: [\"mañana\",\"tarde\",\"noche\"]. escuelas: parte del nombre, ej. [\"velez\"].",
+    "escuelas_incluir": [],
+    "escuelas_excluir": [],
+    "turnos": [],
+    "horas_minimas": 0
+  },
+
+  "recordatorios": {
+    "el_dia": true,
+    "dia_antes": true
+  },
+
+  "cerrar_issues_vencidos": true,
+  "avisar_publicaciones_sin_texto": true,
+  "alerta_si_falla_revisiones": 3
+}
