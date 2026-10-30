@@ -1,0 +1,46 @@
+name: Buscar concursos
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # cada 30 minutos (hora UTC)
+  workflow_dispatch:          # permite ejecutarlo a mano con "Run workflow"
+
+permissions:
+  contents: write             # guarda historial, página y calendario
+  issues: write               # crea, comenta y cierra Issues
+
+concurrency:
+  group: buscar
+  cancel-in-progress: false
+
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Buscar concursos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Opcionales: si no cargás estos secrets, simplemente no se usan
+          EMAIL_USUARIO: ${{ secrets.EMAIL_USUARIO }}
+          EMAIL_CLAVE: ${{ secrets.EMAIL_CLAVE }}
+          EMAIL_DESTINO: ${{ secrets.EMAIL_DESTINO }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python buscador_concursos.py
+
+      - name: Guardar historial, página y calendario
+        run: |
+          git config user.name "buscador-bot"
+          git config user.email "buscador-bot@users.noreply.github.com"
+          git add concursos_vistos.json docs
+          git diff --cached --quiet || git commit -m "Actualización automática"
+          git push
