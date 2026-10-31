@@ -1,0 +1,2745 @@
+{
+ "version": 3,
+ "estado": {
+  "fallas": 0,
+  "alertado": false,
+  "issue_alerta": null,
+  "ntfy_prueba": 1
+ },
+ "entradas": {
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-de-jovenes-y-adultos-n-o-29-prof-erich-poenitz-concordia-14/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 29 “Prof. Erich Poenitz” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "28/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-29",
+     "hora": "19:00",
+     "clases": []
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "D",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-29",
+     "hora": "19:00",
+     "clases": []
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-29",
+     "hora": "19:00",
+     "clases": []
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "D",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-29",
+     "hora": "19:00",
+     "clases": []
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 1,
+     "curso": "3.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-29",
+     "hora": "19:00",
+     "clases": []
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 1,
+     "curso": "3.º año",
+     "division": "D",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-29",
+     "hora": "19:00",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-29"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-36-juana-paula-manso-concordia-26/": {
+   "titulo": "Escuela Secundaria N.º 36 “Juana Paula Manso” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "28/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Literatura Latinoamericana",
+     "buscada": false,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "08:30",
+     "clases": [
+      "Martes de 16:25 a 17:00 hs.",
+      "Miércoles de 14:30 a 15:05 hs., de 15:05 a 15:40 hs. y de 15:50 a 16:25 hs."
+     ]
+    },
+    {
+     "materia": "Literatura Argentina",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "08:45",
+     "clases": [
+      "Martes de 17:10 a 17:45 hs. y de 17:45 a 18:25 hs.",
+      "Miércoles de 13:10 a 13:45 hs. y de 13:45 a 14:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-16-profesor-gerardo-victorin-desconvocar-concurso/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” DESCONVOCAR CONCURSO   – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "28/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” DESCONVOCAR CONCURSO – Concordia Compartir Tweet WhatsApp Imprimir Supervisión de Educación Secundaria – Zona XXVI – Concordia La Supervisión de Educación Secundaria, Zona XXVI, del Departamento Concordia, DESCONVOCA a concurso en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M. T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., artículo 136.º, requisitos según el artículo 124.º y Circular N.º ",
+   "detalle": [],
+   "fechas": [
+    "2026-10-29"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-36-juana-paula-manso-concordia-27/": {
+   "titulo": "Escuela Secundaria N.º 36 “Juana Paula Manso” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "28/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir PRIMER LLAMADO A CONCURSO La Rectoría de la Escuela Secundaria N.º 36 “Juana Paula Manso” (CUE N.º 300-2664), de la ciudad de Concordia, convoca a la cobertura de cargos iniciales y/u horas cátedra, en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M. T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., artículo 138.º, para cubrir el siguiente cargo. El concurso se llevará a cabo el día viernes 30 de octubre de 2026,",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-de-jovenes-y-adultos-n-o-29-prof-erich-poenitz-concordia-15/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 29 “Prof. Erich Poenitz” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "28/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Primera convocatoria",
+     "buscada": false,
+     "hs": 12,
+     "curso": "",
+     "division": "",
+     "turno": "rotativo",
+     "caracter": "suplente",
+     "fecha": "2026-10-29",
+     "hora": "20:00",
+     "clases": [
+      "Martes de 13:30 a 16:00 hs.",
+      "Miércoles de 18:30 a 20:00 hs.",
+      "Jueves de 13:30 a 16:00 hs.",
+      "Viernes de 18:30 a 20:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-29"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-de-educacion-agrotecnica-n-o-152-manuel-maria-calderon-concordia-3/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 152 “Manuel María Calderón” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Ciencias Físico-Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "09:30",
+     "clases": []
+    },
+    {
+     "materia": "Ciencias Físico-Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "09:30",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-de-educacion-tecnica-n-o-1-brigadier-general-pascual-echague-concordia-4/": {
+   "titulo": "Escuela de Educación Técnica N.º 1 “Brigadier General Pascual Echagüe” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir CONVOCATORIA A CONCURSO La Rectoría de la Escuela de Educación Técnica N.º 1 “Brigadier General Pascual Echagüe”, de Concordia, llama a concurso público docente para cubrir un cargo de taller, en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M. T. y sus modificatorias, Resolución N.º 2300/22 C.G.E. y Circular N.º 02/26 J.C. del C.G.E. El acto concursal se llevará a cabo el día viernes 30 de octubre de 2026, en el local",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/concurso-n93-de-nivel-inicial-primario-y-sus-modalidades-30-10-2026-dpto-concordia/": {
+   "titulo": "Concurso N°93 de Nivel Inicial, Primario y sus modalidades – 30/10/2026 – Dpto. Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir La Dirección Departamental de Escuelas Concordia convoca al Concurso N°93 de Suplencias de Nivel Inicial, Primario y sus modalidades. Consideraciones para tener en cuenta: 📌Los cargos de ascenso se cubrirán según Res N°0691/21 CGE y sus modificatorias. 📌Los cargos de Director de 4° Categoría se cubrirán según Res. N°1000/13 CGE. 📌Para los cargos iniciales al empezar cada instancia se procederá con el listado oficial desde el último orden de mérito que adjudicó e",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-9-intendente-g-yoya-desconvoca-concurso-concordia-2/": {
+   "titulo": "Escuela Secundaria N.º 9 “Intendente G. Yoya” DESCONVOCA CONCURSO – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Física",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-23",
+     "hora": "10:30",
+     "clases": []
+    },
+    {
+     "materia": "Física",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-23",
+     "hora": "10:30",
+     "clases": []
+    },
+    {
+     "materia": "Física",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "D",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-23",
+     "hora": "10:30",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-23"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-y-superior-cesareo-bernaldo-de-quiros-concordia-10/": {
+   "titulo": "Escuela Secundaria y Superior “Cesáreo Bernaldo de Quirós” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Física y Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "07:30",
+     "clases": []
+    },
+    {
+     "materia": "Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "07:40",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-35-cabo-1-furriel-jorge-a-sendros-concordia-4/": {
+   "titulo": "Escuela Secundaria N.º 35 “Cabo 1° Furriel Jorge A. Sendrós” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": null,
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-de-jovenes-y-adultos-n-o-35-almirante-brown-concordia-9/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º  35 “Almirante Brown” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Escuela Secundaria de Jóvenes y Adultos N.º 35 “Almirante Brown” – Concordia Compartir Tweet WhatsApp Imprimir Escuela Secundaria de Jóvenes y Adultos N.º 35 “Almirante Brown” – Concordia PRIMERA CONVOCATORIA La Rectoría de la ESJA N.º 35 “Almirante Brown”, con orientación en Ciencias Naturales, convoca a concurso en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M. T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., artículo 136.º, para la cobertur",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-de-educacion-tecnica-n-o-1-brigadier-general-pascual-echague-concordia-5/": {
+   "titulo": "Escuela de Educación Técnica N.º 1 “Brigadier General Pascual Echagüe” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir CONVOCATORIA A CONCURSO La Rectoría de la Escuela de Educación Técnica N.º 1 “Brigadier General Pascual Echagüe”, de Concordia, llama a concurso público docente para cubrir un cargo de taller, en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M. T. y sus modificatorias, Resolución N.º 2300/22 C.G.E. y Circular N.º 02/26 J.C. del C.G.E. El acto concursal se llevará a cabo el día viernes 30 de octubre de 2026, en el local",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-17-gral-m-m-de-guemes-concordia-24/": {
+   "titulo": "Escuela Secundaria N.º 17 “Gral. M. M. de Güemes” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir SEGUNDA CONVOCATORIA La Rectoría de la Escuela Secundaria N.º 17 “Gral. M. M. de Güemes”, CUE N.º 300-133300, convoca a concurso para la cobertura de cargos iniciales y/u horas cátedra, en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M. T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., artículo 137.º. El acto concursal se llevará a cabo el día viernes 30 de octubre de 2026, en la institución, conforme al siguien",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "segunda convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-30-maria-e-walsh-concordia-12/": {
+   "titulo": "Escuela Secundaria N.º 30 “María E. Walsh” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": null,
+     "clases": [
+      "jueves de 07:40 a 08:45 hs. y de 10:15 a 12:05 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": null,
+     "clases": [
+      "jueves de 08:15 a 10:05 hs. y viernes de 11:30 a 12:40 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "3.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": null,
+     "clases": [
+      "jueves de 08:55 a 10:05 hs. y de 12:05 a 12:40 hs.; viernes de 07:40 a 08:45 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": null,
+     "clases": [
+      "martes de 10:15 a 11:25 hs.; jueves de 07:40 a 08:15 hs.; viernes de 10:15 a 11:25 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": null,
+     "clases": [
+      "martes de 11:30 a 12:40 hs. y viernes de 08:55 a 10:05 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": null,
+     "clases": [
+      "jueves de 07:40 a 08:45 hs. y de 10:15 a 12:05 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": null,
+     "clases": [
+      "jueves de 08:15 a 10:05 hs. y viernes de 11:30 a 12:40 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "3.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": null,
+     "clases": [
+      "jueves de 08:55 a 10:05 hs. y de 12:05 a 12:40 hs.; viernes de 07:40 a 08:45 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": null,
+     "clases": [
+      "martes de 10:15 a 11:25 hs.; jueves de 07:40 a 08:15 hs.; viernes de 10:15 a 11:25 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": null,
+     "clases": [
+      "martes de 11:30 a 12:40 hs. y viernes de 08:55 a 10:05 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "7c290b1ac1028279",
+   "issue": 11,
+   "issue_abierto": false,
+   "vencido": true,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-15-domingo-faustino-sarmiento-concordia/": {
+   "titulo": "Escuela Secundaria N.º 15 “Domingo Faustino Sarmiento” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "10:00",
+     "clases": []
+    },
+    {
+     "materia": "Psicología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-22",
+     "hora": "10:30",
+     "clases": [
+      "martes de 11:00 a 11:40 hs. y miércoles de 07:20 a 08:40 hs."
+     ]
+    },
+    {
+     "materia": "Psicología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "4.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-22",
+     "hora": "10:30",
+     "clases": [
+      "martes de 07:20 a 08:40 hs. y viernes de 11:00 a 11:40 hs."
+     ]
+    },
+    {
+     "materia": "Psicología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-22",
+     "hora": "10:30",
+     "clases": [
+      "martes de 10:20 a 11:00 hs. y jueves de 08:50 a 10:10 hs."
+     ]
+    },
+    {
+     "materia": "Psicología 4.º año",
+     "buscada": false,
+     "hs": 3,
+     "curso": "4.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-22",
+     "hora": "10:30",
+     "clases": [
+      "martes de 08:50 a 10:10 hs. y jueves de 08:00 a 08:40 hs."
+     ]
+    },
+    {
+     "materia": "Orientador Educacional",
+     "buscada": false,
+     "hs": 12,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-22",
+     "hora": "10:45",
+     "clases": [
+      "Miércoles de 08:50 a 12:25 hs.",
+      "Jueves de 10:20 a 12:25 hs.",
+      "Viernes de 08:00 a 11:00 hs."
+     ]
+    },
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-22",
+     "hora": "11:00",
+     "clases": [
+      "Martes de 08:50 a 10:10 hs.",
+      "Viernes de 08:50 a 10:10 hs. y de 10:20 a 11:00 hs."
+     ]
+    },
+    {
+     "materia": "Literatura Argentina",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-22",
+     "hora": "11:15",
+     "clases": [
+      "Martes de 07:20 a 08:40 hs.",
+      "Jueves de 08:50 a 10:10 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30",
+    "2026-11-22"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-7-gobernador-general-lopez-jordan-concordia-3/": {
+   "titulo": "Escuela Secundaria N.º 7 “Gobernador General López Jordán” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "19:20",
+     "clases": []
+    },
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "19:20",
+     "clases": []
+    },
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "3.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "19:20",
+     "clases": []
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "3.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "19:40",
+     "clases": [
+      "miércoles de 09:00 a 10:15 hs. y jueves de 09:00 a 09:45 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "3.º año",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "19:40",
+     "clases": [
+      "jueves de 15:15 a 16:30 hs. y viernes de 14:00 a 14:45 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física– 3.º año",
+     "buscada": false,
+     "hs": 3,
+     "curso": "3.º año",
+     "division": "D",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "19:40",
+     "clases": [
+      "viernes de 09:15 a 10:30 hs. y jueves de 09:45 a 10:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-7-gobernador-general-lopez-jordan-concordia-4/": {
+   "titulo": "Escuela Secundaria N.º 7 “Gobernador General López Jordán” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Literatura Argentina",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": "20:00",
+     "clases": [
+      "martes de 10:20 a 11:20 hs. y jueves de 10:20 a 11:20 hs."
+     ]
+    },
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": "20:20",
+     "clases": [
+      "lunes de 07:20 a 08:40 hs., viernes de 07:20 a 08:00 hs. y de 08:50 a 10:10 hs."
+     ]
+    },
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 4,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "noche",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": "20:20",
+     "clases": [
+      "miércoles de 19:10 a 20:10 hs. y de 20:20 a 21:20 hs."
+     ]
+    },
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 4,
+     "curso": "3.º año",
+     "division": "B",
+     "turno": "noche",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": "20:20",
+     "clases": [
+      "lunes de 20:20 a 21:20 hs. y miércoles de 21:30 a 22:30 hs."
+     ]
+    },
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "3.º año",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": "20:20",
+     "clases": [
+      "lunes de 11:25 a 12:25 hs. y viernes de 10:20 a 11:55 hs."
+     ]
+    },
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": "20:20",
+     "clases": [
+      "miércoles de 16:30 a 17:30 hs. y viernes de 16:30 a 18:05 hs."
+     ]
+    },
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-10-30",
+     "hora": "20:20",
+     "clases": [
+      "lunes de 09:30 a 11:20 hs. y miércoles de 07:20 a 08:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-25-general-san-martin-concordia/": {
+   "titulo": "Escuela Secundaria N.º 25 “General San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir PRIMER LLAMADO A CONCURSO La Escuela Secundaria N.º 25 “General San Martín”, CUE N.º 3002633, convoca a concurso de adjudicación de horas cátedra, en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M. T. y sus modificatorias, y Resolución N.º 2300/22 C.G.E. El día viernes 30 de octubre del 2026, en el siguiente horario: 12:30 hs 🔴 2 h de Geografía de 5° Año Div. “B” CO. Suplente. Turno mañana. Martes de 8:50 a 10:10hs 🔴 ",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-17-general-martin-miguel-de-guemes-concordia/": {
+   "titulo": "Escuela Secundaria N.º 17 “General Martín Miguel de Güemes” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "D",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "09:45",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "segunda convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-de-jovenes-y-adultos-n-40-concordia-12/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N° 40 – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir Supervisión de Educación Secundaria para Jóvenes y Adultos – Zona IV – Concordia PRIMER LLAMADO A CONCURSO La Supervisión de Educación Secundaria para Jóvenes y Adultos, Zona IV, Departamento Concordia, convoca a concurso en el marco del Acuerdo Paritario/Reglamento de Concursos, según la Resolución Ministerial N.º 783/12 M. T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., artículos 138.º y 140.º (Continuidad Pedagógica), para la cobertura del siguiente c",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-25-general-san-martin-concordia-2/": {
+   "titulo": "Escuela Secundaria N.º 25 “General San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Formación Ética y Ciudadana",
+     "buscada": false,
+     "hs": 2,
+     "curso": "6.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "12:45",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-2-jose-gervasio-artigas-concordia-28/": {
+   "titulo": "Escuela Secundaria N.º 2 “José Gervasio Artigas” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": null,
+     "clases": [
+      "lunes de 11:15 a 11:50 hs. y miércoles de 10:00 a 10:35 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-6-jorge-luis-borges-concordia-13/": {
+   "titulo": "Escuela Secundaria N.º 6 “Jorge Luis Borges” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "15:30",
+     "clases": [
+      "lunes y miércoles de 11:20 a 12:20 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "15:30",
+     "clases": [
+      "martes y jueves de 11:20 a 12:20 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "15:30",
+     "clases": [
+      "jueves de 07:30 a 08:30 hs. y viernes de 11:20 a 12:20 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "15:30",
+     "clases": [
+      "martes de 07:30 a 08:30 hs. y viernes de 12:30 a 13:30 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "3.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "15:30",
+     "clases": [
+      "lunes y jueves de 13:00 a 14:00 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "3.º año",
+     "division": "C",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "15:30",
+     "clases": [
+      "martes de 08:30 a 09:30 hs. (turno mañana) y jueves de 14:00 a 15:00 hs. (turno tarde)."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "4.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "15:30",
+     "clases": [
+      "martes de 09:40 a 10:40 hs. y viernes de 08:00 a 09:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-48/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "08",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "15:00",
+     "clases": [
+      "lunes de 08:00 a 10:10 hs., martes de 08:50 a 09:30 hs. y viernes de 08:00 a 08:40 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "08",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "15:00",
+     "clases": [
+      "lunes de 08:00 a 10:10 hs., martes de 08:50 a 09:30 hs. y viernes de 08:00 a 08:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "d61ddc74f275ddc3",
+   "issue": 12,
+   "issue_abierto": false,
+   "vencido": true,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-11-dr-esteban-zorraquin-concordia-18/": {
+   "titulo": "Escuela Secundaria N.º 11 “Dr. Esteban Zorraquín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Orientador Educacional con Orientación Psicológica",
+     "buscada": false,
+     "hs": 4,
+     "curso": "",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "10:15",
+     "clases": [
+      "lunes de 16:50 a 17:30 hs., de 17:35 a 18:15 hs. y de 18:15 a 18:55 hs.; viernes de 14:40 a 15:20 hs."
+     ]
+    },
+    {
+     "materia": "Orientador Educacional con Orientación Psicológica",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "10:15",
+     "clases": [
+      "viernes de 15:20 a 16:00 hs. y de 16:10 a 16:50 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-14-alejandro-carbo-concordia-34/": {
+   "titulo": "Escuela Secundaria N.º 14 “Alejandro Carbó” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir LLAMADO A CONCURSO La Rectoría de la Escuela Secundaria N.º 14 “Alejandro Carbó” convoca a concurso para la adjudicación de un cargo de conducción directiva, en el marco de la Resolución Ministerial N.º 783/12 M. T. y del artículo 138.º del Acuerdo Paritario/Reglamento de Concursos, Resolución N.º 2300/22 C.G.E. y sus modificatorias. El acto concursal se llevará a cabo el día viernes 30 de octubre de 2026, conforme al siguiente detalle: 17:00 hs. 🔴 1 cargo de Se",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-9-intendente-g-yoya-concordia-28/": {
+   "titulo": "Escuela Secundaria N.º 9 “Intendente G. Yoya” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Física",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "D",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "18:00",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-36-juana-paula-manso-concordia-28/": {
+   "titulo": "Escuela Secundaria N.º 36 “Juana Paula Manso” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "16:30",
+     "clases": [
+      "viernes de 17:10 a 17:45 hs. y de 17:45 a 18:25 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-14-alejandro-carbo-concordia-35/": {
+   "titulo": "Escuela Secundaria N.º 14 “Alejandro Carbó” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Tecnología de la Información y la Comunicación",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "16:00",
+     "clases": []
+    },
+    {
+     "materia": "Tecnología de la Información y la Comunicación",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "16:00",
+     "clases": []
+    },
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "16:30",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-32-osvaldo-magnasco-concordia-7/": {
+   "titulo": "Escuela Secundaria N.º 32 “Osvaldo Magnasco” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 4,
+     "curso": "1.º año",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "16:00",
+     "clases": [
+      "miércoles de 20:30 a 21:40 hs. y jueves de 20:30 a 21:40 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 4,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "16:15",
+     "clases": [
+      "miércoles de 19:15 a 20:30 hs. y jueves de 19:15 a 20:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-19-generala-juana-azurduy-concordia-2/": {
+   "titulo": "Escuela Secundaria N.º 19 “Generala Juana Azurduy”  – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Escuela Secundaria N.º 19 “Generala Juana Azurduy” – Concordia Compartir Tweet WhatsApp Imprimir Supervisión de Educación Secundaria – Zona II – Concordia PRIMERA CONVOCATORIA La Supervisión de Educación Secundaria, Zona II, del Departamento Concordia, convoca a concurso en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M. T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., artículo 136.º, requisitos según artículo 124.º y Circular N.º 02/2026 J.C.,",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-31-benito-juarez-concordia-3/": {
+   "titulo": "Escuela Secundaria N.º 31 “Benito Juárez” – Est. Yuquerí – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir Supervisión de Educación Secundaria – Zona III – Concordia PRIMERA CONVOCATORIA La Supervisión de Educación Secundaria, Zona III, del Departamento Concordia, convoca a concurso en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M. T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., artículo 136.º, requisitos según artículo 124.º y Circular N.º 02/26 J.C., para cubrir el siguiente espacio: El acto de adjudicación se l",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-10-republica-de-entre-rios-concordia-31/": {
+   "titulo": "Escuela Secundaria N.º 10 “República de Entre Ríos” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "1.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "19:00",
+     "clases": [
+      "lunes de 13:45 a 14:20 hs. y de 14:30 a 15:05 hs.; martes de 15:05 a 15:40 hs. y de 15:50 a 16:25 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "1.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "19:00",
+     "clases": [
+      "lunes de 13:45 a 14:20 hs. y de 14:30 a 15:05 hs.; martes de 15:05 a 15:40 hs. y de 15:50 a 16:25 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "ce2b134fb36bc7f9",
+   "issue": 13,
+   "issue_abierto": false,
+   "vencido": true,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-31-benito-juarez-est-yuqueri-concordia-9/": {
+   "titulo": "Escuela Secundaria N.º 31 “Benito Juárez” – Est. Yuquerí – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "3.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": null,
+     "clases": [
+      "lunes de 07:20 a 08:40 hs.; jueves de 07:20 a 08:40 hs. y viernes de 08:00 a 08:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-de-jovenes-y-adultos-n-o-42-manuel-jose-belgrano-concordia-6/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 42 “Manuel José Belgrano” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Asesoría Pedagógica",
+     "buscada": false,
+     "hs": 12,
+     "curso": "",
+     "division": "",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "18:45",
+     "clases": [
+      "Lunes de 19:00 a 21:20 hs.",
+      "Miércoles de 19:00 a 21:20 hs.",
+      "Viernes de 19:00 a 21:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-de-jovenes-y-adultos-n-o-42-manuel-jose-belgrano-concordia-7/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 42 “Manuel José Belgrano” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "29/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 4,
+     "curso": "2.º año",
+     "division": "C",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-10-30",
+     "hora": "20:00",
+     "clases": [
+      "martes de 18:00 a 19:05 hs. y viernes de 20:20 a 21:25 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-20-simon-bolivar-est-grande-concordia-23/": {
+   "titulo": "Escuela Secundaria N.º 20 “Simón Bolívar” – Est. Grande – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir LLAMADO A CONCURSO La Rectoría de la Escuela Secundaria N.º 20 “Simón Bolívar”, sita en Av. Central s/n de Estancia Grande, convoca a concurso para la cobertura de cargo y/u horas, en el marco del Acuerdo Paritario, Resolución N.º 783/12 M. T. y sus modificatorias, y Resolución N.º 2300/22 del Consejo General de Educación, para cubrir lo siguiente: El acto concursal se llevará a cabo el día lunes 2 de noviembre de 2026. 07:45 hs. 🔴 1 cargo de Preceptor/a – Suple",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-20-simon-bolivar-est-grande-concordia-24/": {
+   "titulo": "Escuela Secundaria N.º 20 “Simón Bolívar” – Est. Grande – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "B",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "09:00",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-20-simon-bolivar-est-grande-concordia-25/": {
+   "titulo": "Escuela Secundaria N.º 20 “Simón Bolívar”  Est. Grande – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua Extranjera (Inglés)",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "A",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "09:30",
+     "clases": []
+    },
+    {
+     "materia": "Lengua Extranjera (Inglés)",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "B",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "09:30",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-de-educacion-tecnica-n-o-1-brigadier-general-pascual-echague-concordia-6/": {
+   "titulo": "Escuela de Educación Técnica N.º 1 “Brigadier General Pascual Echagüe” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir LLAMADO A CONCURSO La Rectoría de la Escuela de Educación Técnica N.º 1 “Brigadier General Pascual Echagüe” de Concordia convoca a concurso público docente para cubrir un cargo de taller, en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783 M. T. y sus modificatorias, Resolución N.º 2300/22 C.G.E. y Circular N.º 02/26 J.C. del C.G.E. El acto concursal se llevará a cabo el día martes 3 de noviembre de 2026, en el local escolar",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-de-educacion-tecnica-n-o-1-brigadier-general-pascual-echague-concordia-7/": {
+   "titulo": "Escuela de Educación Técnica N.º 1 “Brigadier General Pascual Echagüe” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir LLAMADO A CONCURSO La Rectoría de la Escuela de Educación Técnica N.º 1 “Brigadier General Pascual Echagüe” de Concordia convoca a concurso público docente para cubrir un cargo de taller, en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783 M. T. y sus modificatorias, Resolución N.º 2300/22 C.G.E. y Circular N.º 02/26 J.C. del C.G.E. El acto concursal se llevará a cabo el día martes 3 de noviembre de 2026, en el local escolar",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-35-cabo-primero-furriel-jorge-alberto-sendros-concordia-7/": {
+   "titulo": "Escuela Secundaria N.º 35 “Cabo Primero Furriel Jorge Alberto Sendrós” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir LLAMADO A CONCURSO – PRIMERA CONVOCATORIA La Rectoría de la Escuela Secundaria N.º 35 “Cabo Primero Furriel Jorge Alberto Sendrós”, CUE 3002631, convoca a cobertura de cargos y/u horas cátedra, en el marco del Acuerdo Paritario/Reglamento de Concursos, según Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., Art. 136. El acto concursal se llevará a cabo en la institución el día lunes 2 de noviembre de 2026. 10:30 hs. 🔴 1 ",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-18-velez-sarsfield-concordia-24/": {
+   "titulo": "Escuela Secundaria N.º 18 “Vélez Sarsfield” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "1.º año",
+     "division": "E",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "08:00",
+     "clases": [
+      "Lunes: 14:50 a 15:30 hs. y 15:30 a 16:10 hs.",
+      "Miércoles: 13:20 a 14:00 hs. y 14:50 a 15:30 hs.",
+      "Jueves: 16:20 a 17:00 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "1.º año",
+     "division": "E",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "08:00",
+     "clases": [
+      "Lunes: 14:50 a 15:30 hs. y 15:30 a 16:10 hs.",
+      "Miércoles: 13:20 a 14:00 hs. y 14:50 a 15:30 hs.",
+      "Jueves: 16:20 a 17:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "c233eba5ebe1c3d2",
+   "issue": 14,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-18-velez-sarsfield-concordia-25/": {
+   "titulo": "Escuela Secundaria N.º 18 “Vélez Sarsfield” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "A",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": null,
+     "clases": []
+    },
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": null,
+     "clases": []
+    },
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "D",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": null,
+     "clases": []
+    },
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "C",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": null,
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-18-velez-sarsfield-concordia-26/": {
+   "titulo": "Escuela Secundaria N.º 18 “Vélez Sarsfield” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 2,
+     "curso": "6.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "08:30",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-de-educacion-agrotecnica-n-o-152-manuel-maria-calderon-concordia-4/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 152 “Manuel María Calderón” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "de Educación Física en 2.º año",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "07:50",
+     "clases": []
+    },
+    {
+     "materia": "de Educación Física en 2.º año",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "07:50",
+     "clases": []
+    },
+    {
+     "materia": "de Educación Física en 3.º año",
+     "buscada": false,
+     "hs": 3,
+     "curso": "3.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "07:50",
+     "clases": []
+    },
+    {
+     "materia": "de Educación Física en 3.º año",
+     "buscada": false,
+     "hs": 3,
+     "curso": "3.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "07:50",
+     "clases": []
+    },
+    {
+     "materia": "de Educación Física en 4.º año",
+     "buscada": false,
+     "hs": 3,
+     "curso": "4.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "07:50",
+     "clases": []
+    },
+    {
+     "materia": "de Educación Física en 5.º año",
+     "buscada": false,
+     "hs": 3,
+     "curso": "5.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "07:50",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-49/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir LLAMADO A CONCURSO La Rectoría de la Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” convoca a concurso de adjudicación de cargo, en el marco del Reglamento de Concursos, Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., Art. 136 de Jurado de Concursos. El acto concursal se llevará a cabo el día lunes 2 de noviembre de 2026. 12:00 hs. PRECEPTOR/A 🔴 Cargo de Preceptor/a – Suplente – Turno tarde. Horario: lunes a vie",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/concurso-n94-de-nivel-inicial-primario-y-sus-modalidades-02-11-2026-dpto-concordia/": {
+   "titulo": "Concurso N°94 de Nivel Inicial, Primario y sus modalidades – 02/11/2026 – Dpto. Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir La Dirección Departamental de Escuelas Concordia convoca al Concurso N°94 de Suplencias de Nivel Inicial, Primario y sus modalidades. Consideraciones para tener en cuenta: 📌Los cargos de ascenso se cubrirán según Res N°0691/21 CGE y sus modificatorias. 📌Los cargos de Director de 4° Categoría se cubrirán según Res. N°1000/13 CGE. 📌Para los cargos iniciales al empezar cada instancia se procederá con el listado oficial desde el último orden de mérito que adjudicó e",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-50/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir LLAMADO A CONCURSO La Rectoría de la Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” convoca a concurso de adjudicación de cargo, en el marco del Reglamento de Concursos, Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., Art. 136 de Jurado de Concursos. El acto concursal se llevará a cabo el día lunes 2 de noviembre de 2026. 12:00 hs. PRECEPTOR/A 🔴 Cargo de Preceptor/a – Suplente – Turno tarde. Horario: lunes a vie",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-23-republica-oriental-del-uruguay-concordia-18/": {
+   "titulo": "Escuela Secundaria N.º 23 “República Oriental del Uruguay” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "de Física y Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "3.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "13:45",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-23-republica-oriental-del-uruguay-concordia-19/": {
+   "titulo": "Escuela Secundaria N.º 23 “República Oriental del Uruguay” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "de Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-02",
+     "hora": "15:00",
+     "clases": []
+    },
+    {
+     "materia": "de Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-10-02",
+     "hora": "15:00",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-10-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-32-osvaldo-magnasco-concordia-8/": {
+   "titulo": "Escuela Secundaria N.º 32 “Osvaldo Magnasco” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "10:30",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-19-gral-j-azurduy-concordia-13/": {
+   "titulo": "Escuela Secundaria N.º 19 “Gral. J. Azurduy” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Artes Visuales",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "15:30",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-2-jose-gervasio-artigas-concordia-29/": {
+   "titulo": "Escuela Secundaria N.º 2 “José Gervasio Artigas” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "10:30",
+     "clases": [
+      "Lunes: 11:15 a 11:50 hs.",
+      "Miércoles: 10:00 a 10:35 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "calle Antártida Argentina 174 (La Bianca)",
+   "ordinal": "segunda convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-19-gral-j-azurduy-concordia-14/": {
+   "titulo": "Escuela Secundaria N.º 19 “Gral. J. Azurduy” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "12:30",
+     "clases": [
+      "Lunes: 13:20 a 14:40 hs.",
+      "Jueves: 13:20 a 14:40 hs.",
+      "Viernes: 15:30 a 16:10 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "12:30",
+     "clases": [
+      "Lunes: 13:20 a 14:40 hs.",
+      "Jueves: 13:20 a 14:40 hs.",
+      "Viernes: 15:30 a 16:10 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "a62eb8f96181263c",
+   "issue": 15,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-51/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir LLAMADO A CONCURSO La Rectoría de la Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” convoca a concurso de adjudicación de cargo, en el marco del Reglamento de Concursos, Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., Art. 136 de Jurado de Concursos. El acto concursal se llevará a cabo el día lunes 2 de noviembre de 2026. 17:30 hs. EDUCACIÓN TECNOLÓGICA 🔴 Educación Tecnológica – 3.er año, 7.ª división – Suplente",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-est-grande-concordia-8/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” Est. Grande – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Producción de Forraje",
+     "buscada": false,
+     "hs": 5,
+     "curso": "6.º año",
+     "division": "1",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "11:40",
+     "clases": []
+    },
+    {
+     "materia": "Industria Láctea",
+     "buscada": false,
+     "hs": 4,
+     "curso": "7.º año",
+     "division": "1",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "11:40",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-de-jovenes-y-adultos-n-o-42-manuel-jose-belgrano-concordia-8/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 42 “Manuel José Belgrano” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Asesoría Pedagógica",
+     "buscada": false,
+     "hs": 12,
+     "curso": "",
+     "division": "",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "19:30",
+     "clases": [
+      "Lunes: 19:00 a 21:20 hs.",
+      "Miércoles: 19:00 a 21:20 hs.",
+      "Viernes: 19:00 a 21:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "segunda convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-de-jovenes-y-adultos-n-o-40-concordia/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 40 – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-31T11:09-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "A",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": "18:30",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  }
+ }
+}
