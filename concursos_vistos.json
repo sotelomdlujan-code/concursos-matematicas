@@ -855,6 +855,42 @@
    "issue_abierto": false,
    "vencido": false,
    "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-de-jovenes-y-adultos-n-o-42-manuel-jose-belgrano-concordia-8/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 42 “Manuel José Belgrano” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-30T21:34-03:00",
+   "relevante": false,
+   "items": [],
+   "detalle": [],
+   "fechas": [],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-de-jovenes-y-adultos-n-o-40-concordia/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 40 – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "30/10/2026",
+   "visto": "2026-10-30T21:34-03:00",
+   "relevante": false,
+   "items": [],
+   "detalle": [],
+   "fechas": [],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": []
   }
  }
 }
