@@ -200,8 +200,8 @@
    "ordinal": "",
    "grupo": "d61ddc74f275ddc3",
    "issue": 7,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": []
   },
   "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-11-dr-esteban-zorraquin-concordia-18/": {
@@ -380,8 +380,8 @@
    "ordinal": "primer llamado",
    "grupo": "ce2b134fb36bc7f9",
    "issue": 8,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": []
   },
   "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-31-benito-juarez-est-yuqueri-concordia-9/": {
