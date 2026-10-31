@@ -91,7 +91,7 @@ CONFIG_DEFECTO = {
         "horas_minimas": 0,
     },
     "recordatorios": {"el_dia": True, "dia_antes": True},
-    "ntfy": {"silencio_desde": 23, "silencio_hasta": 7, "urgente_dias": 1},
+    "ntfy": {"silencio_desde": 23, "silencio_hasta": 7, "urgente_dias": 1, "prueba": 1},
     "cerrar_issues_vencidos": True,
     "avisar_publicaciones_sin_texto": True,
     "alerta_si_falla_revisiones": 3,
@@ -546,11 +546,11 @@ def enviar_telegram(texto: str) -> None:
         print(f"  [!] No pude enviar a Telegram: {e}")
 
 
-def enviar_ntfy(titulo: str, mensaje: str, prioridad: int = 3, click: str = "", tags=None) -> None:
+def enviar_ntfy(titulo: str, mensaje: str, prioridad: int = 3, click: str = "", tags=None) -> bool:
     """Notificación push vía ntfy. Se publica por JSON a la raíz del servidor, así el nombre
     del canal NUNCA aparece en una URL ni en los logs (que en un repo público son visibles)."""
     if not NTFY_TOPIC:
-        return
+        return False
     payload = {"topic": NTFY_TOPIC, "title": titulo[:200], "message": (mensaje or titulo)[:3500], "priority": prioridad}
     if tags:
         payload["tags"] = tags
@@ -559,9 +559,13 @@ def enviar_ntfy(titulo: str, mensaje: str, prioridad: int = 3, click: str = "", 
     try:
         r = requests.post(NTFY_SERVIDOR, json=payload, timeout=20)
         if r.status_code >= 300:
-            print(f"  [!] ntfy respondió {r.status_code}")
+            print(f"  [!] ntfy respondió {r.status_code}"
+                  + (" (el nombre del canal no es válido: solo letras sin tildes, números, - y _, hasta 64 caracteres)" if r.status_code == 400 else ""))
+            return False
+        return True
     except requests.RequestException:
         print("  [!] No pude conectar con ntfy.")
+        return False
 
 
 def en_silencio(cfg: dict, ahora_dt: datetime) -> bool:
@@ -1167,10 +1171,18 @@ def buscar(cfg: dict, mostrar_todos: bool = False) -> None:
     print(f"Avisos de: {', '.join(cfg['materias'])} (el buscador de la app cubre todas las materias)")
     pubs = obtener_publicaciones(cfg)
     print(f"Publicaciones en el listado: {len(pubs)}")
-    if NTFY_TOPIC and not estado.get("ntfy_probado"):
-        enviar_ntfy("✅ ntfy configurado", "Si ves este mensaje, los avisos de concursos van a llegar a tu celular.", 3, tags=["white_check_mark"])
-        estado["ntfy_probado"] = True
-        print("ntfy: envié el mensaje de prueba.")
+    if NTFY_TOPIC:
+        print(f"ntfy: canal configurado ({len(NTFY_TOPIC)} caracteres).")
+        prueba_id = cfg.get("ntfy", {}).get("prueba", 1)
+        if estado.get("ntfy_prueba") != prueba_id:
+            if enviar_ntfy("✅ ntfy configurado", "Si ves este mensaje, los avisos de concursos van a llegar a tu celular.", 3, tags=["white_check_mark"]):
+                estado["ntfy_prueba"] = prueba_id
+                print("ntfy: el servidor aceptó el mensaje de prueba. Si no te llega al celular, revisá que el nombre "
+                      "del canal sea IDÉNTICO en la app y en el Secret (el servidor acepta cualquier nombre).")
+            else:
+                print("ntfy: el mensaje de prueba NO se pudo enviar; lo reintento en la próxima revisión.")
+    else:
+        print("ntfy: NO configurado (falta el Secret NTFY_TOPIC, o el buscar.yml no lo está pasando).")
     revisar_salud(estado, cfg, len(pubs))
 
     nuevos, a_revisar = [], []
