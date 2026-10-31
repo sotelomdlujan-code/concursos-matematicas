@@ -195,13 +195,18 @@ BLOQUES = {
 
 
 def descargar(url: str):
+    descargar.ultimo_status = None
     try:
         r = requests.get(url, headers=HEADERS, timeout=20)
+        descargar.ultimo_status = r.status_code
         r.raise_for_status()
         return BeautifulSoup(r.text, "html.parser")
     except requests.RequestException as e:
         print(f"  [!] No pude abrir {url}: {e}")
         return None
+
+
+descargar.ultimo_status = None
 
 
 def extraer_lineas(h1) -> list[str]:
@@ -280,6 +285,40 @@ def es_encabezado(l: str) -> bool:
     return len(letras) >= 3 and all(c.isupper() for c in letras) and len(l) < 90 and not RE_ITEM.match(l)
 
 
+RE_CANCEL_FUERTE = re.compile(r"\bdesconvoc\w*")
+RE_CANCEL_DEBIL = re.compile(
+    r"\b(?:suspend\w*|anul\w*|cancel\w*|(?:queda\w*|deja\w*)\s+sin\s+efecto|sin\s+efecto)\b"
+)
+RE_CONCURSO = re.compile(r"\b(?:concurso|llamado|convocatoria)\b")
+
+
+def es_cancelacion(titulo: str, lineas) -> bool:
+    """¿La publicación anuncia que un concurso se desconvoca/suspende/anula?"""
+    t = normalizar(titulo)
+    inicio = [normalizar(l) for l in lineas[:15]]  # encabezado de la publicación
+    if RE_CANCEL_FUERTE.search(t) or any(RE_CANCEL_FUERTE.search(l) for l in inicio):
+        return True
+    return any(RE_CANCEL_DEBIL.search(x) and RE_CONCURSO.search(x) for x in [t] + inicio)
+
+
+def limpiar_titulo(titulo: str) -> str:
+    """Quita 'DESCONVOCA CONCURSO' del título para poder compararlo con el del concurso original."""
+    t = re.sub(r"(?i)\bdesconvoca(?:toria|do)?\b(?:\s+(?:de\s+)?(?:el\s+)?concursos?)?", " ", titulo)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def extraer_lugar(linea: str) -> str:
+    for rx in (
+        r"sito en\s+(.+?),\s*(?:con|en el d[ií]a|munid)",
+        r"presentarse en\s+(.+?),\s*en el d[ií]a",
+        r"sito en\s+(.+?)[,.]",
+    ):
+        m = re.search(rx, linea, re.I)
+        if m:
+            return m.group(1).strip()
+    return ""
+
+
 def nombre_espacio(resto: str, encabezado: str, propio: bool) -> str:
     """Nombre del espacio curricular tal como figura en la publicación (para el buscador)."""
     if propio:
@@ -300,11 +339,7 @@ def analizar_texto(lineas, titulo, fecha_pub, materias) -> dict:
         None,
     )
     cuerpo = lineas[:corte] if corte is not None else lineas
-    lugar = ""
-    if corte is not None:
-        m = re.search(r"presentarse en\s+(.+?),\s*en el d[ií]a", lineas[corte], re.I)
-        if m:
-            lugar = m.group(1).strip()
+    lugar = extraer_lugar(lineas[corte]) if corte is not None else ""
 
     texto_norm = normalizar("\n".join(cuerpo))
     coincide = materia_de(texto_norm, materias) is not None
@@ -313,6 +348,7 @@ def analizar_texto(lineas, titulo, fecha_pub, materias) -> dict:
         "coincide": coincide, "items": [], "todos": [], "detalle": [], "fecha_gral": None,
         "materias": [n for n, rx in materias if rx.search(texto_norm)],
         "lugar": lugar, "ordinal": "", "largo": len(" ".join(cuerpo)), "texto_corto": "",
+        "cancelacion": es_cancelacion(titulo, lineas),
     }
 
     fecha_titulo = buscar_fecha(normalizar(titulo), fecha_pub)
@@ -362,10 +398,10 @@ def analizar_texto(lineas, titulo, fecha_pub, materias) -> dict:
         elif es_encabezado(l):
             encabezado = l
             ultimo = None
-        elif ultimo is not None and (n.startswith("horarios") or RE_DIA.match(n)):
-            if n.rstrip(":") == "horarios":
+        elif ultimo is not None and (n.startswith("horario") or RE_DIA.match(n)):
+            if n.rstrip(":") in ("horario", "horarios"):
                 continue
-            if n.startswith("horarios:"):
+            if re.match(r"horarios?:", n):
                 l = l.split(":", 1)[1].strip()
             if l:
                 ultimo["clases"].append(l)
@@ -385,10 +421,7 @@ def analizar_texto(lineas, titulo, fecha_pub, materias) -> dict:
     return resultado
 
 
-def analizar_publicacion(url, titulo, fecha_pub, materias):
-    soup = descargar(url)
-    if soup is None:
-        return None
+def analizar_soup(soup, titulo, fecha_pub, materias) -> dict:
     h1 = soup.find("h1")
     if h1:
         lineas, adjuntos = extraer_lineas(h1), contar_adjuntos(h1)
@@ -397,7 +430,16 @@ def analizar_publicacion(url, titulo, fecha_pub, materias):
         adjuntos = 0
     res = analizar_texto(lineas, titulo, fecha_pub, materias)
     res["adjuntos"] = adjuntos
+    meta = soup.find("meta", attrs={"property": "article:modified_time"})
+    res["modificado"] = (meta.get("content") or "") if meta else ""
     return res
+
+
+def analizar_publicacion(url, titulo, fecha_pub, materias):
+    soup = descargar(url)
+    if soup is None:
+        return None
+    return analizar_soup(soup, titulo, fecha_pub, materias)
 
 
 def aplicar_filtros(titulo, items, cfg):
@@ -515,8 +557,8 @@ def comentar(numero: int, texto: str) -> None:
     gh("POST", f"/issues/{numero}/comments", json={"body": texto})
 
 
-def cerrar_issue(numero: int) -> None:
-    gh("PATCH", f"/issues/{numero}", json={"state": "closed", "state_reason": "completed"})
+def cerrar_issue(numero: int, motivo: str = "completed") -> None:
+    gh("PATCH", f"/issues/{numero}", json={"state": "closed", "state_reason": motivo})
 
 
 def enviar_email(asunto: str, cuerpo: str) -> None:
@@ -744,10 +786,149 @@ def notificar_revisar(url: str, e: dict) -> None:
         e["issue"], e["issue_abierto"] = n, True
 
 
+def buscar_originales(entradas: dict, url_c: str) -> list:
+    """Concursos ya registrados a los que se refiere un aviso de desconvocatoria (misma escuela, mismo día, mismos espacios)."""
+    c = entradas[url_c]
+    t = normalizar(limpiar_titulo(c["titulo"]))
+    fechas_c = set(c.get("fechas") or [])
+    cands = [
+        (u, e) for u, e in entradas.items()
+        if u != url_c and e.get("relevante") and not e.get("desconvocado") and not e.get("cancelacion")
+        and normalizar(limpiar_titulo(e["titulo"])) == t
+    ]
+    if fechas_c:
+        cands = [x for x in cands if fechas_c & set(x[1].get("fechas") or [])]
+    if not cands:
+        return []
+    exactos = [x for x in cands if x[1].get("grupo") and x[1]["grupo"] == c.get("grupo")]
+    if exactos:
+        return exactos
+
+    def claves(e):
+        return {(i.get("curso"), i.get("division"), i.get("turno")) for i in e.get("items", [])}
+
+    con_espacios = [x for x in cands if claves(x[1]) & claves(c)]
+    if con_espacios:
+        return con_espacios
+    return cands if len(cands) == 1 else []
+
+
+def _cerrar_issue_de(entradas: dict, num, motivo: str) -> None:
+    cerrar_issue(num, motivo)
+    for x in entradas.values():
+        if x.get("issue") == num:
+            x["issue_abierto"] = False
+
+
+def _avisar_cambio(entradas, url, e, url_click, cfg, ahora_dt, titulo_issue, texto, prefijo, prioridad_min, tags, cerrar=False) -> None:
+    """Comenta en el Issue del concurso (o abre uno) y avisa por email, Telegram y ntfy."""
+    num = e.get("issue")
+    if num:
+        comentar(num, mencion() + texto)
+    else:
+        num = crear_issue(titulo_issue, mencion() + texto)
+        if num:
+            e["issue"], e["issue_abierto"] = num, True
+    if num and cerrar:
+        _cerrar_issue_de(entradas, num, "not_planned")
+    enviar_email(titulo_issue, texto)
+    enviar_telegram(texto)
+    avisar_ntfy_concurso(url_click, e, cfg, ahora_dt, prefijo=prefijo, tags=tags,
+                         prioridad=max(prioridad_por_fecha(e, cfg, ahora_dt), prioridad_min))
+
+
+def alertar_desconvocatoria(entradas, url, e, url_aviso, cfg, ahora_dt, sin_original=False) -> None:
+    nota = "\n(No tenía registrado el concurso original: este es el aviso del CGE.)" if sin_original else ""
+    texto = f"❌ DESCONVOCADO\n\n{formatear(url, e)}{nota}\n\nAviso de desconvocatoria: {url_aviso}"
+    _avisar_cambio(entradas, url, e, url_aviso, cfg, ahora_dt, f"❌ DESCONVOCADO: {e['titulo']}", texto,
+                   "❌ DESCONVOCADO · ", 4, ["x"], cerrar=True)
+
+
+def alertar_modificacion(entradas, url, e, cfg, ahora_dt) -> None:
+    texto = f"✏️ El CGE modificó esta publicación. Datos actuales:\n\n{formatear(url, e)}"
+    _avisar_cambio(entradas, url, e, url, cfg, ahora_dt, f"✏️ Modificado: {e['titulo']}", texto,
+                   "✏️ MODIFICADO · ", 4, ["pencil2"])
+
+
+def alertar_eliminada(entradas, url, e, cfg, ahora_dt) -> None:
+    texto = ("⚠️ Esta publicación ya no existe en el CGE (la borraron o la movieron). Puede indicar una "
+             "desconvocatoria o un error: verificá en el sitio.\n\n" + formatear(url, e))
+    _avisar_cambio(entradas, url, e, url, cfg, ahora_dt, f"⚠️ Ya no está en el CGE: {e['titulo']}", texto,
+                   "⚠️ YA NO ESTÁ EN EL CGE · ", 4, ["warning"])
+
+
+def procesar_cancelacion(entradas: dict, url_c: str, cfg: dict, ahora_dt: datetime) -> None:
+    """Un aviso de desconvocatoria nuevo: lo asocia al concurso original y te avisa."""
+    c = entradas[url_c]
+    originales = buscar_originales(entradas, url_c)
+    if originales:
+        c["desconvoca_a"] = originales[0][0]
+        for u, o in originales:
+            o["desconvocado"] = {"url": url_c, "visto": c["visto"]}
+            if o.get("avisado", True) or o.get("issue"):  # si nunca te avisé de ese concurso, no hace falta
+                alertar_desconvocatoria(entradas, u, o, url_c, cfg, ahora_dt)
+        return
+    if not c.get("cancel_coincide"):
+        return  # no es de tus materias
+    fechas = [date.fromisoformat(f) for f in c.get("fechas", []) if f]
+    if fechas and max(fechas) < ahora_dt.date():
+        return  # ya pasó: nada que avisar
+    c["avisado"] = True
+    alertar_desconvocatoria(entradas, url_c, c, url_c, cfg, ahora_dt, sin_original=True)
+
+
+def firma_concurso(items, lugar, fechas) -> str:
+    return json.dumps({"i": items, "l": lugar, "f": fechas}, sort_keys=True, ensure_ascii=False)
+
+
+def revisar_cambios(entradas: dict, pubs: list, cfg: dict, materias, ahora_dt: datetime, excluir: set) -> None:
+    """Vuelve a leer los concursos vigentes: detecta si los editaron (fecha, espacios, 'DESCONVOCA') o si los borraron."""
+    titulos = {u: t for t, u, _f, _s in pubs}
+    revisadas = 0
+    for url, e in list(entradas.items()):
+        if (url in excluir or not e.get("relevante") or e.get("vencido") or e.get("desconvocado")
+                or e.get("cancelacion") or es_vencido(e, ahora_dt)):
+            continue
+        if revisadas >= 40:
+            break
+        revisadas += 1
+        soup = descargar(url)
+        estado_http = getattr(descargar, "ultimo_status", None)
+        time.sleep(PAUSA_ENTRE_PEDIDOS)
+        if soup is None:
+            if estado_http in (404, 410) and not e.get("eliminada"):
+                e["eliminada"] = True
+                alertar_eliminada(entradas, url, e, cfg, ahora_dt)
+            continue
+        h1 = soup.find("h1")
+        ref = normalizar(limpiar_titulo(e["titulo"]))[:25]
+        if h1 is None or ref not in normalizar(h1.get_text()):
+            continue  # no parece la publicación (página de error/mantenimiento): no saco conclusiones
+        e.pop("eliminada", None)
+        titulo_nuevo = titulos.get(url) or limpiar_linea(h1.get_text()) or e["titulo"]
+        res = analizar_soup(soup, titulo_nuevo, parse_dmy(e.get("fecha_pub", "")) or ahora_dt.date(), materias)
+        if res["cancelacion"]:
+            e["desconvocado"] = {"url": url, "visto": ahora_dt.isoformat(timespec="minutes")}
+            e["titulo"] = titulo_nuevo
+            if e.get("avisado", True) or e.get("issue"):
+                alertar_desconvocatoria(entradas, url, e, url, cfg, ahora_dt)
+            continue
+        ok, items = aplicar_filtros(titulo_nuevo, res["items"], cfg) if res["coincide"] else (False, [])
+        todos = res["todos"]
+        fechas = sorted({i["fecha"] for i in todos if i.get("fecha")}) or ([res["fecha_gral"]] if res["fecha_gral"] else [])
+        firma = firma_concurso(items if ok else [], res["lugar"], fechas)
+        previa = e.get("firma")
+        e.update(items=items if ok else [], todos=todos, texto=res["texto_corto"], lugar=res["lugar"],
+                 ordinal=res["ordinal"], fechas=fechas, detalle=res["detalle"] if ok else [],
+                 titulo=titulo_nuevo, modificado=res.get("modificado", ""), firma=firma)
+        if previa is not None and previa != firma:
+            alertar_modificacion(entradas, url, e, cfg, ahora_dt)
+
+
 def recordatorios(entradas: dict, cfg: dict, ahora_dt: datetime) -> list:
     hoy, cfg_r, enviados = ahora_dt.date(), cfg["recordatorios"], []
     for url, e in entradas.items():
-        if not e.get("relevante") or e.get("vencido"):
+        if not e.get("relevante") or e.get("vencido") or e.get("desconvocado") or e.get("eliminada"):
             continue
         visto = datetime.fromisoformat(e["visto"]).date() if e.get("visto") else None
         if visto == hoy:
@@ -792,7 +973,7 @@ def es_vencido(e: dict, ahora_dt: datetime) -> bool:
 
 def cerrar_vencidos(entradas: dict, cfg: dict, ahora_dt: datetime) -> None:
     for e in entradas.values():
-        if e.get("vencido") or not (e.get("relevante") or e.get("revisar")):
+        if e.get("vencido") or not (e.get("relevante") or e.get("revisar") or e.get("cancelacion")):
             continue
         if es_vencido(e, ahora_dt):
             e["vencido"] = True
@@ -841,7 +1022,7 @@ def generar_calendario(entradas: dict, ahora_dt: datetime) -> None:
         "REFRESH-INTERVAL;VALUE=DURATION:PT1H", "X-PUBLISHED-TTL:PT1H",
     ]
     for url, e in entradas.items():
-        if not e.get("relevante") or e.get("vencido"):
+        if not e.get("relevante") or e.get("vencido") or e.get("desconvocado") or e.get("eliminada"):
             continue
         for (f, h), its in agrupar(e).items():
             if not f:
@@ -898,6 +1079,8 @@ def datos_busqueda(entradas: dict, ahora_dt: datetime) -> list:
     """Datos compactos para el buscador de la app (todas las materias)."""
     hoy, salida = ahora_dt.date(), []
     for url, e in entradas.items():
+        if e.get("desconvoca_a"):
+            continue  # el aviso de baja se muestra como etiqueta del concurso original
         fechas = [f for f in (e.get("fechas") or []) if f]
         venc = bool(e.get("vencido")) or es_vencido(e, ahora_dt)
         if venc and fechas and max(fechas) < (hoy - timedelta(days=60)).isoformat():
@@ -906,6 +1089,8 @@ def datos_busqueda(entradas: dict, ahora_dt: datetime) -> list:
         salida.append({
             "t": e["titulo"], "u": url, "p": e.get("fecha_pub", ""), "v": venc,
             "r": bool(e.get("revisar")), "k": bool(e.get("relevante")),
+            "d": bool(e.get("desconvocado") or e.get("cancelacion")), "el": bool(e.get("eliminada")),
+            "du": (e.get("desconvocado") or {}).get("url", ""),
             "o": e.get("ordinal", ""), "l": e.get("lugar", ""), "x": e.get("texto", ""), "f": fechas,
             "i": [
                 {
@@ -943,7 +1128,8 @@ button{font:inherit;cursor:pointer}
 .card{background:var(--card);border-radius:12px;padding:12px 16px;margin:10px 0}
 .card.v{opacity:.6} .card h3{font-size:1.02rem;margin:0 0 6px}
 .badges{margin-bottom:2px}.b{display:inline-block;font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:99px;margin:0 6px 2px 0;color:#fff;background:var(--mut)}
-.b.hoy{background:var(--hoy)}.b.man{background:var(--man);color:#000}.b.mia{background:var(--link)}.b.rev{background:#7c3aed}
+.b.hoy,.b.des{background:var(--hoy)}.b.man{background:var(--man);color:#000}.b.mia{background:var(--link)}.b.rev{background:#7c3aed}
+.card.dc{opacity:.78;border-left:4px solid var(--hoy)}.card.dc h3 a{text-decoration:line-through}
 .f{margin:8px 0 0;font-weight:600} ul{padding-left:18px;margin:4px 0} li{margin:4px 0}
 details summary{cursor:pointer;color:var(--mut);margin-top:6px;font-size:.9rem}
 .cal,.inst{display:inline-block;margin:8px 8px 0 0;padding:9px 13px;border-radius:10px;background:var(--link);color:#fff;text-decoration:none;font-size:.9rem;border:0}
@@ -1029,11 +1215,13 @@ function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=
 let guardadas=LS.get("guardadas",[]);
 
 function tarjeta(r){
-  const e=r.e, a=el("article","card"+(esVencido(e)?" v":"")), h=el("h3"), l=el("a",null,e.t);
+  const e=r.e, a=el("article","card"+(esVencido(e)?" v":"")+(e.d?" dc":"")), h=el("h3"), l=el("a",null,e.t);
   if(/^https:\/\/cge\.entrerios\.gov\.ar\//.test(e.u)){l.href=e.u;}
   l.target="_blank"; l.rel="noopener"; h.appendChild(l); a.appendChild(h);
   const bs=el("div","badges"), fs=e.f||[];
-  if(!esVencido(e)){ if(fs.indexOf(hoyISO)>=0) bs.appendChild(el("span","b hoy","HOY")); else if(fs.indexOf(mananaISO)>=0) bs.appendChild(el("span","b man","MAÑANA")); }
+  if(e.d) bs.appendChild(el("span","b des","❌ DESCONVOCADO"));
+  if(e.el) bs.appendChild(el("span","b rev","⚠️ Ya no está en el CGE"));
+  if(!esVencido(e)&&!e.d){ if(fs.indexOf(hoyISO)>=0) bs.appendChild(el("span","b hoy","HOY")); else if(fs.indexOf(mananaISO)>=0) bs.appendChild(el("span","b man","MAÑANA")); }
   if(esVencido(e)) bs.appendChild(el("span","b","Vencido"));
   if(e.o) bs.appendChild(el("span","b",e.o));
   if(e.k) bs.appendChild(el("span","b mia","Tu materia"));
@@ -1061,6 +1249,7 @@ function tarjeta(r){
     const ul=el("ul"); r.resto.forEach(function(i){ul.appendChild(el("li",null,resumen(i)));}); d.appendChild(ul); a.appendChild(d);
   }
   if(e.l) a.appendChild(el("p","mut","📍 "+e.l));
+  if(e.du&&/^https:\/\/cge\.entrerios\.gov\.ar\//.test(e.du)&&e.du!==e.u){const p=el("p","mut"),x=el("a",null,"Ver el aviso de desconvocatoria");x.href=e.du;x.target="_blank";x.rel="noopener";p.appendChild(x);a.appendChild(p);}
   return a;
 }
 function chip(txt,cls,fn){const b=el("button","chip "+(cls||""),txt);b.type="button";b.addEventListener("click",fn);return b;}
@@ -1185,7 +1374,7 @@ def buscar(cfg: dict, mostrar_todos: bool = False) -> None:
         print("ntfy: NO configurado (falta el Secret NTFY_TOPIC, o el buscar.yml no lo está pasando).")
     revisar_salud(estado, cfg, len(pubs))
 
-    nuevos, a_revisar = [], []
+    nuevos, a_revisar, cancelaciones, nuevas_urls = [], [], [], set()
     for titulo, url, fpub, fuente in reversed(pubs):  # de la más vieja a la más nueva
         existente = entradas.get(url)
         if existente is not None and "todos" in existente:
@@ -1204,7 +1393,8 @@ def buscar(cfg: dict, mostrar_todos: bool = False) -> None:
                 existente["fechas"] = fechas
             continue
 
-        ok, items = res["coincide"], res["items"]
+        cancel = res["cancelacion"]
+        ok, items = res["coincide"] and not cancel, res["items"]
         if ok:
             ok, items = aplicar_filtros(titulo, items, cfg)
         e = {
@@ -1214,21 +1404,35 @@ def buscar(cfg: dict, mostrar_todos: bool = False) -> None:
             "detalle": res["detalle"] if ok else [], "fechas": fechas,
             "materias": res["materias"] if ok else [],
             "lugar": res["lugar"], "ordinal": res["ordinal"],
-            "grupo": calcular_grupo(titulo, items, res["detalle"]) if ok else "",
+            "grupo": calcular_grupo(limpiar_titulo(titulo), items, res["detalle"]) if ok else "",
             "issue": None, "issue_abierto": False, "vencido": False, "recordados": [],
+            "modificado": res.get("modificado", ""), "avisado": False,
+            "firma": firma_concurso(items if ok else [], res["lugar"], fechas),
         }
-        if not res["coincide"] and cfg.get("avisar_publicaciones_sin_texto", True) and res["adjuntos"] > 0 and res["largo"] < 200:
+        if cancel:
+            # Aviso de desconvocatoria: NO es un concurso nuevo. Se asocia al original más abajo.
+            e.update(cancelacion=True, cancel_coincide=res["coincide"], items=res["items"], materias=res["materias"],
+                     grupo=calcular_grupo(limpiar_titulo(titulo), res["items"], res["detalle"]))
+            cancelaciones.append(url)
+        elif not res["coincide"] and cfg.get("avisar_publicaciones_sin_texto", True) and res["adjuntos"] > 0 and res["largo"] < 200:
             e["revisar"] = True
             a_revisar.append(url)
         entradas[url] = e
+        nuevas_urls.add(url)
         if ok:
             nuevos.append(url)
+
+    # 1) Desconvocatorias primero: si el concurso original llegó en esta misma corrida, no lo anuncio como nuevo
+    for url in cancelaciones:
+        procesar_cancelacion(entradas, url, cfg, ahora_dt)
+    nuevos = [u for u in nuevos if not entradas[u].get("desconvocado")]
 
     # Avisos de nuevos (en orden cronológico, para que una 2.ª convocatoria caiga en el Issue de la 1.ª)
     for url in nuevos:
         previo = issue_de_grupo(entradas, entradas[url]["grupo"], url)
         notificar_nuevo(entradas, url, entradas[url])
         avisar_ntfy_concurso(url, entradas[url], cfg, ahora_dt, prefijo="🔁 " if previo else "")
+        entradas[url]["avisado"] = True
     for url in a_revisar:
         notificar_revisar(url, entradas[url])
         enviar_ntfy(f"👀 Revisar a mano: {entradas[url]['titulo']}", "Publicación solo con imagen o PDF: puede ser de tus materias.",
@@ -1244,6 +1448,9 @@ def buscar(cfg: dict, mostrar_todos: bool = False) -> None:
         print("No hay concursos nuevos. ✔")
     if a_revisar:
         print(f"👀 {len(a_revisar)} publicación(es) solo con imagen/PDF para revisar a mano.")
+
+    # 2) Releo los concursos vigentes: ¿los editaron, los desconvocaron o los borraron?
+    revisar_cambios(entradas, pubs, cfg, materias, ahora_dt, nuevas_urls)
 
     recs = recordatorios(entradas, cfg, ahora_dt)
     if recs:
