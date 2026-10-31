@@ -12,8 +12,8 @@ Qué hace:
      comentario en el mismo Issue en vez de abrir otro.
   5. Recordatorios: el día anterior a la noche y el mismo día a la mañana.
   6. Cierra solos los Issues de concursos vencidos.
-  7. Genera docs/index.html (página para el celular) y docs/calendario.ics
-     (calendario al que podés suscribirte).
+  7. Genera la APP en docs/ (buscador de TODAS las materias, instalable en el
+     celular) y docs/calendario.ics (calendario al que podés suscribirte).
   8. Si deja de poder leer el sitio del CGE, te avisa.
   9. Avisa de publicaciones que son solo imagen/PDF (para revisarlas a mano).
 
@@ -26,6 +26,7 @@ Requisitos:  pip install requests beautifulsoup4
 """
 
 import argparse
+import base64
 import copy
 import hashlib
 import html
@@ -57,7 +58,7 @@ ARCHIVO_CALENDARIO = CARPETA / "docs" / "calendario.ics"
 HEADERS = {"User-Agent": "Mozilla/5.0 (buscador-concursos personal)"}
 PAUSA_ENTRE_PEDIDOS = 0.6
 ART = timezone(timedelta(hours=-3))  # Argentina no usa horario de verano
-VERSION_DATOS = 2
+VERSION_DATOS = 3
 
 # Credenciales: en GitHub vienen de los "Secrets" (ver README).
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -67,6 +68,9 @@ EMAIL_USUARIO = os.environ.get("EMAIL_USUARIO", "")
 EMAIL_CLAVE = os.environ.get("EMAIL_CLAVE", "")
 EMAIL_DESTINO = os.environ.get("EMAIL_DESTINO", "") or EMAIL_USUARIO
 SMTP_SERVIDOR = os.environ.get("SMTP_SERVIDOR", "smtp.gmail.com")
+# ntfy (notificaciones push al celular). El nombre del canal es como una contraseña: va como Secret.
+NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "").strip()
+NTFY_SERVIDOR = os.environ.get("NTFY_SERVIDOR", "https://ntfy.sh").strip().rstrip("/")
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 MAX_TELEGRAM_POR_CORRIDA = 15
@@ -79,7 +83,7 @@ CONFIG_DEFECTO = {
             "url": "https://cge.entrerios.gov.ar/category/concordia-concursos/",
         }
     ],
-    "paginas": 2,
+    "paginas": 3,
     "filtros": {
         "escuelas_incluir": [],
         "escuelas_excluir": [],
@@ -87,6 +91,7 @@ CONFIG_DEFECTO = {
         "horas_minimas": 0,
     },
     "recordatorios": {"el_dia": True, "dia_antes": True},
+    "ntfy": {"silencio_desde": 23, "silencio_hasta": 7, "urgente_dias": 1},
     "cerrar_issues_vencidos": True,
     "avisar_publicaciones_sin_texto": True,
     "alerta_si_falla_revisiones": 3,
@@ -275,7 +280,21 @@ def es_encabezado(l: str) -> bool:
     return len(letras) >= 3 and all(c.isupper() for c in letras) and len(l) < 90 and not RE_ITEM.match(l)
 
 
+def nombre_espacio(resto: str, encabezado: str, propio: bool) -> str:
+    """Nombre del espacio curricular tal como figura en la publicación (para el buscador)."""
+    if propio:
+        n = re.split(r"\s+[–—-]\s+|\s*,\s+", resto, maxsplit=1)[0]
+    else:
+        n = encabezado.capitalize()
+    n = n.strip(" .:-–—")
+    return n[:60] or "Sin especificar"
+
+
 def analizar_texto(lineas, titulo, fecha_pub, materias) -> dict:
+    """
+    Devuelve TODOS los espacios de la publicación ("todos", para el buscador) y, aparte,
+    los que coinciden con tus materias configuradas ("items", para los avisos).
+    """
     corte = next(
         (i for i, l in enumerate(lineas) if normalizar(l).startswith("los interesados deberan presentarse")),
         None,
@@ -291,12 +310,10 @@ def analizar_texto(lineas, titulo, fecha_pub, materias) -> dict:
     coincide = materia_de(texto_norm, materias) is not None
 
     resultado = {
-        "coincide": coincide, "items": [], "detalle": [], "fecha_gral": None,
+        "coincide": coincide, "items": [], "todos": [], "detalle": [], "fecha_gral": None,
         "materias": [n for n, rx in materias if rx.search(texto_norm)],
-        "lugar": lugar, "ordinal": "", "largo": len(" ".join(cuerpo)),
+        "lugar": lugar, "ordinal": "", "largo": len(" ".join(cuerpo)), "texto_corto": "",
     }
-    if not coincide:
-        return resultado
 
     fecha_titulo = buscar_fecha(normalizar(titulo), fecha_pub)
     fecha_act, hora_act, encabezado, ordinal = fecha_titulo, None, "", ""
@@ -321,15 +338,13 @@ def analizar_texto(lineas, titulo, fecha_pub, materias) -> dict:
         if mi:
             resto = mi.group(2)
             propio = bool(re.match(r"^[^\W\d_]", resto))  # el ítem nombra su propia materia
-            nombre = materia_de(normalizar(resto), materias)
-            if nombre is None and not propio:
-                nombre = materia_de(normalizar(encabezado), materias)
-            if nombre is None:
-                ultimo = None
-                continue
+            cfg_nombre = materia_de(normalizar(resto), materias)
+            if cfg_nombre is None and not propio:
+                cfg_nombre = materia_de(normalizar(encabezado), materias)
             mc, md, mt, mk = RE_CURSO.search(resto), RE_DIVISION.search(resto), RE_TURNO.search(resto), RE_CARACTER.search(resto)
             ultimo = {
-                "materia": nombre,
+                "materia": cfg_nombre or nombre_espacio(resto, encabezado, propio),
+                "buscada": cfg_nombre is not None,
                 "hs": int(mi.group(1)),
                 "curso": f"{mc.group(1)}.º año" if mc else "",
                 "division": md.group(1) if md else "",
@@ -361,9 +376,12 @@ def analizar_texto(lineas, titulo, fecha_pub, materias) -> dict:
     for it in items:
         if it["fecha"] is None:
             it["fecha"] = resultado["fecha_gral"]
-    resultado["items"] = items
-    if not items:
+    resultado["todos"] = items
+    resultado["items"] = [i for i in items if i["buscada"]]
+    if coincide and not resultado["items"]:
         resultado["detalle"] = [l for l in cuerpo if materia_de(normalizar(l), materias)][:6]
+    if not items:  # publicación sin estructura: guardo un extracto para que el buscador la encuentre igual
+        resultado["texto_corto"] = " ".join(l for l in cuerpo if l != titulo)[:500]
     return resultado
 
 
@@ -528,9 +546,79 @@ def enviar_telegram(texto: str) -> None:
         print(f"  [!] No pude enviar a Telegram: {e}")
 
 
-def notificar_texto(asunto: str, texto: str) -> None:
+def enviar_ntfy(titulo: str, mensaje: str, prioridad: int = 3, click: str = "", tags=None) -> None:
+    """Notificación push vía ntfy. Se publica por JSON a la raíz del servidor, así el nombre
+    del canal NUNCA aparece en una URL ni en los logs (que en un repo público son visibles)."""
+    if not NTFY_TOPIC:
+        return
+    payload = {"topic": NTFY_TOPIC, "title": titulo[:200], "message": (mensaje or titulo)[:3500], "priority": prioridad}
+    if tags:
+        payload["tags"] = tags
+    if click.startswith(("http://", "https://")):
+        payload["click"] = click
+    try:
+        r = requests.post(NTFY_SERVIDOR, json=payload, timeout=20)
+        if r.status_code >= 300:
+            print(f"  [!] ntfy respondió {r.status_code}")
+    except requests.RequestException:
+        print("  [!] No pude conectar con ntfy.")
+
+
+def en_silencio(cfg: dict, ahora_dt: datetime) -> bool:
+    c = cfg.get("ntfy", {})
+    d, h = c.get("silencio_desde", 23), c.get("silencio_hasta", 7)
+    if d == h:
+        return False
+    return (ahora_dt.hour >= d or ahora_dt.hour < h) if d > h else (d <= ahora_dt.hour < h)
+
+
+def prioridad_ntfy(base: int, cfg: dict, ahora_dt: datetime) -> int:
+    """De noche, lo que no es urgente (prioridad < 5) llega en silencio (prioridad 2)."""
+    return 2 if base < 5 and en_silencio(cfg, ahora_dt) else base
+
+
+def prioridad_por_fecha(e: dict, cfg: dict, ahora_dt: datetime) -> int:
+    hoy = ahora_dt.date()
+    futuras = [date.fromisoformat(f) for f in (e.get("fechas") or []) if f and date.fromisoformat(f) >= hoy]
+    if not futuras:
+        return 3
+    dias = (min(futuras) - hoy).days
+    u = cfg.get("ntfy", {}).get("urgente_dias", 1)
+    return 5 if dias <= u else (4 if dias <= u + 2 else 3)
+
+
+def texto_ntfy(url: str, e: dict):
+    grupos = list(agrupar(e).items())
+    cuando = ""
+    if grupos and grupos[0][0][0]:
+        (f, h), _ = grupos[0]
+        d = date.fromisoformat(f)
+        cuando = f"{DIAS[d.weekday()][:3]} {d.strftime('%d/%m')}" + (f" {h}" if h else "")
+    titulo = f"📐 {e['titulo']}" + (f" · {cuando}" if cuando else "")
+    L = []
+    if e.get("ordinal"):
+        L.append(e["ordinal"].capitalize())
+    for _k, its in grupos:
+        L += [resumen(i) for i in its[:4]]
+    if not any(grupos[i][1] for i in range(len(grupos))):
+        L += e.get("detalle", [])[:3]
+    if e.get("lugar"):
+        L.append("📍 " + e["lugar"])
+    return titulo, "\n".join(L) or e["titulo"]
+
+
+def avisar_ntfy_concurso(url: str, e: dict, cfg: dict, ahora_dt: datetime, prefijo: str = "", prioridad=None, tags=None) -> None:
+    titulo, cuerpo = texto_ntfy(url, e)
+    if prefijo:
+        titulo = titulo.replace("📐 ", "", 1)  # el prefijo ya lleva su propio ícono
+    base = prioridad if prioridad is not None else prioridad_por_fecha(e, cfg, ahora_dt)
+    enviar_ntfy(prefijo + titulo, cuerpo, prioridad_ntfy(base, cfg, ahora_dt), click=url, tags=tags or ["triangular_ruler"])
+
+
+def notificar_texto(asunto: str, texto: str, prioridad: int = 2, tags=None) -> None:
     enviar_email(asunto, texto)
     enviar_telegram(f"{asunto}\n\n{texto}")
+    enviar_ntfy(asunto, texto, prioridad, tags=tags or ["warning"])
 
 
 def ventana_windows(texto: str) -> None:
@@ -556,7 +644,8 @@ def cargar_historial() -> dict:
     if ARCHIVO_HISTORIAL.exists():
         try:
             d = json.loads(ARCHIVO_HISTORIAL.read_text(encoding="utf-8"))
-            if isinstance(d, dict) and d.get("version") == VERSION_DATOS:
+            if isinstance(d, dict) and d.get("version") in (2, VERSION_DATOS):
+                d["version"] = VERSION_DATOS  # la v2 se migra sola (completa datos sin re-avisar)
                 d.setdefault("estado", vacio["estado"])
                 d.setdefault("entradas", {})
                 return d
@@ -583,13 +672,13 @@ def revisar_salud(estado: dict, cfg: dict, cantidad: int) -> None:
             )
             estado["issue_alerta"] = crear_issue("⚠️ El buscador no puede leer la página del CGE", mencion() + texto)
             estado["alertado"] = True
-            notificar_texto("⚠️ El buscador no puede leer la página del CGE", texto)
+            notificar_texto("⚠️ El buscador no puede leer la página del CGE", texto, 2, ["warning"])
     else:
         if estado.get("alertado"):
             if estado.get("issue_alerta"):
                 comentar(estado["issue_alerta"], mencion() + "✅ Volvió a funcionar.")
                 cerrar_issue(estado["issue_alerta"])
-            notificar_texto("✅ El buscador volvió a funcionar", "Ya puedo leer de nuevo el listado del CGE.")
+            notificar_texto("✅ El buscador volvió a funcionar", "Ya puedo leer de nuevo el listado del CGE.", 2, ["white_check_mark"])
         estado.update(fallas=0, alertado=False, issue_alerta=None)
 
 
@@ -684,7 +773,7 @@ def recordatorios(entradas: dict, cfg: dict, ahora_dt: datetime) -> list:
                 n = crear_issue(f"{cab}: {e['titulo']}", mencion() + texto)
                 if n:
                     e["issue"], e["issue_abierto"] = n, True
-            enviados.append(texto)
+            enviados.append((texto, url, tipo))
     return enviados
 
 
@@ -732,8 +821,15 @@ def _plegar(linea: str) -> str:
     return "\r\n ".join(partes)
 
 
+def _sello(e: dict) -> str:
+    """DTSTAMP estable (momento en que vi el concurso), así el archivo no cambia en cada revisión."""
+    try:
+        return datetime.fromisoformat(e["visto"]).astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    except (KeyError, ValueError):
+        return "20260101T000000Z"
+
+
 def generar_calendario(entradas: dict, ahora_dt: datetime) -> None:
-    sello = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     L = [
         "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Concursos CGE//ES", "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH", "X-WR-CALNAME:Concursos docentes - CGE",
@@ -753,7 +849,7 @@ def generar_calendario(entradas: dict, ahora_dt: datetime) -> None:
                 [resumen(i) + (f" ({' | '.join(i['clases'])})" if i.get("clases") else "") for i in its]
                 + [url]
             )
-            L += ["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{sello}"]
+            L += ["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{_sello(e)}"]
             if h:
                 local = datetime.combine(d, datetime.strptime(h, "%H:%M").time())
                 ini, fin = local + timedelta(hours=3), local + timedelta(hours=4)  # ART -> UTC
@@ -771,104 +867,289 @@ def generar_calendario(entradas: dict, ahora_dt: datetime) -> None:
                 L += ["BEGIN:VALARM", "ACTION:DISPLAY", "DESCRIPTION:Concurso", f"TRIGGER:{a}", "END:VALARM"]
             L.append("END:VEVENT")
     L.append("END:VCALENDAR")
-    ARCHIVO_CALENDARIO.parent.mkdir(exist_ok=True)
-    with open(ARCHIVO_CALENDARIO, "w", encoding="utf-8", newline="") as fh:
-        fh.write("\r\n".join(_plegar(l) for l in L) + "\r\n")
+    contenido = ("\r\n".join(_plegar(l) for l in L) + "\r\n").encode("utf-8")
+    escribir_estable(ARCHIVO_CALENDARIO, contenido, binario=True)
 
 
-PLANTILLA_PAGINA = """<!doctype html><html lang="es"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+_RE_MARCA = re.compile(r"<!--ACT-->.*?<!--/ACT-->", re.S)
+
+
+def escribir_estable(ruta: Path, contenido, binario: bool = False) -> None:
+    """Escribe solo si cambió (ignorando la hora de 'actualizado'), para no llenar el repo de commits."""
+    ruta.parent.mkdir(exist_ok=True)
+    if ruta.exists():
+        if binario:
+            if ruta.read_bytes() == contenido:
+                return
+        else:
+            if _RE_MARCA.sub("", ruta.read_text(encoding="utf-8")) == _RE_MARCA.sub("", contenido):
+                return
+    if binario:
+        ruta.write_bytes(contenido)
+    else:
+        ruta.write_text(contenido, encoding="utf-8")
+
+
+def datos_busqueda(entradas: dict, ahora_dt: datetime) -> list:
+    """Datos compactos para el buscador de la app (todas las materias)."""
+    hoy, salida = ahora_dt.date(), []
+    for url, e in entradas.items():
+        fechas = [f for f in (e.get("fechas") or []) if f]
+        venc = bool(e.get("vencido")) or es_vencido(e, ahora_dt)
+        if venc and fechas and max(fechas) < (hoy - timedelta(days=60)).isoformat():
+            continue
+        its = e.get("todos") or e.get("items") or []
+        salida.append({
+            "t": e["titulo"], "u": url, "p": e.get("fecha_pub", ""), "v": venc,
+            "r": bool(e.get("revisar")), "k": bool(e.get("relevante")),
+            "o": e.get("ordinal", ""), "l": e.get("lugar", ""), "x": e.get("texto", ""), "f": fechas,
+            "i": [
+                {
+                    "m": i["materia"], "hs": i.get("hs"), "c": i.get("curso", ""), "d": i.get("division", ""),
+                    "tu": i.get("turno", ""), "ca": i.get("caracter", ""), "f": i.get("fecha"),
+                    "h": i.get("hora"), "cl": i.get("clases", []), "b": bool(i.get("buscada", True)),
+                }
+                for i in its
+            ],
+        })
+    return salida
+
+
+PLANTILLA_APP = r"""<!doctype html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Concursos docentes - CGE</title>
+<meta name="theme-color" content="#1d4ed8">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <style>
-:root{--bg:#fff;--fg:#1a1a1a;--card:#f3f4f6;--link:#0b5fff;--mut:#6b7280;--hoy:#dc2626;--man:#d97706;--ok:#047857}
-@media(prefers-color-scheme:dark){:root{--bg:#111;--fg:#eee;--card:#1e1e1e;--link:#6ea8ff;--mut:#9ca3af;--hoy:#f87171;--man:#fbbf24;--ok:#34d399}}
-body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--fg);max-width:720px;margin:0 auto;padding:16px}
-h1{font-size:1.3rem;margin:.2em 0} h2.s{font-size:1rem;margin:22px 0 4px;color:var(--mut);text-transform:uppercase;letter-spacing:.04em}
-article{background:var(--card);border-radius:12px;padding:12px 16px;margin:10px 0}
-article h3{font-size:1.02rem;margin:0 0 6px} a{color:var(--link)} ul{padding-left:18px;margin:4px 0} li{margin:3px 0}
-.f{margin:8px 0 0;font-weight:600} .b{display:inline-block;font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:99px;margin-right:6px;color:#fff;background:var(--mut)}
-.hoy{background:var(--hoy)} .man{background:var(--man);color:#000} small,.mut{color:var(--mut)}
-input{width:100%;box-sizing:border-box;padding:10px 12px;border-radius:10px;border:1px solid var(--mut);background:var(--bg);color:var(--fg);font-size:1rem;margin:10px 0}
-.cal{display:inline-block;margin:6px 0;padding:8px 12px;border-radius:10px;background:var(--link);color:#fff;text-decoration:none;font-size:.9rem}
-details summary{cursor:pointer;color:var(--mut);margin:18px 0 4px} article.v{opacity:.6}
+:root{--bg:#fff;--fg:#1a1a1a;--card:#f3f4f6;--link:#1d4ed8;--mut:#6b7280;--hoy:#dc2626;--man:#d97706;--bord:#d1d5db}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1115;--fg:#eee;--card:#1c1f26;--link:#7aa7ff;--mut:#9ca3af;--hoy:#f87171;--man:#fbbf24;--bord:#374151}}
+*{box-sizing:border-box}
+body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--fg);max-width:720px;margin:0 auto;padding:16px;padding-top:calc(16px + env(safe-area-inset-top,0px));padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
+h1{font-size:1.35rem;margin:0 0 2px} small,.mut{color:var(--mut)} a{color:var(--link)}
+.buscador{display:flex;gap:8px;margin:14px 0 8px}
+#q{flex:1;min-width:0;padding:13px 14px;border-radius:12px;border:2px solid var(--link);background:var(--bg);color:var(--fg);font-size:1.05rem}
+button{font:inherit;cursor:pointer}
+#guardar{width:50px;border-radius:12px;border:1px solid var(--bord);background:var(--card);color:var(--fg);font-size:1.3rem}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}
+.chip{border:1px solid var(--bord);background:var(--card);color:var(--fg);border-radius:99px;padding:6px 12px;font-size:.88rem}
+.chip.g{border-color:var(--link)}
+.chk{display:block;margin:8px 0;color:var(--mut);font-size:.92rem}
+.card{background:var(--card);border-radius:12px;padding:12px 16px;margin:10px 0}
+.card.v{opacity:.6} .card h3{font-size:1.02rem;margin:0 0 6px}
+.badges{margin-bottom:2px}.b{display:inline-block;font-size:.72rem;font-weight:700;padding:2px 8px;border-radius:99px;margin:0 6px 2px 0;color:#fff;background:var(--mut)}
+.b.hoy{background:var(--hoy)}.b.man{background:var(--man);color:#000}.b.mia{background:var(--link)}.b.rev{background:#7c3aed}
+.f{margin:8px 0 0;font-weight:600} ul{padding-left:18px;margin:4px 0} li{margin:4px 0}
+details summary{cursor:pointer;color:var(--mut);margin-top:6px;font-size:.9rem}
+.cal,.inst{display:inline-block;margin:8px 8px 0 0;padding:9px 13px;border-radius:10px;background:var(--link);color:#fff;text-decoration:none;font-size:.9rem;border:0}
+.inst[hidden]{display:none}
 </style></head><body>
-<h1>Concursos docentes - CGE</h1>
-<small>Actualizado: __ACT__ (hora Argentina) · __RESUMEN__</small><br>
-<a class="cal" href="calendario.ics">📅 Suscribirme al calendario</a>
-<input id="q" type="search" placeholder="Buscar escuela, materia, turno...">
-__CUERPO__
+<h1>📐 Concursos docentes</h1>
+<small>Datos actualizados: <!--ACT-->__ACT__<!--/ACT--> (hora Argentina) · revisa el CGE cada 30 min</small>
+<div class="buscador">
+  <input id="q" type="search" placeholder="¿Qué materia buscás? Ej: matemática" autocomplete="off" enterkeyhint="search">
+  <button id="guardar" title="Guardar esta búsqueda" aria-label="Guardar esta búsqueda">☆</button>
+</div>
+<div id="guardadas" class="chips"></div>
+<div id="sugeridas" class="chips"></div>
+<label class="chk"><input type="checkbox" id="venc"> Incluir vencidos</label>
+<p id="cont" class="mut"></p>
+<div id="res"></div>
+<p><a class="cal" href="calendario.ics">📅 Calendario</a><button id="instalar" class="inst" hidden>📲 Instalar app</button></p>
+<p id="ios" class="mut" hidden>En iPhone: tocá Compartir y luego «Agregar a pantalla de inicio» para instalarla.</p>
 <script>
-const norm=s=>s.normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();
-document.getElementById("q").addEventListener("input",e=>{const q=norm(e.target.value);
-document.querySelectorAll("article").forEach(a=>{a.style.display=norm(a.dataset.t).includes(q)?"":"none"});});
+const DATA = __DATA__;
+//#LOGICA
+const DIAS=["domingo","lunes","martes","miércoles","jueves","viernes","sábado"];
+const norm=s=>(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+const hoyISO=(typeof HOY_OVERRIDE!=="undefined")?HOY_OVERRIDE:iso(new Date());
+const mananaISO=(function(){const p=hoyISO.split("-").map(Number);return iso(new Date(p[0],p[1]-1,p[2]+1));})();
+function fechaLarga(f){
+  if(!f) return "Fecha no detectada";
+  const p=f.split("-").map(Number), dt=new Date(p[0],p[1]-1,p[2]);
+  return DIAS[dt.getDay()]+" "+String(p[2]).padStart(2,"0")+"/"+String(p[1]).padStart(2,"0")+"/"+p[0];
+}
+function resumen(i){
+  const p=[i.m]; if(i.hs)p.push(i.hs+" hs.");
+  let c=i.c||""; if(i.d)c=(c+" “"+i.d+"”").trim(); if(c)p.push(c);
+  if(i.tu)p.push("Turno "+i.tu);
+  if(i.ca)p.push(i.ca.charAt(0).toUpperCase()+i.ca.slice(1));
+  return p.join(" · ");
+}
+function textoItem(i){return norm([i.m,i.hs?i.hs+" hs":"",i.c,i.d,i.tu,i.ca,(i.cl||[]).join(" ")].join(" "));}
+function esVencido(e){
+  if(e.v) return true;
+  const fs=(e.f||[]).filter(Boolean);
+  return fs.length>0 && fs.slice().sort().pop()<hoyISO;
+}
+function orden(e){
+  const fs=(e.f||[]).filter(Boolean).slice().sort();
+  if(esVencido(e)) return [2, fs.length?-Date.parse(fs[fs.length-1]):0];
+  if(!fs.length) return [1,0];
+  const fut=fs.filter(function(f){return f>=hoyISO;});
+  return [0, Date.parse(fut.length?fut[0]:fs[fs.length-1])];
+}
+function buscar(q,conVencidos){
+  const tokens=norm(q).split(/\s+/).filter(Boolean), res=[];
+  for(const e of DATA){
+    if(esVencido(e) && !conVencidos) continue;
+    const base=norm(e.t+" "+(e.l||"")+" "+(e.x||""));
+    let sel=e.i;
+    if(tokens.length){
+      if(e.i.length){
+        sel=e.i.filter(function(i){const t=textoItem(i);return tokens.every(function(k){return t.includes(k)||base.includes(k);});});
+        if(!sel.length) continue;
+      } else if(!tokens.every(function(k){return base.includes(k);})) continue;
+    }
+    res.push({e:e, sel:sel, resto:e.i.filter(function(i){return sel.indexOf(i)<0;})});
+  }
+  res.sort(function(a,b){const x=orden(a.e),y=orden(b.e);return (x[0]-y[0])||(x[1]-y[1])||a.e.t.localeCompare(b.e.t);});
+  return res;
+}
+function chipsMaterias(){
+  const c=new Map();
+  for(const e of DATA){ if(esVencido(e)) continue; for(const i of e.i){ const k=norm(i.m); const o=c.get(k)||{n:i.m,c:0}; o.c++; c.set(k,o);} }
+  return Array.from(c.values()).sort(function(a,b){return b.c-a.c;}).slice(0,14);
+}
+//#FIN
+(function(){
+"use strict";
+const $=function(s){return document.querySelector(s);};
+const LS={
+  get:function(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v);}catch(e){return d;}},
+  set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+};
+function el(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e;}
+let guardadas=LS.get("guardadas",[]);
+
+function tarjeta(r){
+  const e=r.e, a=el("article","card"+(esVencido(e)?" v":"")), h=el("h3"), l=el("a",null,e.t);
+  if(/^https:\/\/cge\.entrerios\.gov\.ar\//.test(e.u)){l.href=e.u;}
+  l.target="_blank"; l.rel="noopener"; h.appendChild(l); a.appendChild(h);
+  const bs=el("div","badges"), fs=e.f||[];
+  if(!esVencido(e)){ if(fs.indexOf(hoyISO)>=0) bs.appendChild(el("span","b hoy","HOY")); else if(fs.indexOf(mananaISO)>=0) bs.appendChild(el("span","b man","MAÑANA")); }
+  if(esVencido(e)) bs.appendChild(el("span","b","Vencido"));
+  if(e.o) bs.appendChild(el("span","b",e.o));
+  if(e.k) bs.appendChild(el("span","b mia","Tu materia"));
+  if(e.r) bs.appendChild(el("span","b rev","Revisar a mano"));
+  a.appendChild(bs);
+  const g=new Map();
+  r.sel.forEach(function(i){const k=(i.f||"")+"|"+(i.h||"");if(!g.has(k))g.set(k,[]);g.get(k).push(i);});
+  g.forEach(function(its,k){
+    const p=k.split("|");
+    a.appendChild(el("p","f","🗓 "+fechaLarga(p[0]||null)+(p[1]?" · "+p[1]+" hs.":"")));
+    const ul=el("ul");
+    its.forEach(function(i){
+      const li=el("li",null,resumen(i));
+      if(i.cl&&i.cl.length){li.appendChild(el("br"));li.appendChild(el("small",null,"Clases: "+i.cl.join(" | ")));}
+      ul.appendChild(li);
+    });
+    a.appendChild(ul);
+  });
+  if(!e.i.length){
+    if(fs.length) a.appendChild(el("p","f","🗓 "+fechaLarga(fs[0])));
+    if(e.x) a.appendChild(el("p","mut",e.x.slice(0,220)+(e.x.length>220?"…":"")));
+  }
+  if(r.resto.length){
+    const d=el("details"); d.appendChild(el("summary",null,"Otros espacios de esta escuela ("+r.resto.length+")"));
+    const ul=el("ul"); r.resto.forEach(function(i){ul.appendChild(el("li",null,resumen(i)));}); d.appendChild(ul); a.appendChild(d);
+  }
+  if(e.l) a.appendChild(el("p","mut","📍 "+e.l));
+  return a;
+}
+function chip(txt,cls,fn){const b=el("button","chip "+(cls||""),txt);b.type="button";b.addEventListener("click",fn);return b;}
+function poner(q){$("#q").value=q;render();}
+function estrella(){
+  const q=norm($("#q").value).trim(), esta=guardadas.some(function(x){return norm(x)===q;});
+  $("#guardar").textContent=esta?"★":"☆";
+}
+function chips(){
+  const gc=$("#guardadas"); gc.textContent="";
+  guardadas.forEach(function(q){gc.appendChild(chip("⭐ "+q,"g",function(){poner(q);}));});
+  const sc=$("#sugeridas"); sc.textContent="";
+  chipsMaterias().forEach(function(m){sc.appendChild(chip(m.n+" ("+m.c+")","",function(){poner(m.n);}));});
+}
+function render(){
+  const q=$("#q").value, r=buscar(q,$("#venc").checked), cont=$("#cont"), res=$("#res");
+  res.textContent="";
+  r.slice(0,80).forEach(function(x){res.appendChild(tarjeta(x));});
+  cont.textContent=DATA.length===0?"Todavía no hay datos. El robot los carga en su primera revisión.":
+    (r.length===0?"No encontré concursos para «"+q+"». Probá con otra palabra o marcá «Incluir vencidos».":
+    r.length+" resultado"+(r.length===1?"":"s")+(r.length>80?" (mostrando 80)":""));
+  LS.set("ultima",q); estrella();
+}
+$("#q").addEventListener("input",render);
+$("#venc").addEventListener("change",render);
+$("#guardar").addEventListener("click",function(){
+  const q=$("#q").value.trim(); if(!q)return;
+  const n=norm(q), i=guardadas.findIndex(function(x){return norm(x)===n;});
+  if(i>=0)guardadas.splice(i,1); else guardadas.push(q);
+  LS.set("guardadas",guardadas); chips(); estrella();
+});
+const inicial=new URLSearchParams(location.search).get("q");
+$("#q").value=inicial!=null?inicial:LS.get("ultima","");
+chips(); render();
+
+let evInst=null;
+window.addEventListener("beforeinstallprompt",function(e){e.preventDefault();evInst=e;$("#instalar").hidden=false;});
+$("#instalar").addEventListener("click",function(){ if(!evInst)return; evInst.prompt(); evInst.userChoice.then(function(){evInst=null;$("#instalar").hidden=true;}); });
+if(/iphone|ipad/i.test(navigator.userAgent)&&!navigator.standalone){$("#ios").hidden=false;}
+if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch(function(){});}
+})();
 </script></body></html>"""
 
+MANIFEST = {
+    "name": "Concursos docentes - CGE",
+    "short_name": "Concursos",
+    "description": "Buscador de concursos docentes del CGE Entre Ríos",
+    "lang": "es",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#1d4ed8",
+    "icons": [
+        {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+        {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+        {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+    ],
+}
 
-def _tarjeta(url: str, e: dict, hoy: date, vencida=False) -> str:
-    esc = html.escape
-    g, badges, partes = agrupar(e), "", []
-    fechas = [date.fromisoformat(f) for (f, _h) in g if f]
-    if hoy in fechas:
-        badges += '<span class="b hoy">HOY</span>'
-    elif hoy + timedelta(days=1) in fechas:
-        badges += '<span class="b man">MAÑANA</span>'
-    if e.get("ordinal"):
-        badges += f'<span class="b">{esc(e["ordinal"])}</span>'
-    busq = [e["titulo"], e.get("lugar", "")]
-    for (f, h), its in g.items():
-        cab = fecha_larga(f) + (f" · {h} hs." if h else "")
-        lis = ""
-        for i in its:
-            busq.append(resumen(i))
-            lis += f"<li>{esc(resumen(i))}"
-            if i.get("clases"):
-                lis += f"<br><small>Clases: {esc(' | '.join(i['clases']))}</small>"
-            lis += "</li>"
-        if not its:
-            lis = "".join(f"<li>{esc(d)}</li>" for d in e.get("detalle", []))
-        partes.append(f'<p class="f">🗓 {esc(cab)}</p><ul>{lis}</ul>')
-    lugar = f'<p class="mut">📍 {esc(e["lugar"])}</p>' if e.get("lugar") else ""
-    return (
-        f'<article class="{"v" if vencida else ""}" data-t="{esc(normalizar(" ".join(busq)))}">'
-        f'<h3><a href="{esc(url)}">{esc(e["titulo"])}</a></h3>{badges}{"".join(partes)}{lugar}</article>'
-    )
+SERVICE_WORKER = """// Service worker: guarda la app para que abra rápido y funcione sin internet.
+// Con internet siempre intenta traer lo más nuevo primero.
+const CACHE = 'concursos-v1';
+const BASE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
+self.addEventListener('install', e => {
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(BASE)).then(() => self.skipWaiting()));
+});
+self.addEventListener('activate', e => {
+  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim()));
+});
+self.addEventListener('fetch', e => {
+  if (e.request.method !== 'GET' || new URL(e.request.url).origin !== location.origin) return;
+  e.respondWith(
+    fetch(e.request).then(r => {
+      if (r.ok) { const copia = r.clone(); caches.open(CACHE).then(c => c.put(e.request, copia)); }
+      return r;
+    }).catch(() => caches.match(e.request).then(m => m || caches.match('./index.html')))
+  );
+});
+"""
 
 
 def generar_pagina(entradas: dict, ahora_dt: datetime) -> None:
-    hoy = ahora_dt.date()
-
-    def clave(item):
-        fs = [f for (f, _h) in agrupar(item[1]) if f]
-        return min(fs) if fs else "9999"
-
-    vigentes = sorted(((u, e) for u, e in entradas.items() if e.get("relevante") and not e.get("vencido")), key=clave)
-    vencidos = sorted(((u, e) for u, e in entradas.items() if e.get("relevante") and e.get("vencido")), key=clave, reverse=True)
-    revisar = [(u, e) for u, e in entradas.items() if e.get("revisar") and not e.get("vencido")]
-    con_fecha = [x for x in vigentes if clave(x) != "9999"]
-    sin_fecha = [x for x in vigentes if clave(x) == "9999"]
-
-    cuerpo = ""
-    if con_fecha:
-        cuerpo += '<h2 class="s">Próximos</h2>' + "".join(_tarjeta(u, e, hoy) for u, e in con_fecha)
-    else:
-        cuerpo += '<p class="mut">No hay concursos próximos detectados.</p>'
-    if sin_fecha:
-        cuerpo += '<h2 class="s">Sin fecha detectada</h2>' + "".join(_tarjeta(u, e, hoy) for u, e in sin_fecha)
-    if revisar:
-        cuerpo += '<h2 class="s">👀 Revisar a mano (imagen/PDF)</h2>' + "".join(
-            f'<article data-t="{html.escape(normalizar(e["titulo"]))}"><h3><a href="{html.escape(u)}">{html.escape(e["titulo"])}</a></h3></article>'
-            for u, e in revisar
-        )
-    if vencidos:
-        cuerpo += f'<details><summary>Vencidos ({len(vencidos)})</summary>' + "".join(_tarjeta(u, e, hoy, True) for u, e in vencidos[:60]) + "</details>"
-
-    ARCHIVO_PAGINA.parent.mkdir(exist_ok=True)
-    pagina = (
-        PLANTILLA_PAGINA.replace("__ACT__", ahora_dt.strftime("%d/%m/%Y %H:%M"))
-        .replace("__RESUMEN__", f"{len(vigentes)} vigente(s)")
-        .replace("__CUERPO__", cuerpo)
-    )
-    ARCHIVO_PAGINA.write_text(pagina, encoding="utf-8")
+    """Escribe la app (docs/): buscador, manifiesto, service worker e íconos."""
+    datos = json.dumps(datos_busqueda(entradas, ahora_dt), ensure_ascii=False, separators=(",", ":"))
+    datos = datos.replace("<", "\\u003c")  # evita que un texto del CGE cierre el <script>
+    pagina = PLANTILLA_APP.replace("__ACT__", ahora_dt.strftime("%d/%m/%Y %H:%M")).replace("__DATA__", datos)
+    carpeta = ARCHIVO_PAGINA.parent
+    escribir_estable(ARCHIVO_PAGINA, pagina)
+    escribir_estable(carpeta / "manifest.webmanifest", json.dumps(MANIFEST, ensure_ascii=False, indent=1))
+    escribir_estable(carpeta / "sw.js", SERVICE_WORKER)
+    for nombre, b64 in ICONOS_B64.items():
+        escribir_estable(carpeta / nombre, base64.b64decode(b64), binario=True)
 
 
 # ----------------------------------------------------------------------------
@@ -883,30 +1164,44 @@ def buscar(cfg: dict, mostrar_todos: bool = False) -> None:
         print("[!] config.json no tiene materias para buscar.")
         return
 
-    print(f"Buscando: {', '.join(cfg['materias'])}")
+    print(f"Avisos de: {', '.join(cfg['materias'])} (el buscador de la app cubre todas las materias)")
     pubs = obtener_publicaciones(cfg)
     print(f"Publicaciones en el listado: {len(pubs)}")
+    if NTFY_TOPIC and not estado.get("ntfy_probado"):
+        enviar_ntfy("✅ ntfy configurado", "Si ves este mensaje, los avisos de concursos van a llegar a tu celular.", 3, tags=["white_check_mark"])
+        estado["ntfy_probado"] = True
+        print("ntfy: envié el mensaje de prueba.")
     revisar_salud(estado, cfg, len(pubs))
 
     nuevos, a_revisar = [], []
     for titulo, url, fpub, fuente in reversed(pubs):  # de la más vieja a la más nueva
-        if url in entradas:
+        existente = entradas.get(url)
+        if existente is not None and "todos" in existente:
             continue
         res = analizar_publicacion(url, titulo, parse_dmy(fpub) or ahora_dt.date(), materias)
         time.sleep(PAUSA_ENTRE_PEDIDOS)
         if res is None:
             continue  # error de red: la reintento en la próxima revisión
+        todos = res["todos"]
+        fechas = sorted({i["fecha"] for i in todos if i.get("fecha")}) or ([res["fecha_gral"]] if res["fecha_gral"] else [])
+
+        if existente is not None:
+            # Entrada de una versión anterior: completo los datos del buscador SIN volver a avisar
+            existente["todos"], existente["texto"] = todos, res["texto_corto"]
+            if not existente.get("fechas"):
+                existente["fechas"] = fechas
+            continue
+
         ok, items = res["coincide"], res["items"]
         if ok:
             ok, items = aplicar_filtros(titulo, items, cfg)
-        fechas = sorted({i["fecha"] for i in items if i.get("fecha")}) or ([res["fecha_gral"]] if (ok and res["fecha_gral"]) else [])
         e = {
             "titulo": titulo, "fuente": fuente, "fecha_pub": fpub,
             "visto": ahora_dt.isoformat(timespec="minutes"),
-            "relevante": ok, "items": items if ok else [],
-            "detalle": res["detalle"] if ok else [], "fechas": fechas if ok else [],
+            "relevante": ok, "items": items if ok else [], "todos": todos, "texto": res["texto_corto"],
+            "detalle": res["detalle"] if ok else [], "fechas": fechas,
             "materias": res["materias"] if ok else [],
-            "lugar": res["lugar"] if ok else "", "ordinal": res["ordinal"] if ok else "",
+            "lugar": res["lugar"], "ordinal": res["ordinal"],
             "grupo": calcular_grupo(titulo, items, res["detalle"]) if ok else "",
             "issue": None, "issue_abierto": False, "vencido": False, "recordados": [],
         }
@@ -919,9 +1214,13 @@ def buscar(cfg: dict, mostrar_todos: bool = False) -> None:
 
     # Avisos de nuevos (en orden cronológico, para que una 2.ª convocatoria caiga en el Issue de la 1.ª)
     for url in nuevos:
+        previo = issue_de_grupo(entradas, entradas[url]["grupo"], url)
         notificar_nuevo(entradas, url, entradas[url])
+        avisar_ntfy_concurso(url, entradas[url], cfg, ahora_dt, prefijo="🔁 " if previo else "")
     for url in a_revisar:
         notificar_revisar(url, entradas[url])
+        enviar_ntfy(f"👀 Revisar a mano: {entradas[url]['titulo']}", "Publicación solo con imagen o PDF: puede ser de tus materias.",
+                    prioridad_ntfy(3, cfg, ahora_dt), click=url, tags=["eyes"])
     if nuevos:
         cuerpo = "\n\n".join(formatear(u, entradas[u]) for u in nuevos)
         print(f"\n=== NUEVOS concursos: {len(nuevos)} ===\n\n{cuerpo}")
@@ -936,19 +1235,33 @@ def buscar(cfg: dict, mostrar_todos: bool = False) -> None:
 
     recs = recordatorios(entradas, cfg, ahora_dt)
     if recs:
-        print(f"\n=== RECORDATORIOS: {len(recs)} ===\n" + "\n\n".join(recs))
-        enviar_email(f"⏰ {len(recs)} recordatorio(s) de concursos", "\n\n".join(recs))
-        for t in recs[:MAX_TELEGRAM_POR_CORRIDA]:
+        textos = [t for t, _u, _k in recs]
+        print(f"\n=== RECORDATORIOS: {len(recs)} ===\n" + "\n\n".join(textos))
+        enviar_email(f"⏰ {len(recs)} recordatorio(s) de concursos", "\n\n".join(textos))
+        for t in textos[:MAX_TELEGRAM_POR_CORRIDA]:
             enviar_telegram(t)
+        for _t, u, tipo in recs:
+            avisar_ntfy_concurso(u, entradas[u], cfg, ahora_dt, prefijo="⏰ HOY · " if tipo == "dia" else "📅 MAÑANA · ",
+                                 prioridad=5 if tipo == "dia" else 4, tags=["alarm_clock"])
 
     cerrar_vencidos(entradas, cfg, ahora_dt)
+
+    # Poda: borro lo vencido hace más de 90 días (solo si ya no aparece en el listado)
+    actuales, limite = {u for _t, u, _f, _s in pubs}, ahora_dt - timedelta(days=90)
+    for u in [
+        u for u, e in entradas.items()
+        if u not in actuales and not e.get("issue_abierto") and e.get("visto")
+        and datetime.fromisoformat(e["visto"]) < limite and es_vencido(e, ahora_dt)
+    ]:
+        del entradas[u]
+
     guardar_historial(datos)
     generar_pagina(entradas, ahora_dt)
     generar_calendario(entradas, ahora_dt)
 
     if mostrar_todos:
         vig = [(u, e) for u, e in entradas.items() if e.get("relevante") and not e.get("vencido")]
-        print(f"\n=== Vigentes: {len(vig)} ===\n")
+        print(f"\n=== Vigentes de tus materias: {len(vig)} ===\n")
         print("\n\n".join(formatear(u, e) for u, e in vig))
 
 
@@ -975,6 +1288,327 @@ def main() -> None:
         una_vez()
         if sys.platform == "win32" and getattr(sys, "frozen", False):
             input("\nEnter para salir...")
+
+
+# ----------------------------------------------------------------------------
+# ÍCONOS DE LA APP (PNG en base64; el script los escribe en docs/ solo)
+# ----------------------------------------------------------------------------
+ICONOS_B64 = {
+    "icon-192.png": (
+        "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"
+    ),
+    "icon-512.png": (
+        "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"
+        "rQMAAAAASUVORK5CYII="
+    ),
+    "icon-maskable-512.png": (
+        "iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAPbklEQVR42u3dS4wk90HH8d+/qrvntQ8/5Nhxso5AdkyEIltW"
+        "LhwSLJ9QDiZIlhASEpGCD7kg35CCDKfABQmJAxESByMQByRQFETIDYiREFKIEjDCJJZjsn7EXu96X7MzPd1Vfw7V+7CxAhPv"
+        "7kxPfz5Sz8zuSDM1NT31/9a/qqvKqSdfrAEAVkpjFQCAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQAACAAAAABAAAIAAAAAEA"
+        "AAgAAEAAAAACAAAQAACAAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAA"
+        "AQAAAgAAEAAAgAAAAAQAACAAAAABAAAIAABAAAAAAgAAEAAAgAAAAAQAACAAAAABAAAIAABAAAAAAgAABAAAIAAAAAEAAAgA"
+        "AEAAAAACAAAQAACAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQAACAAAAABAAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAA"
+        "CAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAACAAAEABWAQAIAABAAAAAAgAAEAAAgAAAAAQAACAAAAABAAAIAABAAAAAAgAA"
+        "EAAAgAAAAAQAACAAAAABAAAIAAAQAACAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQAACAAAAABAAAIAAAAAEAAAgAAEAAAAAC"
+        "AAAQAAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAgAABAAAAAAgAAEAAA"
+        "gAAAAAQAACAAAAABAAAIAABAAAAAAgAAEAAAgAAAAAQAACAAAAABAAAIAABAAACAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQ"
+        "AACAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQAACAAAAAAWAVAIAAAAAEAAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAg"
+        "AAAAAQAACAAAYJ9GVgFLV62ylUOg1uEBAgBug74mV670VgQHbjIuGbclGgABALdQKcnerOaBe8f5/d+4L+1iw1usGm53hPY1"
+        "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"
+        "BAAAIAAAAAEAAAgAAEAAAAACAAAEAAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAACAAAQAAAAAIAABAAAIAA"
+        "AAAEAAAIAABAAAAAAgAAEAAAgAAAAAQAACAAAAABAAAIAABAAAAAAgAAEAAAgAAAAAQAACAAAAABAAAIAAAQAACAAAAABAAA"
+        "IAAAAAEAAAgAAEAAAAACAAAQAACAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQAACAAAAAAQAACAAAQAAAAAIAABAAAIAAAAAE"
+        "AAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAAAgAAEAAAgAAAAAQAACAAAAABAAAIAABAAAAAAgAAEAAAgAAA"
+        "AAQAACAAAAABAAAIAABAAAAAAgAABAAAIAAAAAEAAAgAAEAAAAACAAAQAACAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQAACA"
+        "AAAABAAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAACAAAEAAAgAAAAAQA"
+        "ACAAAAABAAAIAABAAAAAAgAAEAAAgAAAAAQAACAAAAABAAAIAABAAAAAAgAAEAAAgAAAAAEAAAgAAEAAAAACAAAQAACAAAAA"
+        "BAAAIAAAAAEAAAgAAEAAAAACAAAQAADAfv0PlyW2hbsyGFgAAAAASUVORK5CYII="
+    ),
+}
 
 
 if __name__ == "__main__":
