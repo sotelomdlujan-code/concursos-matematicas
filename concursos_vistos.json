@@ -1,9 +1,9 @@
 {
  "version": 3,
  "estado": {
-  "fallas": 2,
-  "alertado": false,
-  "issue_alerta": null,
+  "fallas": 3,
+  "alertado": true,
+  "issue_alerta": 21,
   "ntfy_prueba": 1
  },
  "entradas": {
