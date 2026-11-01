@@ -1,7 +1,7 @@
 {
  "version": 3,
  "estado": {
-  "fallas": 5,
+  "fallas": 6,
   "alertado": true,
   "issue_alerta": 21,
   "ntfy_prueba": 1
