@@ -3104,6 +3104,45 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-02\"], \"i\": [], \"l\": \"Bvard\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-primaria-nina-n-69-malvinas-argentina-taller-de-acompanamiento-al-estudio/": {
+   "titulo": "Escuela Primaria NINA N° 69 “Malvinas Argentina”- TALLER DE ACOMPAÑAMIENTO AL ESTUDIO.",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T13:51-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "CÁTEDRAS EN EL TURNO TARDE",
+     "buscada": false,
+     "hs": 16,
+     "curso": "",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "",
+     "fecha": "2026-11-03",
+     "hora": null,
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T12:08:58-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
