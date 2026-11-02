@@ -1,7 +1,7 @@
 {
  "version": 3,
  "estado": {
-  "fallas": 0,
+  "fallas": 1,
   "alertado": false,
   "issue_alerta": null,
   "ntfy_prueba": 1
@@ -2082,7 +2082,8 @@
    "issue_abierto": true,
    "vencido": false,
    "recordados": [
-    "2026-11-02|08:00|antes"
+    "2026-11-02|08:00|antes",
+    "2026-11-02|08:00|dia"
    ],
    "modificado": "2026-10-30T11:11:31-03:00",
    "firma": "{\"f\": [\"2026-11-02\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Lunes: 14:50 a 15:30 hs. y 15:30 a 16:10 hs.\", \"Miércoles: 13:20 a 14:00 hs. y 14:50 a 15:30 hs.\", \"Jueves: 16:20 a 17:00 hs.\"], \"curso\": \"1.º año\", \"division\": \"E\", \"fecha\": \"2026-11-02\", \"hora\": \"08:00\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}], \"l\": \"\"}"
@@ -2601,7 +2602,8 @@
    "issue_abierto": true,
    "vencido": false,
    "recordados": [
-    "2026-11-02|12:30|antes"
+    "2026-11-02|12:30|antes",
+    "2026-11-02|12:30|dia"
    ],
    "modificado": "2026-10-30T18:37:35-03:00",
    "firma": "{\"f\": [\"2026-11-02\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Lunes: 13:20 a 14:40 hs.\", \"Jueves: 13:20 a 14:40 hs.\", \"Viernes: 15:30 a 16:10 hs.\"], \"curso\": \"4.º año\", \"division\": \"A\", \"fecha\": \"2026-11-02\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}], \"l\": \"calle Moulins 1790 de la ciudad de Concordia\"}"
