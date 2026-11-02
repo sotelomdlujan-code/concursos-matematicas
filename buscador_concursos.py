@@ -59,6 +59,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (buscador-concursos personal)"}
 PAUSA_ENTRE_PEDIDOS = 0.6
 ART = timezone(timedelta(hours=-3))  # Argentina no usa horario de verano
 VERSION_DATOS = 3
+PARSER_VERSION = 2  # súbelo cuando cambie la forma de leer las publicaciones: evita avisos falsos de "modificado"
 
 # Credenciales: en GitHub vienen de los "Secrets" (ver README).
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -285,6 +286,7 @@ def es_encabezado(l: str) -> bool:
     return len(letras) >= 3 and all(c.isupper() for c in letras) and len(l) < 90 and not RE_ITEM.match(l)
 
 
+RE_PIE = re.compile(r"^(?:los (?:interesados|aspirantes) deberan presentarse|el concurso se realizara en el local)")
 RE_CANCEL_FUERTE = re.compile(r"\bdesconvoc\w*")
 RE_CANCEL_DEBIL = re.compile(
     r"\b(?:suspend\w*|anul\w*|cancel\w*|(?:queda\w*|deja\w*)\s+sin\s+efecto|sin\s+efecto)\b"
@@ -311,12 +313,13 @@ def extraer_lugar(linea: str) -> str:
     for rx in (
         r"sito en\s+(.+?),\s*(?:con|en el d[ií]a|munid)",
         r"presentarse en\s+(.+?),\s*en el d[ií]a",
-        r"sito en\s+(.+?)[,.]",
     ):
         m = re.search(rx, linea, re.I)
         if m:
             return m.group(1).strip()
-    return ""
+    # "sito en calle P. del Castillo N.º 690."  (las abreviaturas no cortan la frase)
+    m = re.search(r"[Ss]ito en\s+(.+?)(?:\.\s*$|\.\s+(?=[A-ZÁÉÍÓÚÑ])|\s*$)", linea)
+    return m.group(1).strip().rstrip(".") if m else ""
 
 
 def nombre_espacio(resto: str, encabezado: str, propio: bool) -> str:
@@ -334,12 +337,13 @@ def analizar_texto(lineas, titulo, fecha_pub, materias) -> dict:
     Devuelve TODOS los espacios de la publicación ("todos", para el buscador) y, aparte,
     los que coinciden con tus materias configuradas ("items", para los avisos).
     """
+    idx_item = next((i for i, l in enumerate(lineas) if RE_ITEM.match(l)), None)
     corte = next(
-        (i for i, l in enumerate(lineas) if normalizar(l).startswith("los interesados deberan presentarse")),
+        (i for i, l in enumerate(lineas) if RE_PIE.match(normalizar(l)) and (idx_item is None or i > idx_item)),
         None,
     )
     cuerpo = lineas[:corte] if corte is not None else lineas
-    lugar = extraer_lugar(lineas[corte]) if corte is not None else ""
+    lugar = next((x for x in (extraer_lugar(l) for l in (lineas[corte:] if corte is not None else lineas)) if x), "")
 
     texto_norm = normalizar("\n".join(cuerpo))
     coincide = materia_de(texto_norm, materias) is not None
@@ -917,10 +921,11 @@ def revisar_cambios(entradas: dict, pubs: list, cfg: dict, materias, ahora_dt: d
         todos = res["todos"]
         fechas = sorted({i["fecha"] for i in todos if i.get("fecha")}) or ([res["fecha_gral"]] if res["fecha_gral"] else [])
         firma = firma_concurso(items if ok else [], res["lugar"], fechas)
-        previa = e.get("firma")
+        # Si el concurso se leyó con una versión anterior del lector, el cambio de datos es mío, no del CGE: actualizo sin avisar
+        previa = e.get("firma") if e.get("parser") == PARSER_VERSION else None
         e.update(items=items if ok else [], todos=todos, texto=res["texto_corto"], lugar=res["lugar"],
                  ordinal=res["ordinal"], fechas=fechas, detalle=res["detalle"] if ok else [],
-                 titulo=titulo_nuevo, modificado=res.get("modificado", ""), firma=firma)
+                 titulo=titulo_nuevo, modificado=res.get("modificado", ""), firma=firma, parser=PARSER_VERSION)
         if previa is not None and previa != firma:
             alertar_modificacion(entradas, url, e, cfg, ahora_dt)
 
@@ -1406,7 +1411,7 @@ def buscar(cfg: dict, mostrar_todos: bool = False) -> None:
             "lugar": res["lugar"], "ordinal": res["ordinal"],
             "grupo": calcular_grupo(limpiar_titulo(titulo), items, res["detalle"]) if ok else "",
             "issue": None, "issue_abierto": False, "vencido": False, "recordados": [],
-            "modificado": res.get("modificado", ""), "avisado": False,
+            "modificado": res.get("modificado", ""), "avisado": False, "parser": PARSER_VERSION,
             "firma": firma_concurso(items if ok else [], res["lugar"], fechas),
         }
         if cancel:
