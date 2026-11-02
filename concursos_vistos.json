@@ -2748,6 +2748,184 @@
    "issue_abierto": false,
    "vencido": false,
    "recordados": []
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-10-republica-de-entre-rios-concordia-32/": {
+   "titulo": "Escuela Secundaria N.º 10 “República de Entre Ríos” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T06:32-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua Extranjera Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "15:00",
+     "clases": [
+      "lunes de 13:10 a 14:20 hs. y viernes de 14:30 a 15:40 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "15:00",
+     "clases": [
+      "miércoles de 13:10 a 13:45 hs. y viernes de 13:10 a 14:20 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera Inglés– 3.º año",
+     "buscada": false,
+     "hs": 3,
+     "curso": "3.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "15:00",
+     "clases": [
+      "miércoles de 13:45 a 14:20 hs. y de 14:30 a 15:40 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "15:00",
+     "clases": [
+      "viernes de 09:30 a 10:10 hs. y de 10:20 a 11:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T06:16:06-03:00",
+   "avisado": false,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-36-juana-p-manso-concordia-4/": {
+   "titulo": "Escuela Secundaria N.º 36 “Juana P. Manso” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T06:32-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Física y Química",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "08:20",
+     "clases": [
+      "miércoles de 13:10 a 13:45 hs., de 13:45 a 14:20 hs. y de 14:30 a 15:05 hs."
+     ]
+    },
+    {
+     "materia": "Física y Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "08:20",
+     "clases": [
+      "martes de 11:40 a 12:15 hs. y de 12:15 a 12:55 hs."
+     ]
+    },
+    {
+     "materia": "Física y Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "08:20",
+     "clases": [
+      "jueves de 08:50 a 09:30 hs. y de 09:30 a 10:10 hs."
+     ]
+    },
+    {
+     "materia": "Física y Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "3.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "08:20",
+     "clases": [
+      "lunes de 07:20 a 08:00 hs. y de 08:00 a 08:40 hs."
+     ]
+    },
+    {
+     "materia": "Física y Química– 3.º año",
+     "buscada": false,
+     "hs": 2,
+     "curso": "3.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "08:20",
+     "clases": [
+      "miércoles de 11:40 a 12:15 hs. y de 12:15 a 12:55 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T06:22:58-03:00",
+   "avisado": false,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
