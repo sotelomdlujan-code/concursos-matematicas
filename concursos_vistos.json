@@ -656,13 +656,17 @@
    "ordinal": "primer llamado",
    "grupo": "a62eb8f96181263c",
    "issue": 23,
-   "issue_abierto": true,
+   "issue_abierto": false,
    "vencido": false,
    "recordados": [],
    "modificado": "2026-10-30T18:37:35-03:00",
    "avisado": true,
    "parser": 2,
-   "firma": "{\"f\": [\"2026-11-02\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Lunes: 13:20 a 14:40 hs.\", \"Jueves: 13:20 a 14:40 hs.\", \"Viernes: 15:30 a 16:10 hs.\"], \"curso\": \"4.º año\", \"division\": \"A\", \"fecha\": \"2026-11-02\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}], \"l\": \"calle Moulins 1790 de la ciudad de Concordia\"}"
+   "firma": "{\"f\": [\"2026-11-02\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Lunes: 13:20 a 14:40 hs.\", \"Jueves: 13:20 a 14:40 hs.\", \"Viernes: 15:30 a 16:10 hs.\"], \"curso\": \"4.º año\", \"division\": \"A\", \"fecha\": \"2026-11-02\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}], \"l\": \"calle Moulins 1790 de la ciudad de Concordia\"}",
+   "desconvocado": {
+    "url": "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-19-gral-j-azurduy-desconvoca-concurso-concordia/",
+    "visto": "2026-11-02T16:43-03:00"
+   }
   },
   "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-51/": {
    "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
@@ -3143,6 +3147,1342 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-11-dr-esteban-zorraquin-concordia-20/": {
+   "titulo": "Escuela Secundaria N.º 11 “Dr. Esteban Zorraquín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir PRIMERA CONVOCATORIA La Rectoría de la Escuela Secundaria N.º 11 “Dr. Esteban Zorraquín”, CUE 3000018, convoca a concurso para la adjudicación de un cargo, en el marco del Reglamento de Concursos, Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., Art. 138 de Jurado de Concursos. El acto concursal se llevará a cabo el día martes 3 de noviembre de 2026, con toma de posesión inmediata. 7:30 hs. – TOMA DE POSESIÓN INMEDIATA ",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "calles Perú y Facundo Quiroga",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T16:33:55-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"calles Perú y Facundo Quiroga\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-31-benito-juarez-concordia-4/": {
+   "titulo": "Escuela Secundaria N.º 31 “Benito Juárez” Est. Yuquerí – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": null,
+     "clases": []
+    },
+    {
+     "materia": "Literatura Latinoamericana",
+     "buscada": false,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": null,
+     "clases": []
+    },
+    {
+     "materia": "Literatura Argentina",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": null,
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-04"
+   ],
+   "materias": [],
+   "lugar": "Ruta Provincial N.º 22, Km 2 y vías del ferrocarril, Estación Yuquerí",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T13:59:14-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-04\"], \"i\": [], \"l\": \"Ruta Provincial N.º 22, Km 2 y vías del ferrocarril, Estación Yuquerí\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-20-simon-bolivar-est-grande-concordia-26/": {
+   "titulo": "Escuela Secundaria N.º 20 “Simón Bolívar” Est.Grande – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua Extranjera",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "11:00",
+     "clases": [
+      "miércoles de 9:15 a 11:05 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "11:00",
+     "clases": [
+      "miércoles de 7:20 a 9:15 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T13:52:12-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-20-simon-bolivar-est-grande-concordia-27/": {
+   "titulo": "Escuela Secundaria N.º 20 “Simón Bolívar” Est.Grande – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "08:00",
+     "clases": [
+      "miércoles de 19:00 a 20:00 hs."
+     ]
+    },
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "08:00",
+     "clases": [
+      "lunes de 21:10 a 22:10 hs."
+     ]
+    },
+    {
+     "materia": "Tecnología de la Información y la Comunicación",
+     "buscada": false,
+     "hs": 2,
+     "curso": "3.º año",
+     "division": "",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "09:00",
+     "clases": [
+      "miércoles de 20:05 a 21:05 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T13:59:30-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-27-dr-domingo-santo-liotta-concordia-22/": {
+   "titulo": "Escuela Secundaria N.º 27 “Dr. Domingo Santo Liotta” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "3.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "10:30",
+     "clases": [
+      "lunes de 7:10 a 8:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "Gualeguay 1655 de la ciudad de Concordia",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T14:06:36-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"Gualeguay 1655 de la ciudad de Concordia\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-19-gral-j-azurduy-desconvoca-concurso-concordia/": {
+   "titulo": "Escuela Secundaria N.º 19 “Gral. J. Azurduy” DESCONVOCA CONCURSO  – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": null,
+     "clases": []
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-02",
+     "hora": null,
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-02"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "a62eb8f96181263c",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T14:09:45-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-02\"], \"i\": [], \"l\": \"\"}",
+   "cancelacion": true,
+   "cancel_coincide": true,
+   "desconvoca_a": "https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-19-gral-j-azurduy-concordia-14/"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-10-republica-de-entre-rios-concordia-32/": {
+   "titulo": "Escuela Secundaria N.º 10 “República de Entre Ríos” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua Extranjera Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "15:00",
+     "clases": [
+      "lunes de 13:10 a 14:20 hs. y viernes de 14:30 a 15:40 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "15:00",
+     "clases": [
+      "miércoles de 13:10 a 13:45 hs. y viernes de 13:10 a 14:20 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "3.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "15:00",
+     "clases": [
+      "miércoles de 13:45 a 14:20 hs. y de 14:30 a 15:40 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "15:00",
+     "clases": [
+      "viernes de 09:30 a 10:10 hs. y de 10:20 a 11:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "calle Dr. Sauré N.º 1125",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T14:16:52-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"calle Dr. Sauré N.º 1125\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-11-dr-esteban-zorraquin-concordia-19/": {
+   "titulo": "Escuela Secundaria N.º 11 “Dr. Esteban Zorraquín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Orientador Educacional con Orientación Psicológica",
+     "buscada": false,
+     "hs": 4,
+     "curso": "",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "11:15",
+     "clases": [
+      "lunes de 16:50 a 17:30 hs., de 17:35 a 18:15 hs. y de 18:15 a 18:55 hs.; viernes de 14:40 a 15:20 hs."
+     ]
+    },
+    {
+     "materia": "Orientador Educacional con Orientación Psicológica",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "11:15",
+     "clases": [
+      "viernes de 15:20 a 16:00 hs. y de 16:10 a 16:50 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "calles Perú y Facundo Quiroga",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T14:27:59-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"calles Perú y Facundo Quiroga\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-concordia-25/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir PRIMER LLAMADO A CONCURSO La Rectoría de la Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” convoca a concurso para la cobertura de horas cátedra y/o cargos, en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M.T. y su modificatoria, Resolución N.º 2300/22 C.G.E., Art. 136, para cubrir la siguiente oferta: El acto concursal se llevará a cabo el día martes 3 de noviembre de 2026. 11:30 hs. AUXILIAR DE ACCIÓN NO",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "Ruta 14, km 244, en el horario indicado y por grupos",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T14:30:38-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"Ruta 14, km 244, en el horario indicado y por grupos\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-concordia-26/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Granja",
+     "buscada": false,
+     "hs": 6,
+     "curso": "",
+     "division": "1",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": null,
+     "clases": [
+      "martes de 13:30 a 14:50 hs. y jueves de 13:30 a 14:50 hs. y de 15:00 a 16:20 hs."
+     ]
+    },
+    {
+     "materia": "Granja",
+     "buscada": false,
+     "hs": 6,
+     "curso": "",
+     "division": "2",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": null,
+     "clases": [
+      "martes de 15:00 a 16:20 hs. y miércoles de 13:30 a 14:50 hs. y de 15:00 a 16:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "Ruta 14, km 244, en el horario indicado y por grupos",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T14:54:17-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"Ruta 14, km 244, en el horario indicado y por grupos\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-concordia-27/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Física y Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "1",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": null,
+     "clases": [
+      "martes de 13:30 a 14:50 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "Ruta 14, km 244, en el horario indicado y por grupos",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T15:01:07-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"Ruta 14, km 244, en el horario indicado y por grupos\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-tecnico-profesional-n-o-1-brigadier-gral-pascual-echague-concordia-6/": {
+   "titulo": "Escuela de Educación Técnico Profesional N.º 1 “Brigadier Gral. Pascual Echagüe” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Estática y Resistencia de Materiales",
+     "buscada": false,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "2",
+     "turno": "tarde",
+     "caracter": "",
+     "fecha": "2026-11-03",
+     "hora": null,
+     "clases": [
+      "martes de 16:20 a 17:40 hs. y miércoles de 13:20 a 14:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T15:16:47-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-152-manuel-maria-calderon-concordia-5/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 152 “Manuel María Calderón” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "4.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "10:00",
+     "clases": [
+      "martes de 7:25 a 8:35 hs. y miércoles de 7:25 a 8:35 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "4.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "10:00",
+     "clases": [
+      "martes de 8:45 a 9:55 hs. y miércoles de 8:45 a 9:55 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "10:00",
+     "clases": [
+      "martes de 11:25 a 12:35 hs. y miércoles de 10:05 a 11:15 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "10:00",
+     "clases": [
+      "martes de 10:05 a 11:15 hs. y miércoles de 11:25 a 12:35 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "4.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "10:00",
+     "clases": [
+      "martes de 7:25 a 8:35 hs. y miércoles de 7:25 a 8:35 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "4.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "10:00",
+     "clases": [
+      "martes de 8:45 a 9:55 hs. y miércoles de 8:45 a 9:55 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "10:00",
+     "clases": [
+      "martes de 11:25 a 12:35 hs. y miércoles de 10:05 a 11:15 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "10:00",
+     "clases": [
+      "martes de 10:05 a 11:15 hs. y miércoles de 11:25 a 12:35 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "80c78038d683d6e3",
+   "issue": 27,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T15:32:46-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 7:25 a 8:35 hs. y miércoles de 7:25 a 8:35 hs.\"], \"curso\": \"4.º año\", \"division\": \"\", \"fecha\": \"2026-11-03\", \"hora\": \"10:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 8:45 a 9:55 hs. y miércoles de 8:45 a 9:55 hs.\"], \"curso\": \"4.º año\", \"division\": \"\", \"fecha\": \"2026-11-03\", \"hora\": \"10:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 11:25 a 12:35 hs. y miércoles de 10:05 a 11:15 hs.\"], \"curso\": \"5.º año\", \"division\": \"\", \"fecha\": \"2026-11-03\", \"hora\": \"10:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 10:05 a 11:15 hs. y miércoles de 11:25 a 12:35 hs.\"], \"curso\": \"5.º año\", \"division\": \"\", \"fecha\": \"2026-11-03\", \"hora\": \"10:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"mañana\"}], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-18-velez-sarsfield-concordia-27/": {
+   "titulo": "Escuela Secundaria N.º 18 “Vélez Sarsfield” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua Extranjera Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "09:45",
+     "clases": [
+      "lunes de 14:50 a 17:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "calle P. del Castillo N.º 690",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T15:22:02-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"calle P. del Castillo N.º 690\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-3-francisco-ramirez-los-charruas-concordia-10/": {
+   "titulo": "Escuela Secundaria N.º 3 “Francisco Ramírez” – Los Charrúas – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:30",
+     "clases": [
+      "jueves de 11:35 a 12:55 hs."
+     ]
+    },
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:30",
+     "clases": [
+      "jueves de 13:00 a 14:20 hs."
+     ]
+    },
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:30",
+     "clases": [
+      "jueves de 14:25 a 15:45 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T15:35:46-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-de-jovenes-y-adultos-n-o-29-prof-erich-poenitz-concordia-16/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 29 “Prof. Erich Poenitz” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Asesor Pedagógico",
+     "buscada": false,
+     "hs": 12,
+     "curso": "",
+     "division": "",
+     "turno": "rotativo",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": null,
+     "clases": [
+      "martes de 13:30 a 16:00 hs.; miércoles de 18:30 a 20:00 hs.; jueves de 13:30 a 16:00 hs. y viernes de 18:30 a 20:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "segunda convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T15:41:28-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-4-damian-p-garat-villa-adela-concordia-24/": {
+   "titulo": "Escuela Secundaria N.º 4 “Damián P. Garat” Villa Adela – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Física y Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "3.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "16:00",
+     "clases": [
+      "miércoles de 10:10 a 10:50 hs. y de 10:50 a 11:25 hs."
+     ]
+    },
+    {
+     "materia": "Física y Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "16:00",
+     "clases": [
+      "miércoles de 11:35 a 12:15 hs. y de 12:15 a 12:55 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "Avenida Presidente Perón N.º 3940, Villa Adela",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T15:44:00-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"Avenida Presidente Perón N.º 3940, Villa Adela\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-4-damian-p-garat-villa-adela-concordia-25/": {
+   "titulo": "Escuela Secundaria N.º 4 “Damián P. Garat” Villa Adela – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Formación Ética y Ciudadana",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "16:30",
+     "clases": [
+      "miércoles de 10:10 a 10:50 hs. y de 10:50 a 11:30 hs."
+     ]
+    },
+    {
+     "materia": "Formación Ética y Ciudadana",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "16:30",
+     "clases": [
+      "lunes de 11:35 a 12:15 hs. y de 12:15 a 12:55 hs."
+     ]
+    },
+    {
+     "materia": "Formación Ética y Ciudadana",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "16:30",
+     "clases": [
+      "lunes de 10:10 a 10:50 hs. y de 10:50 a 11:30 hs."
+     ]
+    },
+    {
+     "materia": "Macroeconomía",
+     "buscada": false,
+     "hs": 2,
+     "curso": "3.º año",
+     "division": "",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "16:50",
+     "clases": [
+      "viernes de 21:00 a 21:40 hs. y de 21:40 a 22:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "Avenida Presidente Perón N.º 3940, Villa Adela",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T15:54:33-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"Avenida Presidente Perón N.º 3940, Villa Adela\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-4-damian-p-garat-villa-adela-concordia-26/": {
+   "titulo": "Escuela Secundaria N.º 4 “Damián P. Garat” Villa Adela – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:10",
+     "clases": [
+      "martes de 7:10 a 7:50 hs., de 7:50 a 8:30 hs. y de 10:10 a 10:50 hs.; miércoles de 7:10 a 7:50 hs. y de 7:50 a 8:30 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "3.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:10",
+     "clases": [
+      "lunes de 8:40 a 9:20 hs. y de 9:20 a 10:00 hs.; miércoles de 8:40 a 9:20 hs. y de 9:20 a 10:00 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "3.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:10",
+     "clases": [
+      "martes de 8:40 a 9:20 hs. y de 9:20 a 10:00 hs.; viernes de 8:40 a 9:20 hs., de 9:20 a 10:00 hs. y de 10:10 a 10:50 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:25",
+     "clases": [
+      "martes de 13:00 a 13:40 hs. y de 13:40 a 14:20 hs.; viernes de 13:00 a 13:40 hs., de 13:40 a 14:20 hs. y de 14:30 a 15:10 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:25",
+     "clases": [
+      "lunes de 14:30 a 15:10 hs. y de 15:10 a 15:50 hs.; martes de 15:10 a 15:50 hs.; miércoles de 14:30 a 15:10 hs. y de 15:10 a 15:50 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:25",
+     "clases": [
+      "lunes de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs.; miércoles de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:25",
+     "clases": [
+      "lunes de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs.; miércoles de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:10",
+     "clases": [
+      "martes de 7:10 a 7:50 hs., de 7:50 a 8:30 hs. y de 10:10 a 10:50 hs.; miércoles de 7:10 a 7:50 hs. y de 7:50 a 8:30 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "3.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:10",
+     "clases": [
+      "lunes de 8:40 a 9:20 hs. y de 9:20 a 10:00 hs.; miércoles de 8:40 a 9:20 hs. y de 9:20 a 10:00 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "3.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:10",
+     "clases": [
+      "martes de 8:40 a 9:20 hs. y de 9:20 a 10:00 hs.; viernes de 8:40 a 9:20 hs., de 9:20 a 10:00 hs. y de 10:10 a 10:50 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:25",
+     "clases": [
+      "martes de 13:00 a 13:40 hs. y de 13:40 a 14:20 hs.; viernes de 13:00 a 13:40 hs., de 13:40 a 14:20 hs. y de 14:30 a 15:10 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:25",
+     "clases": [
+      "lunes de 14:30 a 15:10 hs. y de 15:10 a 15:50 hs.; martes de 15:10 a 15:50 hs.; miércoles de 14:30 a 15:10 hs. y de 15:10 a 15:50 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:25",
+     "clases": [
+      "lunes de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs.; miércoles de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": "17:25",
+     "clases": [
+      "lunes de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs.; miércoles de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "Avenida Presidente Perón N.º 3940, Villa Adela",
+   "ordinal": "",
+   "grupo": "81c8e06179bc16ba",
+   "issue": 28,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T15:58:49-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 7:10 a 7:50 hs., de 7:50 a 8:30 hs. y de 10:10 a 10:50 hs.; miércoles de 7:10 a 7:50 hs. y de 7:50 a 8:30 hs.\"], \"curso\": \"2.º año\", \"division\": \"\", \"fecha\": \"2026-11-03\", \"hora\": \"17:10\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 8:40 a 9:20 hs. y de 9:20 a 10:00 hs.; miércoles de 8:40 a 9:20 hs. y de 9:20 a 10:00 hs.\"], \"curso\": \"3.º año\", \"division\": \"\", \"fecha\": \"2026-11-03\", \"hora\": \"17:10\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 8:40 a 9:20 hs. y de 9:20 a 10:00 hs.; viernes de 8:40 a 9:20 hs., de 9:20 a 10:00 hs. y de 10:10 a 10:50 hs.\"], \"curso\": \"3.º año\", \"division\": \"\", \"fecha\": \"2026-11-03\", \"hora\": \"17:10\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 13:00 a 13:40 hs. y de 13:40 a 14:20 hs.; viernes de 13:00 a 13:40 hs., de 13:40 a 14:20 hs. y de 14:30 a 15:10 hs.\"], \"curso\": \"4.º año\", \"division\": \"\", \"fecha\": \"2026-11-03\", \"hora\": \"17:25\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 14:30 a 15:10 hs. y de 15:10 a 15:50 hs.; martes de 15:10 a 15:50 hs.; miércoles de 14:30 a 15:10 hs. y de 15:10 a 15:50 hs.\"], \"curso\": \"4.º año\", \"division\": \"\", \"fecha\": \"2026-11-03\", \"hora\": \"17:25\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs.; miércoles de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs.\"], \"curso\": \"5.º año\", \"division\": \"\", \"fecha\": \"2026-11-03\", \"hora\": \"17:25\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"tarde\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs.; miércoles de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs.\"], \"curso\": \"6.º año\", \"division\": \"\", \"fecha\": \"2026-11-03\", \"hora\": \"17:25\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"tarde\"}], \"l\": \"Avenida Presidente Perón N.º 3940, Villa Adela\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-36-juana-p-manso-concordia-4/": {
+   "titulo": "Escuela Secundaria N.º 36 “Juana P. Manso” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Tutora por la Inclusión (Resolución N.º 3750/21 C.G.E.)",
+     "buscada": false,
+     "hs": 10,
+     "curso": "",
+     "division": "",
+     "turno": "rotativo",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": "08:00",
+     "clases": [
+      "a convenir con la institución."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-04"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T16:07:34-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-04\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-53/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "02/11/2026",
+   "visto": "2026-11-02T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir LLAMADO A CONCURSO La Rectoría de la Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” convoca a concurso para la adjudicación de cargos, en el marco del Reglamento de Concursos, Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., Art. 136 de Jurado de Concursos. El acto concursal se llevará a cabo el día martes 3 de noviembre de 2026. 17:00 hs. EDUCACIÓN MUSICAL 🔴 2h. Edu. Música – 2.º año, división 6.ª – Suplente – T",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "el establecimiento escolar, con entrada por calle Urquiza",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-02T16:41:16-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
   }
  }
 }

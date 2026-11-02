@@ -34,19 +34,86 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ae4aed1c7b6537b0f4cd0171@concursos-cge
-DTSTAMP:20261102T135800Z
-DTSTART:20261102T153000Z
-DTEND:20261102T163000Z
-SUMMARY:Concurso Matemática - Escuela Secundaria N.º 19 “Gral. J. Azurd
- uy” – Concordia
-DESCRIPTION:Matemática · 5 hs. · 4.º año “A” · Turno tarde · Sup
- lente (Lunes: 13:20 a 14:40 hs. | Jueves: 13:20 a 14:40 hs. | Viernes: 15:
- 30 a 16:10 hs.)\nhttps://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n
- -o-19-gral-j-azurduy-concordia-14/
-LOCATION:calle Moulins 1790 de la ciudad de Concordia
-URL:https://cge.entrerios.gov.ar/2026/10/escuela-secundaria-n-o-19-gral-j-a
- zurduy-concordia-14/
+UID:4f767c53a98fc2b61d691ece@concursos-cge
+DTSTAMP:20261102T194300Z
+DTSTART:20261103T130000Z
+DTEND:20261103T140000Z
+SUMMARY:Concurso Matemática - Escuela de Educación Agrotécnica N.º 152 
+ “Manuel María Calderón” – Concordia
+DESCRIPTION:Matemática · 4 hs. · 4.º año · Turno mañana · Suplente 
+ (martes de 7:25 a 8:35 hs. y miércoles de 7:25 a 8:35 hs.)\nMatemática 
+ · 4 hs. · 4.º año · Turno mañana · Suplente (martes de 8:45 a 9:55 
+ hs. y miércoles de 8:45 a 9:55 hs.)\nMatemática · 4 hs. · 5.º año ·
+  Turno mañana · Suplente (martes de 11:25 a 12:35 hs. y miércoles de 10
+ :05 a 11:15 hs.)\nMatemática · 4 hs. · 5.º año · Turno mañana · Su
+ plente (martes de 10:05 a 11:15 hs. y miércoles de 11:25 a 12:35 hs.)\nht
+ tps://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-15
+ 2-manuel-maria-calderon-concordia-5/
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n
+ -o-152-manuel-maria-calderon-concordia-5/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:34a8b4c91adf0837f9f0bba2@concursos-cge
+DTSTAMP:20261102T194300Z
+DTSTART:20261103T201000Z
+DTEND:20261103T211000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 4 “Damián P. Gara
+ t” Villa Adela – Concordia
+DESCRIPTION:Matemática · 5 hs. · 2.º año · Turno mañana · Suplente 
+ (martes de 7:10 a 7:50 hs.\, de 7:50 a 8:30 hs. y de 10:10 a 10:50 hs.\; m
+ iércoles de 7:10 a 7:50 hs. y de 7:50 a 8:30 hs.)\nMatemática · 5 hs. 
+ · 3.º año · Turno mañana · Suplente (lunes de 8:40 a 9:20 hs. y de 9
+ :20 a 10:00 hs.\; miércoles de 8:40 a 9:20 hs. y de 9:20 a 10:00 hs.)\nMa
+ temática · 5 hs. · 3.º año · Turno mañana · Suplente (martes de 8:
+ 40 a 9:20 hs. y de 9:20 a 10:00 hs.\; viernes de 8:40 a 9:20 hs.\, de 9:20
+  a 10:00 hs. y de 10:10 a 10:50 hs.)\nhttps://cge.entrerios.gov.ar/2026/11
+ /escuela-secundaria-n-o-4-damian-p-garat-villa-adela-concordia-26/
+LOCATION:Avenida Presidente Perón N.º 3940\, Villa Adela
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-4-damian-p-
+ garat-villa-adela-concordia-26/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:11af65941c5733a0266c0537@concursos-cge
+DTSTAMP:20261102T194300Z
+DTSTART:20261103T202500Z
+DTEND:20261103T212500Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 4 “Damián P. Gara
+ t” Villa Adela – Concordia
+DESCRIPTION:Matemática · 5 hs. · 4.º año · Turno tarde · Suplente (m
+ artes de 13:00 a 13:40 hs. y de 13:40 a 14:20 hs.\; viernes de 13:00 a 13:
+ 40 hs.\, de 13:40 a 14:20 hs. y de 14:30 a 15:10 hs.)\nMatemática · 5 hs
+ . · 4.º año · Turno tarde · Suplente (lunes de 14:30 a 15:10 hs. y de
+  15:10 a 15:50 hs.\; martes de 15:10 a 15:50 hs.\; miércoles de 14:30 a 1
+ 5:10 hs. y de 15:10 a 15:50 hs.)\nMatemática · 4 hs. · 5.º año · Tur
+ no tarde · Suplente (lunes de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs.\; 
+ miércoles de 16:00 a 16:40 hs. y de 16:40 a 17:20 hs.)\nMatemática · 4 
+ hs. · 6.º año · Turno tarde · Suplente (lunes de 16:00 a 16:40 hs. y 
+ de 16:40 a 17:20 hs.\; miércoles de 16:00 a 16:40 hs. y de 16:40 a 17:20 
+ hs.)\nhttps://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-4-damian
+ -p-garat-villa-adela-concordia-26/
+LOCATION:Avenida Presidente Perón N.º 3940\, Villa Adela
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-4-damian-p-
+ garat-villa-adela-concordia-26/
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Concurso
