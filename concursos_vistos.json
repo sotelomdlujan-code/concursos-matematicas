@@ -5258,6 +5258,341 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-04\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-17-gral-m-m-de-guemes-concordia-25/": {
+   "titulo": "Escuela Secundaria N.º 17 “Gral. M. M. de Güemes” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "03/11/2026",
+   "visto": "2026-11-03T11:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Orientador Educacional con Orientación Pedagógica",
+     "buscada": false,
+     "hs": 10,
+     "curso": "",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": "09:45",
+     "clases": [
+      "Martes de 14:25 a 17:30 hs.",
+      "Jueves de 13:30 a 16:30 hs."
+     ]
+    },
+    {
+     "materia": "Formación Ética y Ciudadana",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "E",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-08",
+     "hora": "10:00",
+     "clases": [
+      "jueves de 08:35 a 09:45 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-04",
+    "2026-11-08"
+   ],
+   "materias": [],
+   "lugar": "Próspero Bovino 1520, de acuerdo con lo expresado en esta publicación",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-03T10:42:42-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-04\", \"2026-11-08\"], \"i\": [], \"l\": \"Próspero Bovino 1520, de acuerdo con lo expresado en esta publicación\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-30-maria-e-walsh-concordia-13/": {
+   "titulo": "Escuela Secundaria N.º 30 “María E. Walsh” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "03/11/2026",
+   "visto": "2026-11-03T11:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": null,
+     "clases": [
+      "miércoles de 07:40 a 08:45 hs."
+     ]
+    },
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 4,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": null,
+     "clases": [
+      "Miércoles de 08:55 a 10:05 hs.",
+      "Viernes de 07:40 a 08:45 hs."
+     ]
+    },
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 4,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": null,
+     "clases": [
+      "Martes de 08:55 a 10:05 hs.",
+      "Miércoles de 11:30 a 12:25 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-04"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-03T10:51:15-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-04\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-6-jorge-luis-borges-concordia-14/": {
+   "titulo": "Escuela Secundaria N.º 6 “Jorge Luis Borges” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "03/11/2026",
+   "visto": "2026-11-03T11:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": "10:30",
+     "clases": [
+      "martes de 10:00 a 11:10 hs."
+     ]
+    },
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": "10:30",
+     "clases": [
+      "martes de 11:20 a 12:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-04"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-03T10:54:55-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-04\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-24-cabildo-abierto-col-roca-concordia/": {
+   "titulo": "Escuela Secundaria N.º 24 “Cabildo Abierto” Col. Roca– Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "03/11/2026",
+   "visto": "2026-11-03T11:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Geografía Ambiental",
+     "buscada": false,
+     "hs": 2,
+     "curso": "6.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": "17:00",
+     "clases": [
+      "viernes de 20:10 a 20:40 hs. y de 20:45 a 21:15 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-04"
+   ],
+   "materias": [],
+   "lugar": "Ruta Provincial N.º 4, Km 1, Colonia Roca",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-03T11:06:14-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-04\"], \"i\": [], \"l\": \"Ruta Provincial N.º 4, Km 1, Colonia Roca\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-8-don-augusto-niez-concordia-39/": {
+   "titulo": "Escuela Secundaria N.º 8 “Don Augusto Niez” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "03/11/2026",
+   "visto": "2026-11-03T11:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "14:15",
+     "clases": [
+      "lunes de 12:20 a 13:00 hs., martes de 11:00 a 11:40 hs. y jueves de 12:20 a 13:00 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "14:15",
+     "clases": [
+      "lunes de 11:00 a 11:40 hs., martes de 12:10 a 12:50 hs. y jueves de 11:30 a 12:10 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "14:15",
+     "clases": [
+      "lunes de 11:40 a 12:20 hs., martes de 12:50 a 13:30 hs. y jueves de 12:10 a 12:50 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "14:15",
+     "clases": [
+      "lunes de 09:00 a 09:40 hs., martes de 09:40 a 10:20 hs. y jueves de 10:20 a 11:00 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "14:15",
+     "clases": [
+      "lunes de 09:40 a 10:20 hs., martes de 10:00 a 10:40 hs. y jueves de 09:20 a 10:00 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "14:15",
+     "clases": [
+      "lunes de 10:20 a 11:00 hs., martes de 09:20 a 10:00 hs. y jueves de 10:40 a 11:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-05"
+   ],
+   "materias": [],
+   "lugar": "calle De los Viñedos y Alvear",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-03T11:17:56-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-05\"], \"i\": [], \"l\": \"calle De los Viñedos y Alvear\"}"
   }
  }
 }
