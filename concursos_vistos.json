@@ -5176,6 +5176,88 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-04\"], \"i\": [], \"l\": \"calle Hipolito Yrigoyen 505\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/centro-de-formacion-profesional-n-o-2-concordia-6/": {
+   "titulo": "Centro de Formación Profesional N.º 2 – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "03/11/2026",
+   "visto": "2026-11-03T10:34-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Convocatoria a concurso",
+     "buscada": false,
+     "hs": 10,
+     "curso": "",
+     "division": "",
+     "turno": "",
+     "caracter": "",
+     "fecha": "2026-11-04",
+     "hora": "08:30",
+     "clases": [
+      "lunes a viernes de 10:40 a 11:45 hs. (TM)."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-04"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-03T10:11:59-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-04\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-15-d-f-sarmiento-concordia-13/": {
+   "titulo": "Escuela Secundaria N.º 15 “D. F. Sarmiento” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "03/11/2026",
+   "visto": "2026-11-03T10:34-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": "10:00",
+     "clases": [
+      "viernes de 08:50 a 10:10 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-04"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-03T10:30:29-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-04\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
