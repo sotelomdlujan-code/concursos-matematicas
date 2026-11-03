@@ -5854,6 +5854,158 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-04\"], \"i\": [], \"l\": \"Gualeguay 1655 de la ciudad de Concordia\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-10-republica-de-entre-rios-concordia-36/": {
+   "titulo": "Escuela Secundaria N.º 10 “República de Entre Ríos” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "03/11/2026",
+   "visto": "2026-11-03T18:31-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "D",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-11-04",
+     "hora": "18:00",
+     "clases": [
+      "martes de 08:00 a 09:00 hs. y miércoles de 08:00 a 09:00 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "D",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-11-04",
+     "hora": "18:00",
+     "clases": [
+      "martes de 09:00 a 10:00 hs. y viernes de 09:00 a 10:00 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-11-04",
+     "hora": "18:00",
+     "clases": [
+      "martes de 10:00 a 11:00 hs. y viernes de 10:00 a 11:00 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-11-04",
+     "hora": "18:00",
+     "clases": [
+      "miércoles de 09:00 a 10:00 hs. y jueves de 09:00 a 10:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-04"
+   ],
+   "materias": [],
+   "lugar": "calle Dr. Sauré N.º 1125",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-03T17:38:05-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-04\"], \"i\": [], \"l\": \"calle Dr. Sauré N.º 1125\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-tecnica-n-o-1-brigadier-gral-pascual-echague-concordia-28/": {
+   "titulo": "Escuela de Educación Técnica N.º 1 “Brigadier Gral. Pascual Echagüe” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "03/11/2026",
+   "visto": "2026-11-03T18:31-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "4",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": "16:30",
+     "clases": [
+      "jueves de 11:40 a 12:25 hs. y viernes de 08:40 a 10:10 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "6",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": "16:30",
+     "clases": [
+      "jueves de 09:30 a 11:00 hs. y martes de 11:40 a 12:25 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "2",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-04",
+     "hora": "16:30",
+     "clases": [
+      "viernes de 16:20 a 17:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-04"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-03T17:42:12-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-04\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
