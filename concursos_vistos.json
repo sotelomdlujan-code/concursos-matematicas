@@ -3896,7 +3896,9 @@
    "issue": 27,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-03|10:00|dia"
+   ],
    "modificado": "2026-11-02T15:32:46-03:00",
    "avisado": true,
    "parser": 2,
@@ -4411,7 +4413,10 @@
    "issue": 28,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-03|17:10|dia",
+    "2026-11-03|17:25|dia"
+   ],
    "modificado": "2026-11-02T15:58:49-03:00",
    "avisado": true,
    "parser": 2,
