@@ -6267,6 +6267,129 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-05\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-14-alejandro-carbo-concordia-36/": {
+   "titulo": "Escuela Secundaria N.º 14 “Alejandro Carbó” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "04/11/2026",
+   "visto": "2026-11-04T11:53-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir CONVOCATORIA A CONCURSO La Rectoría de la Escuela Secundaria N.º 14 “Alejandro Carbó” convoca a concurso de adjudicación de cargo de Conducción Directiva, en el marco de la Resolución Ministerial N.º 783/12 M.T. y del artículo 138 del Acuerdo Paritario/Reglamento de Concursos, Resolución N.º 2300 y sus modificatorias. El acto concursal se llevará a cabo en la institución el día jueves 5 de noviembre de 2026. 10:30 hs. SECRETARIA/O DE PRIMERA CATEGORÍA 🔴 Cargo de",
+   "detalle": [],
+   "fechas": [
+    "2026-11-05"
+   ],
+   "materias": [],
+   "lugar": "Hipólito Yrigoyen 1352",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-04T11:34:50-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-05\"], \"i\": [], \"l\": \"Hipólito Yrigoyen 1352\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-concordia-28/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "04/11/2026",
+   "visto": "2026-11-04T11:53-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "1",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "08:20",
+     "clases": [
+      "viernes de 10:55 a 12:30 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "1",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "08:20",
+     "clases": [
+      "miércoles de 07:40 a 09:00 hs. y jueves de 11:55 a 12:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-05"
+   ],
+   "materias": [],
+   "lugar": "Ruta 14, Km 244, en el horario indicado y por grupos",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-04T11:28:09-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-05\"], \"i\": [], \"l\": \"Ruta 14, Km 244, en el horario indicado y por grupos\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-17-gral-m-m-de-guemes-concordia-26/": {
+   "titulo": "Escuela Secundaria N.º 17 “Gral. M. M. de Güemes” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "04/11/2026",
+   "visto": "2026-11-04T11:53-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Introducción a la Investigación en Ciencias Naturales",
+     "buscada": false,
+     "hs": 3,
+     "curso": "6.º año",
+     "division": "E",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "09:45",
+     "clases": [
+      "Lunes de 08:35 a 09:10 hs.",
+      "Miércoles de 09:55 a 11:05 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-05"
+   ],
+   "materias": [],
+   "lugar": "Próspero Bovino 1520, de acuerdo con lo expresado en esta publicación",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-04T11:30:39-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-05\"], \"i\": [], \"l\": \"Próspero Bovino 1520, de acuerdo con lo expresado en esta publicación\"}"
   }
  }
 }
