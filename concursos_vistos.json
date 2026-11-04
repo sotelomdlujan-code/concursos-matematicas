@@ -6073,6 +6073,200 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-05\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-tecnica-n-o-1-brigadier-gral-pascual-echague-concordia-30/": {
+   "titulo": "Escuela de Educación Técnica N.º 1 “Brigadier Gral. Pascual Echagüe” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "04/11/2026",
+   "visto": "2026-11-04T08:45-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir SEGUNDO LLAMADO La Rectoría de la Escuela de Educación Técnica N.º 1 “Brigadier Gral. Pascual Echagüe” convoca a Concurso Público Docente para cubrir un cargo de Taller, en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, Resolución N.º 2300/22 C.G.E. y Circular 02/26 J.C. C.G.E. El acto concursal se llevará a cabo el día jueves 5 de noviembre de 2026, en el local escolar, sito en Entre Ríos 106",
+   "detalle": [],
+   "fechas": [
+    "2026-11-05"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-04T08:25:03-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-05\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-27-dr-domingo-santo-liotta-desconcovoca-concurso-concordia/": {
+   "titulo": "Escuela Secundaria N.º 27 “Dr. Domingo Santo Liotta”  DESCONCOVOCA CONCURSO – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "04/11/2026",
+   "visto": "2026-11-04T08:45-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-03",
+     "hora": null,
+     "clases": [
+      "lunes de 07:10 a 08:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-03"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "be4445454a6c0a4b",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": true,
+   "recordados": [],
+   "modificado": "2026-11-04T08:30:20-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-03\"], \"i\": [], \"l\": \"\"}",
+   "cancelacion": true,
+   "cancel_coincide": false
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-19-grala-j-azurduy-concordia-13/": {
+   "titulo": "Escuela Secundaria N.º 19 “Grala. J. Azurduy” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "04/11/2026",
+   "visto": "2026-11-04T08:45-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "14:00",
+     "clases": [
+      "viernes de 09:30 a 10:10 hs., de 10:20 a 11:00 hs. y de 11:00 a 11:40 hs."
+     ]
+    },
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "14:00",
+     "clases": [
+      "viernes de 07:20 a 08:00 hs. y de 08:00 a 08:40 hs."
+     ]
+    },
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "14:00",
+     "clases": [
+      "miércoles de 09:30 a 10:10 hs., de 10:20 a 11:00 hs. y de 11:00 a 11:40 hs."
+     ]
+    },
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "14:00",
+     "clases": [
+      "viernes de 17:40 a 18:20 hs. y de 18:20 a 19:00 hs."
+     ]
+    },
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "14:00",
+     "clases": [
+      "miércoles de 17:40 a 18:20 hs. y de 18:20 a 19:00 hs."
+     ]
+    },
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "14:00",
+     "clases": [
+      "lunes de 13:20 a 14:00 hs. y de 14:00 a 14:40 hs."
+     ]
+    },
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "14:00",
+     "clases": [
+      "jueves de 13:20 a 14:00 hs. y de 14:00 a 14:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-05"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-04T08:41:30-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-05\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
