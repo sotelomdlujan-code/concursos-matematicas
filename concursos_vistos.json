@@ -949,7 +949,7 @@
    "grupo": "b7a5d68846746d5a",
    "issue": null,
    "issue_abierto": false,
-   "vencido": false,
+   "vencido": true,
    "recordados": [],
    "modificado": "2026-11-02T08:54:52-03:00",
    "avisado": false,
@@ -1048,7 +1048,7 @@
    "grupo": "b7a5d68846746d5a",
    "issue": null,
    "issue_abierto": false,
-   "vencido": false,
+   "vencido": true,
    "recordados": [],
    "modificado": "2026-11-02T09:01:20-03:00",
    "avisado": false,
@@ -3894,8 +3894,8 @@
    "ordinal": "primera convocatoria",
    "grupo": "80c78038d683d6e3",
    "issue": 27,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-03|10:00|dia"
    ],
@@ -4411,8 +4411,8 @@
    "ordinal": "",
    "grupo": "81c8e06179bc16ba",
    "issue": 28,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-03|17:10|dia",
     "2026-11-03|17:25|dia"
