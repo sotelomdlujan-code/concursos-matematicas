@@ -6390,6 +6390,226 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-05\"], \"i\": [], \"l\": \"Próspero Bovino 1520, de acuerdo con lo expresado en esta publicación\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-concordia-29/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "04/11/2026",
+   "visto": "2026-11-04T12:44-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Granja",
+     "buscada": false,
+     "hs": 6,
+     "curso": "",
+     "division": "1",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "08:00",
+     "clases": [
+      "martes de 13:30 a 14:50 hs. y jueves de 13:30 a 14:50 hs. y de 15:00 a 16:20 hs."
+     ]
+    },
+    {
+     "materia": "Granja",
+     "buscada": false,
+     "hs": 6,
+     "curso": "",
+     "division": "2",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "08:00",
+     "clases": [
+      "martes de 15:00 a 16:20 hs. y miércoles de 13:30 a 14:50 hs. y de 15:00 a 16:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-05"
+   ],
+   "materias": [],
+   "lugar": "Ruta 14, km 244, en el horario indicado y por grupos",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-04T12:21:48-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-05\"], \"i\": [], \"l\": \"Ruta 14, km 244, en el horario indicado y por grupos\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-11-dr-esteban-zorraquin-concordia-21/": {
+   "titulo": "Escuela Secundaria N.º 11 “Dr. Esteban Zorraquín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "04/11/2026",
+   "visto": "2026-11-04T12:44-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "10:45",
+     "clases": [
+      "lunes de 14:40 a 16:00 hs. y jueves de 14:40 a 15:20 hs."
+     ]
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "10:45",
+     "clases": [
+      "martes de 14:40 a 16:00 hs. y jueves de 15:20 a 16:00 hs."
+     ]
+    },
+    {
+     "materia": "Formación Ética y Ciudadana",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "11:15",
+     "clases": [
+      "jueves de 13:10 a 14:30 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "11:45",
+     "clases": [
+      "miércoles de 07:10 a 08:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-05"
+   ],
+   "materias": [],
+   "lugar": "calle Perú y Facundo Quiroga",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-04T12:34:14-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-05\"], \"i\": [], \"l\": \"calle Perú y Facundo Quiroga\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-20-simon-bolivar-est-grande-concordia-29/": {
+   "titulo": "Escuela Secundaria N.º 20 “Simón Bolívar” Est. Grande – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "04/11/2026",
+   "visto": "2026-11-04T12:44-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "A",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": "11:00",
+     "clases": [
+      "jueves de 20:05 a 21:05 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-05"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-04T12:36:45-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-05\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-57/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "04/11/2026",
+   "visto": "2026-11-04T12:44-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-05",
+     "hora": null,
+     "clases": [
+      "martes de 09:30 a 10:10 hs., miércoles de 07:20 a 08:40 hs. y jueves de 07:20 a 08:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-05"
+   ],
+   "materias": [],
+   "lugar": "el establecimiento escolar, con entrada por calle Urquiza",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-04T12:41:20-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-05\"], \"i\": [], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
   }
  }
 }
