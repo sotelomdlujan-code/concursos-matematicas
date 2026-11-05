@@ -7689,6 +7689,239 @@
    "avisado": true,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-06\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 19:05 a 19:35 hs. y de 19:40 a 20:10 hs.; jueves de 19:40 a 20:10 hs. y de 20:10 a 20:40 hs.\"], \"curso\": \"6.º año\", \"division\": \"A\", \"fecha\": \"2026-11-06\", \"hora\": \"19:30\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"noche\"}], \"l\": \"Ruta Provincial N.º 4, km 1, Colonia Roca\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-60/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "05/11/2026",
+   "visto": "2026-11-05T14:49-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "14:30",
+     "clases": [
+      "martes de 11:00 a 11:40 hs. y de 11:45 a 13:00 hs.; viernes de 08:50 a 10:10 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-06"
+   ],
+   "materias": [],
+   "lugar": "el establecimiento escolar, con entrada por calle Urquiza",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-05T13:58:43-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-61/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "05/11/2026",
+   "visto": "2026-11-05T14:49-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 4,
+     "curso": "",
+     "division": "B",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "15:00",
+     "clases": [
+      "miércoles de 21:20 a 22:20 hs. y jueves de 20:15 a 21:15 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-06"
+   ],
+   "materias": [],
+   "lugar": "el establecimiento escolar, con entrada por calle Urquiza",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-05T14:00:34-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-14-alejandro-carbo-concordia-37/": {
+   "titulo": "Escuela Secundaria N.º 14 “Alejandro Carbó” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "05/11/2026",
+   "visto": "2026-11-05T14:49-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Formación Ética y Ciudadana",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "13:30",
+     "clases": [
+      "miércoles de 11:45 a 12:50 hs."
+     ]
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "14:00",
+     "clases": [
+      "miércoles de 07:20 a 08:00 hs. y viernes de 10:20 a 11:40 hs."
+     ]
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "14:00",
+     "clases": [
+      "lunes de 11:45 a 12:20 hs. y martes de 11:00 a 12:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-06"
+   ],
+   "materias": [],
+   "lugar": "Hipólito Yrigoyen 1352",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-05T14:39:00-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [], \"l\": \"Hipólito Yrigoyen 1352\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-de-adultos-n-o-37-ernesto-che-guevara-concordia-4/": {
+   "titulo": "Escuela Secundaria de Adultos N.º 37 “Ernesto Che Guevara” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "05/11/2026",
+   "visto": "2026-11-05T14:49-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Psicología",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "16:30",
+     "clases": [
+      "lunes de 18:15 a 19:35 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-06"
+   ],
+   "materias": [],
+   "lugar": "calle J. J. Valle y Los Ruiseñores",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-05T14:21:42-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [], \"l\": \"calle J. J. Valle y Los Ruiseñores\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-de-adultos-n-o-37-ernesto-che-guevara-concordia-5/": {
+   "titulo": "Escuela Secundaria de Adultos N.º 37 “Ernesto Che Guevara” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "05/11/2026",
+   "visto": "2026-11-05T14:49-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Comunicación",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "16:40",
+     "clases": [
+      "jueves de 18:15 a 19:35 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-06"
+   ],
+   "materias": [],
+   "lugar": "calle J. J. Valle y Los Ruiseñores",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-05T14:39:29-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [], \"l\": \"calle J. J. Valle y Los Ruiseñores\"}"
   }
  }
 }
