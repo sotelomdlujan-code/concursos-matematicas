@@ -7151,6 +7151,307 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-06\"], \"i\": [], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-21-aurora-del-yerua-concordia-23/": {
+   "titulo": "Escuela Secundaria N.º 21 “Aurora del Yeruá” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "05/11/2026",
+   "visto": "2026-11-05T10:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "07:30",
+     "clases": [
+      "viernes de 08:35 a 09:55 hs."
+     ]
+    },
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 4,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "07:30",
+     "clases": [
+      "martes de 07:10 a 08:30 hs. y viernes de 11:35 a 12:50 hs."
+     ]
+    },
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 4,
+     "curso": "",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "07:30",
+     "clases": [
+      "martes de 11:35 a 12:50 hs. y viernes de 07:10 a 08:30 hs."
+     ]
+    },
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 4,
+     "curso": "",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "07:30",
+     "clases": [
+      "miércoles de 08:35 a 09:55 hs. y viernes de 10:05 a 11:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-06"
+   ],
+   "materias": [],
+   "lugar": "Combate del Yeruá y Supremo Entrerriano",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-05T09:17:52-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [], \"l\": \"Combate del Yeruá y Supremo Entrerriano\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-35-cabo-primero-furriel-jorge-alberto-sendros-concordia-8/": {
+   "titulo": "Escuela Secundaria N.º 35 Cabo Primero Furriel “Jorge Alberto Sendrós” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "05/11/2026",
+   "visto": "2026-11-05T10:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Orientador Educacional con Orientación Psicológica",
+     "buscada": false,
+     "hs": 6,
+     "curso": "",
+     "division": "",
+     "turno": "",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "10:15",
+     "clases": [
+      "Lunes de 10:00 a 12:00 hs.",
+      "Miércoles de 13:00 a 14:15 hs.",
+      "Viernes de 13:00 a 13:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-06"
+   ],
+   "materias": [],
+   "lugar": "calle Bvar. Yuquerí 2085",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-05T09:22:42-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [], \"l\": \"calle Bvar. Yuquerí 2085\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-26-gral-manuel-de-olazabal-pedernal-concordia-10/": {
+   "titulo": "Escuela Secundaria N.º 26 “Gral. Manuel de Olazábal” Pedernal – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "05/11/2026",
+   "visto": "2026-11-05T10:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua Extranjera: Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "09:00",
+     "clases": [
+      "miércoles de 09:20 a 10:00 hs. y de 10:00 a 11:20 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera: Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "09:00",
+     "clases": [
+      "miércoles de 08:45 a 09:20 hs. y de 11:35 a 12:50 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera: Inglés",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "09:10",
+     "clases": [
+      "martes de 18:30 a 19:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-06"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-05T09:52:59-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/llamado-a-concurso-escuela-normal-superior-rep-oriental-del-uruguay-colon/": {
+   "titulo": "Llamado a Concurso – cargo Rector – Escuela Normal Superior “Rep. Oriental del Uruguay” – COLÓN",
+   "fuente": "Concordia",
+   "fecha_pub": "05/11/2026",
+   "visto": "2026-11-05T10:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir La Dirección de Educación Superior convoca al 1º llamado a concurso para cubrir el cargo de Rector de Instituto Superior, STF, para desempeñarse de lunes a viernes en turno completo, hasta el día 24 de noviembre del corriente, en la Escuela Normal Superior “Rep. Oriental del Uruguay”, Departamento Colón, por carpeta de antecedentes y Formulario de Inscripción Resolución Nº 0729/23 CGE, las que serán evaluadas según Resolución Nº 5423/03 CGE, Resolución Nº 0778/1",
+   "detalle": [],
+   "fechas": [
+    "2026-11-24"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-05T10:20:13-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-24\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-primaria-n-52dos-naciones-taller-de-idioma-extranjero-ingles-2/": {
+   "titulo": "Escuela Primaria N° 52“Dos Naciones” – Taller de Idioma Extranjero (Ingles)",
+   "fuente": "Concordia",
+   "fecha_pub": "05/11/2026",
+   "visto": "2026-11-05T10:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Cátedras Idioma Extranjero (Ingles)",
+     "buscada": false,
+     "hs": 12,
+     "curso": "",
+     "division": "",
+     "turno": "",
+     "caracter": "",
+     "fecha": "2026-11-12",
+     "hora": null,
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-05T10:07:53-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-26-gral-manuel-de-olazabal-concordia-3/": {
+   "titulo": "Escuela Secundaria N.º 26 “Gral. Manuel de Olazábal” Pedernal – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "05/11/2026",
+   "visto": "2026-11-05T10:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Taller de Inglés",
+     "buscada": false,
+     "hs": 4,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": null,
+     "clases": [
+      "jueves de 08:45 a 11:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-06"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-05T10:34:26-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
