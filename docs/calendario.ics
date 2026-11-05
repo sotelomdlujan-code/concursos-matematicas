@@ -7,4 +7,29 @@ X-WR-CALNAME:Concursos docentes - CGE
 X-WR-TIMEZONE:America/Argentina/Buenos_Aires
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:5126323f0a6ef6e9a211e302@concursos-cge
+DTSTAMP:20261105T165600Z
+DTSTART:20261106T223000Z
+DTEND:20261106T233000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 24 “Cabildo Abiert
+ o” Cnia Roca– Concordia
+DESCRIPTION:Matemática · 4 hs. · 6.º año “A” · Turno noche · Sup
+ lente (lunes de 19:05 a 19:35 hs. y de 19:40 a 20:10 hs.\; jueves de 19:40
+  a 20:10 hs. y de 20:10 a 20:40 hs.)\nhttps://cge.entrerios.gov.ar/2026/11
+ /escuela-secundaria-n-o-24-cabildo-abierto-cnia-roca-concordia-20/
+LOCATION:Ruta Provincial N.º 4\, km 1\, Colonia Roca
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-24-cabildo-
+ abierto-cnia-roca-concordia-20/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
