@@ -8375,8 +8375,7 @@
      "fecha": "2026-11-06",
      "hora": "14:00",
      "clases": [
-      "Lunes de 21:00 a 22:10 hs.",
-      "Miércoles de 18:30 a 22:10 hs."
+      "Lunes : 21:00 a 22:10 hs y Miércoles: 18:30 a 19:40 hs"
      ]
     }
    ],
@@ -8392,8 +8391,7 @@
      "fecha": "2026-11-06",
      "hora": "14:00",
      "clases": [
-      "Lunes de 21:00 a 22:10 hs.",
-      "Miércoles de 18:30 a 22:10 hs."
+      "Lunes : 21:00 a 22:10 hs y Miércoles: 18:30 a 19:40 hs"
      ]
     }
    ],
@@ -8414,10 +8412,10 @@
    "recordados": [
     "2026-11-06|14:00|dia"
    ],
-   "modificado": "2026-11-05T16:59:22-03:00",
+   "modificado": "2026-11-06T08:22:16-03:00",
    "avisado": true,
    "parser": 2,
-   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [{\"buscada\": true, \"caracter\": \"interino\", \"clases\": [\"Lunes de 21:00 a 22:10 hs.\", \"Miércoles de 18:30 a 22:10 hs.\"], \"curso\": \"2.º año\", \"division\": \"B\", \"fecha\": \"2026-11-06\", \"hora\": \"14:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"noche\"}], \"l\": \"\"}"
+   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [{\"buscada\": true, \"caracter\": \"interino\", \"clases\": [\"Lunes : 21:00 a 22:10 hs y Miércoles: 18:30 a 19:40 hs\"], \"curso\": \"2.º año\", \"division\": \"B\", \"fecha\": \"2026-11-06\", \"hora\": \"14:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"noche\"}], \"l\": \"\"}"
   },
   "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-25-gral-san-martin-concordia-13/": {
    "titulo": "Escuela Secundaria N.º 25 “Gral. San Martín” – Concordia",
