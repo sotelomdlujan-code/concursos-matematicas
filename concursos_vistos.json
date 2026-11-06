@@ -7684,7 +7684,9 @@
    "issue": 29,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-06|19:30|dia"
+   ],
    "modificado": "2026-11-05T13:38:09-03:00",
    "avisado": true,
    "parser": 2,
@@ -8409,7 +8411,9 @@
    "issue": 30,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-06|14:00|dia"
+   ],
    "modificado": "2026-11-05T16:59:22-03:00",
    "avisado": true,
    "parser": 2,
@@ -8704,7 +8708,9 @@
    "issue": 31,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-06|18:00|dia"
+   ],
    "modificado": "2026-11-05T19:50:51-03:00",
    "avisado": true,
    "parser": 2,
