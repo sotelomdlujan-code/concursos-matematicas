@@ -9001,6 +9001,74 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-10\"], \"i\": [], \"l\": \"Ruta Nacional 14, km 244, Estancia Grande\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-tecnica-n-o-1-brigadier-gral-pascual-echague-concordia-32/": {
+   "titulo": "Escuela de Educación Técnica N.º 1 “Brigadier Gral. Pascual Echagüe” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T10:38-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir TERCER LLAMADO A CONCURSO La Rectoría de la Escuela de Educación Técnica N.º 1 “Brigadier Gral. Pascual Echagüe” convoca a concurso público docente para cubrir un cargo de taller, en el marco del Acuerdo Paritario/Reglamento de Concursos: Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, Resolución N.º 2300/22 C.G.E. y Circular N.º 2/26 J.C. C.G.E. El acto concursal se llevará a cabo el día martes 10 de noviembre de 2026, en el local escolar sito en E",
+   "detalle": [],
+   "fechas": [
+    "2026-11-10"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "tercer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T09:14:55-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-10\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-concordia-31/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T10:38-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Producción de Bovinos para Carne",
+     "buscada": false,
+     "hs": 8,
+     "curso": "6.º año",
+     "division": "1",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "09:20",
+     "clases": [
+      "Miércoles de 13:30 a 14:50 hs. y de 15:00 a 16:20 hs.",
+      "Jueves de 13:30 a 14:50 hs. y de 15:00 a 16:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-10"
+   ],
+   "materias": [],
+   "lugar": "Ruta Nacional 14, km 244, en el horario indicado y por grupos",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T10:21:21-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-10\"], \"i\": [], \"l\": \"Ruta Nacional 14, km 244, en el horario indicado y por grupos\"}"
   }
  }
 }
