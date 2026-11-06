@@ -8713,6 +8713,294 @@
    "avisado": true,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-06\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 13:20 a 14:40 hs. y viernes de 14:00 a 16:10 hs.\"], \"curso\": \"\", \"division\": \"B\", \"fecha\": \"2026-11-06\", \"hora\": \"18:00\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}], \"l\": \"calle De los Viñedos y Alvear\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-23-republica-oriental-del-uruguay-desconvoca-concurso/": {
+   "titulo": "Escuela Secundaria N.º 23 “República Oriental del Uruguay” DESCONVOCA CONCURSO – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "05/11/2026",
+   "visto": "2026-11-06T09:15-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "14:30",
+     "clases": [
+      "miércoles de 14:10 a 15:10 hs. y viernes de 16:30 a 17:00 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "14:30",
+     "clases": [
+      "lunes de 14:10 a 15:10 hs. y jueves de 16:30 a 17:00 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "14:30",
+     "clases": [
+      "miércoles de 13:00 a 14:00 hs. y de 16:30 a 17:00 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "14:30",
+     "clases": [
+      "lunes de 15:20 a 15:50 hs. y jueves de 15:20 a 16:20 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "14:30",
+     "clases": [
+      "jueves de 14:10 a 15:10 hs. y miércoles de 15:50 a 16:20 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 2,
+     "curso": "6.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "14:30",
+     "clases": [
+      "viernes de 14:10 a 15:10 hs."
+     ]
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "15:15",
+     "clases": [
+      "martes de 14:10 a 15:10 hs. y viernes de 13:00 a 14:00 hs."
+     ]
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-06",
+     "hora": "15:15",
+     "clases": [
+      "martes de 13:00 a 14:00 hs. y miércoles de 15:20 a 15:50 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-06"
+   ],
+   "materias": [],
+   "lugar": "Pellegrini 136",
+   "ordinal": "",
+   "grupo": "66ee8ec81f9ed673",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T08:33:34-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [], \"l\": \"Pellegrini 136\"}",
+   "cancelacion": true,
+   "cancel_coincide": false
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-15-d-f-sarmiento-concordia-14/": {
+   "titulo": "Escuela Secundaria N.º 15 “D. F. Sarmiento” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T09:15-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "09:00",
+     "clases": [
+      "Miércoles de 08:00 a 08:40 hs. y de 08:50 a 10:10 hs.",
+      "Viernes de 08:00 a 08:40 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "09:00",
+     "clases": [
+      "Miércoles de 10:20 a 11:40 hs.",
+      "Jueves de 11:45 a 12:25 hs.",
+      "Viernes de 10:20 a 11:00 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "09:00",
+     "clases": [
+      "Miércoles de 08:00 a 08:40 hs. y de 08:50 a 10:10 hs.",
+      "Viernes de 08:00 a 08:40 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "09:00",
+     "clases": [
+      "Miércoles de 10:20 a 11:40 hs.",
+      "Jueves de 11:45 a 12:25 hs.",
+      "Viernes de 10:20 a 11:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-10"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "3940e0cc8fd8ca7d",
+   "issue": 32,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T08:29:37-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-10\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Miércoles de 08:00 a 08:40 hs. y de 08:50 a 10:10 hs.\", \"Viernes de 08:00 a 08:40 hs.\"], \"curso\": \"5.º año\", \"division\": \"B\", \"fecha\": \"2026-11-10\", \"hora\": \"09:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Miércoles de 10:20 a 11:40 hs.\", \"Jueves de 11:45 a 12:25 hs.\", \"Viernes de 10:20 a 11:00 hs.\"], \"curso\": \"5.º año\", \"division\": \"B\", \"fecha\": \"2026-11-10\", \"hora\": \"09:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"mañana\"}], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-concordia-30/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T09:15-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua Extranjera: Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "1",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "08:45",
+     "clases": [
+      "lunes de 09:50 a 10:30 hs. y jueves de 11:20 a 12:30 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera: Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "2",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "08:45",
+     "clases": [
+      "lunes de 10:40 a 11:20 hs. y jueves de 09:10 a 10:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-10"
+   ],
+   "materias": [],
+   "lugar": "Ruta Nacional 14, km 244, Estancia Grande",
+   "ordinal": "cuarto llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T08:56:36-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-10\"], \"i\": [], \"l\": \"Ruta Nacional 14, km 244, Estancia Grande\"}"
   }
  }
 }
