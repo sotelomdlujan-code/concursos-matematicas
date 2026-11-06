@@ -8667,7 +8667,7 @@
      "hs": 5,
      "curso": "",
      "division": "B",
-     "turno": "mañana",
+     "turno": "tarde",
      "caracter": "suplente",
      "fecha": "2026-11-06",
      "hora": "18:00",
@@ -8683,7 +8683,7 @@
      "hs": 5,
      "curso": "",
      "division": "B",
-     "turno": "mañana",
+     "turno": "tarde",
      "caracter": "suplente",
      "fecha": "2026-11-06",
      "hora": "18:00",
@@ -8709,10 +8709,10 @@
    "recordados": [
     "2026-11-06|18:00|dia"
    ],
-   "modificado": "2026-11-05T19:50:51-03:00",
+   "modificado": "2026-11-06T18:21:55-03:00",
    "avisado": true,
    "parser": 2,
-   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 13:20 a 14:40 hs. y viernes de 14:00 a 16:10 hs.\"], \"curso\": \"\", \"division\": \"B\", \"fecha\": \"2026-11-06\", \"hora\": \"18:00\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}], \"l\": \"calle De los Viñedos y Alvear\"}"
+   "firma": "{\"f\": [\"2026-11-06\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 13:20 a 14:40 hs. y viernes de 14:00 a 16:10 hs.\"], \"curso\": \"\", \"division\": \"B\", \"fecha\": \"2026-11-06\", \"hora\": \"18:00\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}], \"l\": \"calle De los Viñedos y Alvear\"}"
   },
   "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-23-republica-oriental-del-uruguay-desconvoca-concurso/": {
    "titulo": "Escuela Secundaria N.º 23 “República Oriental del Uruguay” DESCONVOCA CONCURSO – Concordia",
@@ -9289,6 +9289,544 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-10\"], \"i\": [], \"l\": \"Ruta Nacional 14, km 244, en el horario indicado y por grupos\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-35-cabo-primero-furriel-jorge-alberto-sendros-concordia-9/": {
+   "titulo": "Escuela Secundaria N.º 35 “Cabo Primero Furriel Jorge Alberto Sendrós” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T18:29-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Tutor Docente Domiciliario Hospitalario",
+     "buscada": false,
+     "hs": 4,
+     "curso": "",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "08:50",
+     "clases": []
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T17:33:47-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-26-gral-manuel-de-olazabal-pedernal-concordia-11/": {
+   "titulo": "Escuela Secundaria N.º 26 “Gral. Manuel de Olazábal” Pedernal– Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T18:29-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua Extranjera: Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "08:00",
+     "clases": [
+      "miércoles de 09:20 a 10:00 hs. y de 10:00 a 11:20 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera: Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "08:00",
+     "clases": [
+      "miércoles de 08:45 a 09:20 hs. y de 11:35 a 12:50 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera: Inglés",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "08:10",
+     "clases": [
+      "martes de 18:30 a 19:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-10"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T17:39:36-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-10\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-26-gral-manuel-de-olazabal-pedernal-concordia-12/": {
+   "titulo": "Escuela Secundaria N.º 26 “Gral. Manuel de Olazábal” Pedernal– Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T18:29-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Taller de Inglés",
+     "buscada": false,
+     "hs": 4,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "10:00",
+     "clases": [
+      "jueves de 08:45 a 11:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [],
+   "lugar": "calle Andesita s/n, Pedernal",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T17:43:11-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"calle Andesita s/n, Pedernal\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-concordia-34/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T18:29-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Tecnología de la Información y la Comunicación",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "1",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "10:20",
+     "clases": [
+      "lunes de 07:40 a 09:00 hs. y miércoles de 11:20 a 12:30 hs."
+     ]
+    },
+    {
+     "materia": "Tecnología de la Información y la Comunicación",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "2",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "10:20",
+     "clases": [
+      "lunes de 10:45 a 12"
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-10"
+   ],
+   "materias": [],
+   "lugar": "Ruta Nacional 14, km 244, en el horario indicado y por grupos",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T17:52:13-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-10\"], \"i\": [], \"l\": \"Ruta Nacional 14, km 244, en el horario indicado y por grupos\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-35-cabo-primero-furriel-jorge-alberto-sendros-concordia-10/": {
+   "titulo": "Escuela Secundaria N.º 35 “Cabo Primero Furriel Jorge Alberto Sendrós” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T18:29-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "10:00",
+     "clases": [
+      "viernes de 08:35 a 09:10 hs., de 09:10 a 09:45 hs. y de 09:55 a 10:30 hs."
+     ]
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "10:00",
+     "clases": [
+      "jueves de 10:30 a 11:05 hs., de 11:10 a 11:45 hs. y de 11:45 a 12:20 hs."
+     ]
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "10:00",
+     "clases": [
+      "miércoles de 09:10 a 09:45 hs., de 09:55 a 10:30 hs. y de 10:30 a 11:05 hs."
+     ]
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 3,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "10:00",
+     "clases": [
+      "viernes de 13:05 a 13:40 hs., de 13:40 a 14:15 hs. y de 14:25 a 15:00 hs."
+     ]
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "10:00",
+     "clases": [
+      "viernes de 07:15 a 07:50 hs. y de 07:50 a 08:25 hs."
+     ]
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 3,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "10:00",
+     "clases": [
+      "martes de 14:25 a 15:00 hs., de 15:00 a 15:35 hs. y de 15:45 a 16:20 hs."
+     ]
+    },
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "10:00",
+     "clases": [
+      "lunes de 15:45 a 16:20 hs., de 16:20 a 16:55 hs., de 17:00 a 17:35 hs. y de 17:35 a 18:05 hs."
+     ]
+    },
+    {
+     "materia": "Formación Ética y Ciudadana",
+     "buscada": false,
+     "hs": 2,
+     "curso": "6.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "10:30",
+     "clases": [
+      "martes de 16:20 a 16:55 hs. y de 17:00 a 17:35 hs."
+     ]
+    },
+    {
+     "materia": "Metodología de la Investigación",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "10:45",
+     "clases": [
+      "lunes de 13:05 a 13:40 hs., de 13:40 a 14:15 hs., de 14:25 a 15:00 hs. y de 15:00 a 15:35 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-10"
+   ],
+   "materias": [],
+   "lugar": "Bvard",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T17:57:03-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-10\"], \"i\": [], \"l\": \"Bvard\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-15-d-f-sarmiento-desconvoca-concurso-concordia-15/": {
+   "titulo": "Escuela Secundaria N° 15 “D. F. Sarmiento” DESCONVOCA CONCURSO – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T18:29-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir SE DESCONVOCA CONCURSO La Rectoría de la Escuela Secundaria N° 15 “D. F. Sarmiento” CUE 300-1860, sito en Sarmiento 524, desconvoca a cobertura de cargos iniciales y/u horas cátedras, en el marco del Acuerdo Paritario/Reglamento de Concursos: Resolución Ministerial N° 783/12 M. T y sus Modificatorias: Resolución 2300/22 C.G.E, art.136. El mismo se llevará a cabo en la Institución el día martes 10 noviembre de 2026 en los horarios que se detallan en la publicació",
+   "detalle": [],
+   "fechas": [
+    "2026-11-20"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "Sarmiento 524, desconvoca a cobertura de cargos iniciales y/u horas cátedras, en el marco del Acuerdo Paritario/Reglamento de Concursos: Resolución Ministerial N° 783/12 M",
+   "ordinal": "",
+   "grupo": "bdb6fb859d7723b3",
+   "issue": 35,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T17:59:21-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-20\"], \"i\": [], \"l\": \"Sarmiento 524, desconvoca a cobertura de cargos iniciales y/u horas cátedras, en el marco del Acuerdo Paritario/Reglamento de Concursos: Resolución Ministerial N° 783/12 M\"}",
+   "cancelacion": true,
+   "cancel_coincide": true
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-27-dr-domingo-santo-liotta-concordia-25/": {
+   "titulo": "Escuela Secundaria N.º 27 “Dr. Domingo Santo Liotta” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T18:29-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "14:40",
+     "clases": [
+      "viernes de 07:10 a 08:30 hs."
+     ]
+    },
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "D",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "14:40",
+     "clases": [
+      "viernes de 08:40 a 10:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [],
+   "lugar": "Gualeguay 1655 de la ciudad de Concordia",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T18:06:07-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"Gualeguay 1655 de la ciudad de Concordia\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-14-alejandro-carbo-concordia-39/": {
+   "titulo": "Escuela Secundaria N.º 14 “Alejandro Carbó” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T18:29-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "16:00",
+     "clases": [
+      "jueves de 08:50 a 10:10 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-10"
+   ],
+   "materias": [],
+   "lugar": "Hipólito Yrigoyen 1352",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T18:09:31-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-10\"], \"i\": [], \"l\": \"Hipólito Yrigoyen 1352\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-36-juana-paula-manso-concordia-29/": {
+   "titulo": "Escuela Secundaria N.º 36 “Juana Paula Manso” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T18:29-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "15:30",
+     "clases": [
+      "viernes de 13:45 a 15:05 hs."
+     ]
+    },
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 4,
+     "curso": "",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "15:30",
+     "clases": [
+      "miércoles de 13:45 a 15:05 hs. y viernes de 16:25 a 17:45 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-10"
+   ],
+   "materias": [],
+   "lugar": "República de Brasil 875",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T18:27:07-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-10\"], \"i\": [], \"l\": \"República de Brasil 875\"}"
   }
  }
 }
