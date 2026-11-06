@@ -9069,6 +9069,226 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-10\"], \"i\": [], \"l\": \"Ruta Nacional 14, km 244, en el horario indicado y por grupos\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-9-intendente-g-yoya-concordia-29/": {
+   "titulo": "Escuela Secundaria N.º 9 “Intendente G. Yoya” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T13:40-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "",
+     "division": "A",
+     "turno": "vespertino",
+     "caracter": "interino",
+     "fecha": "2026-11-10",
+     "hora": "12:00",
+     "clases": [
+      "Lunes de 16:50 a 17:30 hs.",
+      "Martes de 20:40 a 21:55 hs.",
+      "Viernes de 20:40 a 21:55 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "vespertino",
+     "caracter": "interino",
+     "fecha": "2026-11-10",
+     "hora": "12:00",
+     "clases": [
+      "Martes de 18:45 a 19:55 hs.",
+      "Jueves de 16:20 a 17:30 hs. y de 17:30 a 18:40 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "",
+     "division": "A",
+     "turno": "vespertino",
+     "caracter": "interino",
+     "fecha": "2026-11-10",
+     "hora": "12:00",
+     "clases": [
+      "Lunes de 16:50 a 17:30 hs.",
+      "Martes de 20:40 a 21:55 hs.",
+      "Viernes de 20:40 a 21:55 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "vespertino",
+     "caracter": "interino",
+     "fecha": "2026-11-10",
+     "hora": "12:00",
+     "clases": [
+      "Martes de 18:45 a 19:55 hs.",
+      "Jueves de 16:20 a 17:30 hs. y de 17:30 a 18:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-10"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "Lamadrid 1314",
+   "ordinal": "",
+   "grupo": "2b3b4e8f3d43637a",
+   "issue": 33,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T12:37:24-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-10\"], \"i\": [{\"buscada\": true, \"caracter\": \"interino\", \"clases\": [\"Lunes de 16:50 a 17:30 hs.\", \"Martes de 20:40 a 21:55 hs.\", \"Viernes de 20:40 a 21:55 hs.\"], \"curso\": \"\", \"division\": \"A\", \"fecha\": \"2026-11-10\", \"hora\": \"12:00\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"vespertino\"}, {\"buscada\": true, \"caracter\": \"interino\", \"clases\": [\"Martes de 18:45 a 19:55 hs.\", \"Jueves de 16:20 a 17:30 hs. y de 17:30 a 18:40 hs.\"], \"curso\": \"4.º año\", \"division\": \"A\", \"fecha\": \"2026-11-10\", \"hora\": \"12:00\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"vespertino\"}], \"l\": \"Lamadrid 1314\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-concordia-32/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T13:40-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir PRIMER LLAMADO A CONCURSO La Rectoría de la Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” convoca a concurso para la cobertura de un cargo, en el marco del Acuerdo Paritario/Reglamento de Concursos: Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., artículo 136.º. El acto concursal se llevará a cabo el día martes 10 de noviembre de 2026. 10:00 hs. INSTRUCTOR AGROTÉCNICO 🔴 1 cargo de Instructor Agrotécnico co",
+   "detalle": [],
+   "fechas": [
+    "2026-11-10"
+   ],
+   "materias": [],
+   "lugar": "Ruta Nacional 14, km 244, en el horario indicado y por grupos",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T12:42:14-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-10\"], \"i\": [], \"l\": \"Ruta Nacional 14, km 244, en el horario indicado y por grupos\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-24-cabildo-abiertocnia-roca-concordia-4/": {
+   "titulo": "Escuela Secundaria N.º 24 “Cabildo Abierto”Cnia. Roca – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T13:40-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "18:00",
+     "clases": [
+      "Lunes de 17:30 a 18:00 hs. y de 18:00 a 18:30 hs.",
+      "Jueves de 17:30 a 18:00 hs. y de 18:00 a 18:30 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "18:00",
+     "clases": [
+      "Lunes de 17:30 a 18:00 hs. y de 18:00 a 18:30 hs.",
+      "Jueves de 17:30 a 18:00 hs. y de 18:00 a 18:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-10"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "Ruta Provincial N.º 4, km 1, Colonia Roca",
+   "ordinal": "",
+   "grupo": "ccd3866e2aa547b5",
+   "issue": 34,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T12:47:11-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-10\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Lunes de 17:30 a 18:00 hs. y de 18:00 a 18:30 hs.\", \"Jueves de 17:30 a 18:00 hs. y de 18:00 a 18:30 hs.\"], \"curso\": \"5.º año\", \"division\": \"A\", \"fecha\": \"2026-11-10\", \"hora\": \"18:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"noche\"}], \"l\": \"Ruta Provincial N.º 4, km 1, Colonia Roca\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-concordia-33/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "06/11/2026",
+   "visto": "2026-11-06T13:40-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Tecnología de Control",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "1",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-10",
+     "hora": "10:45",
+     "clases": [
+      "Lunes de 09:10 a 10:30 hs.",
+      "Jueves de 09:10 a 10:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-10"
+   ],
+   "materias": [],
+   "lugar": "Ruta Nacional 14, km 244, en el horario indicado y por grupos",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-06T12:55:40-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-10\"], \"i\": [], \"l\": \"Ruta Nacional 14, km 244, en el horario indicado y por grupos\"}"
   }
  }
 }
