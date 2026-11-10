@@ -10283,7 +10283,7 @@
      "curso": "",
      "division": "",
      "turno": "noche",
-     "caracter": "suplente",
+     "caracter": "",
      "fecha": "2026-11-11",
      "hora": "20:00",
      "clases": [
@@ -10299,7 +10299,7 @@
      "curso": "",
      "division": "",
      "turno": "noche",
-     "caracter": "suplente",
+     "caracter": "",
      "fecha": "2026-11-11",
      "hora": "18:45",
      "clases": [
@@ -10313,7 +10313,7 @@
      "curso": "",
      "division": "",
      "turno": "noche",
-     "caracter": "suplente",
+     "caracter": "",
      "fecha": "2026-11-11",
      "hora": "19:00",
      "clases": [
@@ -10327,7 +10327,7 @@
      "curso": "",
      "division": "",
      "turno": "noche",
-     "caracter": "suplente",
+     "caracter": "",
      "fecha": "2026-11-11",
      "hora": "19:15",
      "clases": [
@@ -10341,7 +10341,7 @@
      "curso": "",
      "division": "",
      "turno": "noche",
-     "caracter": "suplente",
+     "caracter": "",
      "fecha": "2026-11-11",
      "hora": "19:30",
      "clases": [
@@ -10355,7 +10355,7 @@
      "curso": "",
      "division": "",
      "turno": "noche",
-     "caracter": "suplente",
+     "caracter": "",
      "fecha": "2026-11-11",
      "hora": "19:45",
      "clases": [
@@ -10369,7 +10369,7 @@
      "curso": "",
      "division": "",
      "turno": "noche",
-     "caracter": "suplente",
+     "caracter": "",
      "fecha": "2026-11-11",
      "hora": "20:00",
      "clases": [
@@ -10392,10 +10392,10 @@
    "issue_abierto": true,
    "vencido": false,
    "recordados": [],
-   "modificado": "2026-11-10T08:12:45-03:00",
+   "modificado": "2026-11-10T13:47:10-03:00",
    "avisado": true,
    "parser": 2,
-   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 18:00 a 19:10 hs. y de 19:15 a 19:50 hs.\"], \"curso\": \"\", \"division\": \"\", \"fecha\": \"2026-11-11\", \"hora\": \"20:00\", \"hs\": 3, \"materia\": \"Matemática\", \"turno\": \"noche\"}], \"l\": \"Entre Ríos 1015, de la ciudad de Concordia\"}"
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [{\"buscada\": true, \"caracter\": \"\", \"clases\": [\"lunes de 18:00 a 19:10 hs. y de 19:15 a 19:50 hs.\"], \"curso\": \"\", \"division\": \"\", \"fecha\": \"2026-11-11\", \"hora\": \"20:00\", \"hs\": 3, \"materia\": \"Matemática\", \"turno\": \"noche\"}], \"l\": \"Entre Ríos 1015, de la ciudad de Concordia\"}"
   },
   "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-15-d-f-sarmiento-concordia-15/": {
    "titulo": "Escuela Secundaria N.º 15 “D. F. Sarmiento” – Concordia",
@@ -10890,6 +10890,143 @@
    "avisado": true,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-11\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Lunes de 14:35 a 15:45 hs.\", \"Lunes de 17:10 a 18:20 hs.\", \"Jueves de 13:50 a 14:25 hs.\"], \"curso\": \"\", \"division\": \"B\", \"fecha\": \"2026-11-11\", \"hora\": \"10:00\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}], \"l\": \"Próspero Bovino 1520\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-concordia-35/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T14:38-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Tecnología de Control",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "1",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "08:45",
+     "clases": [
+      "lunes de 09:10 a 10:30 hs. y jueves de 09:10 a 10:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [],
+   "lugar": "Ruta Nacional N.º 14, km 244, en el horario indicado y por grupos",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T13:38:07-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"Ruta Nacional N.º 14, km 244, en el horario indicado y por grupos\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-concordia-36/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T14:38-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Producción de Bovinos para Carne",
+     "buscada": false,
+     "hs": 8,
+     "curso": "6.º año",
+     "division": "1",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "09:00",
+     "clases": [
+      "miércoles de 13:30 a 14:50 hs. y de 15:00 a 16:20 hs.; jueves de 13:30 a 14:50 hs. y de 15:00 a 16:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [],
+   "lugar": "Ruta Nacional N.º 14, km 244, en el horario indicado y por grupos",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T13:41:47-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"Ruta Nacional N.º 14, km 244, en el horario indicado y por grupos\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-estancia-grande/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Estancia Grande",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T14:38-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua Extranjera: Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "1",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "09:20",
+     "clases": [
+      "lunes de 09:50 a 10:30 hs. y jueves de 11:20 a 12:30 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera: Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "2",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "09:20",
+     "clases": [
+      "lunes de 10:40 a 11:20 hs. y jueves de 09:10 a 10:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [],
+   "lugar": "Ruta Nacional N.º 14, km 244, Estancia Grande",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T13:45:20-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"Ruta Nacional N.º 14, km 244, Estancia Grande\"}"
   }
  }
 }
