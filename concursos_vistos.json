@@ -11251,6 +11251,240 @@
    "avisado": true,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-11\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 10:50 a 12:25 hs. y miércoles de 10:20 a 11:20 hs.\"], \"curso\": \"2.º año\", \"division\": \"A\", \"fecha\": \"2026-11-11\", \"hora\": \"17:00\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}], \"l\": \"Isthilart y República del Paraguay, de la ciudad de Concordia\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-24-cabildo-abierto-colonia-roca-concordia-3/": {
+   "titulo": "Escuela Secundaria N.º 24 “Cabildo Abierto”  Colonia Roca – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T20:05-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "14:00",
+     "clases": [
+      "lunes de 15:35 a 17:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [],
+   "lugar": "Ruta Provincial N.º 4, km 1, Colonia Roca",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T19:24:24-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"Ruta Provincial N.º 4, km 1, Colonia Roca\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-24-cabildo-abierto-colonia-roca-concordia-4/": {
+   "titulo": "Escuela Secundaria N.º 24 “Cabildo Abierto”  Colonia Roca –  Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T20:05-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua Extranjera: Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "C",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "14:30",
+     "clases": [
+      "martes de 17:30 a 18:00 hs., de 18:00 a 18:30 hs. y de 18:35 a 19:05 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [],
+   "lugar": "Ruta Provincial N.º 4, km 1, Colonia Roca",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T19:24:59-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"Ruta Provincial N.º 4, km 1, Colonia Roca\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-24-cabildo-abierto-colonia-roca-concordia-5/": {
+   "titulo": "Escuela Secundaria N.º 24 “Cabildo Abierto”  Colonia Roca – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T20:05-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "15:30",
+     "clases": [
+      "viernes de 20:10 a 20:40 hs., de 20:45 a 21:15 hs. y de 21:15 a 21:45 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [],
+   "lugar": "Ruta Provincial N.º 4, km 1, Colonia Roca",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T19:27:34-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"Ruta Provincial N.º 4, km 1, Colonia Roca\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-2-jose-gervasio-artigas-concordia-33/": {
+   "titulo": "Escuela Secundaria N.º 2 “José Gervasio Artigas” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T20:05-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "18:15",
+     "clases": [
+      "miércoles de 21:30 a 22:05 hs. y de 22:05 a 22:40 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "18:30",
+     "clases": [
+      "lunes de 16:10 a 16:50 hs. y de 16:50 a 17:25 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "18:30",
+     "clases": [
+      "lunes de 14:50 a 15:25 hs. y de 15:25 a 16:00 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "18:30",
+     "clases": [
+      "lunes de 13:30 a 14:05 hs. y de 14:05 a 14:40 hs.; martes de 14:50 a 15:25 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "18:45",
+     "clases": [
+      "miércoles de 20:15 a 20:50 hs. y de 20:50 a 21:25 hs."
+     ]
+    },
+    {
+     "materia": "Sociología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "6.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "19:00",
+     "clases": [
+      "martes de 13:30 a 14:05 hs., de 14:05 a 14:40 hs. y de 15:25 a 16:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [],
+   "lugar": "calle Antártida Argentina 174 (La Bianca)",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T19:34:17-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"calle Antártida Argentina 174 (La Bianca)\"}"
   }
  }
 }
