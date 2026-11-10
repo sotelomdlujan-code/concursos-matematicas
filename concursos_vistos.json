@@ -10268,6 +10268,375 @@
    "avisado": true,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-11\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 07:20 a 08:40 hs.; martes de 08:50 a 10:00 hs. y de 11:25 a 12:00 hs.\"], \"curso\": \"2.º año\", \"division\": \"A\", \"fecha\": \"2026-11-11\", \"hora\": \"08:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 10:10 a 10:45 hs.; martes de 10:10 a 11:20 hs. y miércoles de 11:25 a 12:35 hs.\"], \"curso\": \"2.º año\", \"division\": \"B\", \"fecha\": \"2026-11-11\", \"hora\": \"08:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 08:50 a 10:00 hs. y de 10:45 a 11:20 hs.; martes de 07:30 a 08:40 hs.\"], \"curso\": \"\", \"division\": \"A\", \"fecha\": \"2026-11-11\", \"hora\": \"08:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"miércoles de 13:45 a 14:55 hs.; jueves de 15:05 a 16:15 hs. y de 16:20 a 16:55 hs.\"], \"curso\": \"4.º año\", \"division\": \"A\", \"fecha\": \"2026-11-11\", \"hora\": \"08:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"miércoles de 15:05 a 16:15 hs. y jueves de 12:30 a 13:40 hs.\"], \"curso\": \"5.º año\", \"division\": \"A\", \"fecha\": \"2026-11-11\", \"hora\": \"08:30\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"tarde\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"miércoles de 12:30 a 13:40 hs. y jueves de 13:45 a 14:55 hs.\"], \"curso\": \"6.º año\", \"division\": \"A\", \"fecha\": \"2026-11-11\", \"hora\": \"08:30\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"tarde\"}], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-de-jovenes-y-adultos-n-o-42-m-j-belgrano-concordia/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 42 “M. J. Belgrano” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T09:12-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 3,
+     "curso": "",
+     "division": "",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "20:00",
+     "clases": [
+      "lunes de 18:00 a 19:10 hs. y de 19:15 a 19:50 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Tutorías del Grupo Disciplinar de Ciencias Naturales (Biolog",
+     "buscada": false,
+     "hs": 4,
+     "curso": "",
+     "division": "",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "18:45",
+     "clases": [
+      "miércoles de 18:00 a 19:10 hs. y de 19:15 a 20:25 hs."
+     ]
+    },
+    {
+     "materia": "Tutorías del Grupo Disciplinar de Ciencias Económicas (Econo",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "19:00",
+     "clases": [
+      "martes de 18:00 a 19:10 hs. y de 19:15 a 19:50 hs."
+     ]
+    },
+    {
+     "materia": "Tutorías del Grupo Disciplinar de Lengua y Literatura (Lengu",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "19:15",
+     "clases": [
+      "martes de 19:50 a 20:25 hs. y de 20:30 a 21:05 hs."
+     ]
+    },
+    {
+     "materia": "Tutorías del Grupo Disciplinar de Ciencias Sociales (Geograf",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "19:30",
+     "clases": [
+      "jueves de 18:00 a 19:10 hs. y de 19:15 a 19:50 hs."
+     ]
+    },
+    {
+     "materia": "Tutorías del Grupo Disciplinar de Lengua Extranjera (Inglés)",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "19:45",
+     "clases": [
+      "jueves de 19:50 a 20:25 hs. y de 20:30 a 21:05 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 3,
+     "curso": "",
+     "division": "",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "20:00",
+     "clases": [
+      "lunes de 18:00 a 19:10 hs. y de 19:15 a 19:50 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "Entre Ríos 1015, de la ciudad de Concordia",
+   "ordinal": "primera convocatoria",
+   "grupo": "e826c1d73b64df2a",
+   "issue": 37,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T08:12:45-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 18:00 a 19:10 hs. y de 19:15 a 19:50 hs.\"], \"curso\": \"\", \"division\": \"\", \"fecha\": \"2026-11-11\", \"hora\": \"20:00\", \"hs\": 3, \"materia\": \"Matemática\", \"turno\": \"noche\"}], \"l\": \"Entre Ríos 1015, de la ciudad de Concordia\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-15-d-f-sarmiento-concordia-15/": {
+   "titulo": "Escuela Secundaria N.º 15 “D. F. Sarmiento” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T09:12-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "09:00",
+     "clases": [
+      "miércoles de 08:00 a 08:40 hs. y de 08:50 a 10:10 hs.; viernes de 08:00 a 08:40 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "09:00",
+     "clases": [
+      "miércoles de 10:20 a 11:40 hs.; jueves de 11:45 a 12:25 hs.; viernes de 10:20 a 11:00 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "09:00",
+     "clases": [
+      "miércoles de 08:00 a 08:40 hs. y de 08:50 a 10:10 hs.; viernes de 08:00 a 08:40 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "09:00",
+     "clases": [
+      "miércoles de 10:20 a 11:40 hs.; jueves de 11:45 a 12:25 hs.; viernes de 10:20 a 11:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "3940e0cc8fd8ca7d",
+   "issue": 32,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T08:03:55-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"miércoles de 08:00 a 08:40 hs. y de 08:50 a 10:10 hs.; viernes de 08:00 a 08:40 hs.\"], \"curso\": \"5.º año\", \"division\": \"B\", \"fecha\": \"2026-11-11\", \"hora\": \"09:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"miércoles de 10:20 a 11:40 hs.; jueves de 11:45 a 12:25 hs.; viernes de 10:20 a 11:00 hs.\"], \"curso\": \"5.º año\", \"division\": \"B\", \"fecha\": \"2026-11-11\", \"hora\": \"09:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"mañana\"}], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-11-dr-esteban-zorraquin-concordia-24/": {
+   "titulo": "Escuela Secundaria N.º 11 “Dr. Esteban Zorraquín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T09:12-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": null,
+     "clases": [
+      "miércoles de 08:40 a 10:00 hs.; jueves de 08:40 a 10:00 hs. y de 10:10 a 10:50 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": null,
+     "clases": [
+      "miércoles de 07:10 a 08:30 hs.; jueves de 07:10 a 08:30 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": null,
+     "clases": [
+      "miércoles de 08:40 a 10:00 hs.; jueves de 08:40 a 10:00 hs. y de 10:10 a 10:50 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": null,
+     "clases": [
+      "miércoles de 07:10 a 08:30 hs.; jueves de 07:10 a 08:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "calles Perú y Facundo Quiroga",
+   "ordinal": "primera convocatoria",
+   "grupo": "98ad3fdf93add46d",
+   "issue": 38,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T08:10:21-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"miércoles de 08:40 a 10:00 hs.; jueves de 08:40 a 10:00 hs. y de 10:10 a 10:50 hs.\"], \"curso\": \"4.º año\", \"division\": \"B\", \"fecha\": \"2026-11-11\", \"hora\": null, \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"miércoles de 07:10 a 08:30 hs.; jueves de 07:10 a 08:30 hs.\"], \"curso\": \"5.º año\", \"division\": \"B\", \"fecha\": \"2026-11-11\", \"hora\": null, \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"mañana\"}], \"l\": \"calles Perú y Facundo Quiroga\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/llamado-a-concurso-instituto-superior-en-disciplinas-industriales-y-ciencias-agropecuarias-concordia-131/": {
+   "titulo": "Llamado a Concurso – Instituto Superior en Disciplinas Industriales y Ciencias Agropecuarias- CONCORDIA",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T09:12-03:00",
+   "relevante": true,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Sin especificar",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "",
+     "caracter": "",
+     "fecha": null,
+     "hora": null,
+     "clases": [
+      "Martes de18:40a 19:45horas."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [
+    "Profesor de/en:Física u Homólogos. Ciencias Física y Matemática. Física y Matemática. Física y Cosmografía. Física y Química. Matemática y Física. Matemática, física y Cosmografía. Matemática, Física y Química."
+   ],
+   "fechas": [],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "calle Lamadrid N° 945 en el horario de 18 a 20:30 horas",
+   "ordinal": "primer llamado",
+   "grupo": "66d6b0764ebcfaad",
+   "issue": 39,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T08:23:08-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [], \"i\": [], \"l\": \"calle Lamadrid N° 945 en el horario de 18 a 20:30 horas\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/concurso-n97-de-nivel-inicial-primario-y-sus-modalidades-11-11-2026-dpto-concordia/": {
+   "titulo": "Concurso N°97 de Nivel Inicial, Primario y sus modalidades – 11/11/2026 – Dpto. Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T09:12-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir La Dirección Departamental de Escuelas Concordia convoca al Concurso N°97 de Suplencias de Nivel Inicial, Primario y sus modalidades. Consideraciones para tener en cuenta: 📌Los cargos de ascenso se cubrirán según Res N°0691/21 CGE y sus modificatorias. 📌Los cargos de Director de 4° Categoría se cubrirán según Res. N°1000/13 CGE. 📌Para los cargos iniciales al empezar cada instancia se procederá con el listado oficial desde el último orden de mérito que adjudicó e",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [],
+   "lugar": "calle Hipolito Yrigoyen 505",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T08:37:34-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"calle Hipolito Yrigoyen 505\"}"
   }
  }
 }

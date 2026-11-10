@@ -119,4 +119,76 @@ DESCRIPTION:Concurso
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:82061dc56a9081ab48261388@concursos-cge
+DTSTAMP:20261110T121200Z
+DTSTART:20261111T230000Z
+DTEND:20261112T000000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria de Jóvenes y Adultos N.
+ º 42 “M. J. Belgrano” – Concordia
+DESCRIPTION:Matemática · 3 hs. · Turno noche · Suplente (lunes de 18:00
+  a 19:10 hs. y de 19:15 a 19:50 hs.)\nhttps://cge.entrerios.gov.ar/2026/11
+ /escuela-secundaria-de-jovenes-y-adultos-n-o-42-m-j-belgrano-concordia/
+LOCATION:Entre Ríos 1015\, de la ciudad de Concordia
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-de-jovenes-y-ad
+ ultos-n-o-42-m-j-belgrano-concordia/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1787e7bde577a0373fbd5f23@concursos-cge
+DTSTAMP:20261110T121200Z
+DTSTART:20261111T120000Z
+DTEND:20261111T130000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 15 “D. F. Sarmient
+ o” – Concordia
+DESCRIPTION:Matemática · 4 hs. · 5.º año “B” · Turno mañana · S
+ uplente (miércoles de 08:00 a 08:40 hs. y de 08:50 a 10:10 hs.\; viernes 
+ de 08:00 a 08:40 hs.)\nMatemática · 4 hs. · 5.º año “B” · Turno 
+ mañana · Suplente (miércoles de 10:20 a 11:40 hs.\; jueves de 11:45 a 1
+ 2:25 hs.\; viernes de 10:20 a 11:00 hs.)\nhttps://cge.entrerios.gov.ar/202
+ 6/11/escuela-secundaria-n-o-15-d-f-sarmiento-concordia-15/
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-15-d-f-sarm
+ iento-concordia-15/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff62cd87074d5f33577d114b@concursos-cge
+DTSTAMP:20261110T121200Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 11 “Dr. Esteban Zo
+ rraquín” – Concordia
+DESCRIPTION:Matemática · 5 hs. · 4.º año “B” · Turno mañana · S
+ uplente (miércoles de 08:40 a 10:00 hs.\; jueves de 08:40 a 10:00 hs. y d
+ e 10:10 a 10:50 hs.)\nMatemática · 4 hs. · 5.º año “B” · Turno m
+ añana · Suplente (miércoles de 07:10 a 08:30 hs.\; jueves de 07:10 a 08
+ :30 hs.)\nhttps://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-11-d
+ r-esteban-zorraquin-concordia-24/
+LOCATION:calles Perú y Facundo Quiroga
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-11-dr-esteb
+ an-zorraquin-concordia-24/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:PT7H
+END:VALARM
+END:VEVENT
 END:VCALENDAR
