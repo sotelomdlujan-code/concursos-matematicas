@@ -216,4 +216,29 @@ DESCRIPTION:Concurso
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:c91ec28b4d57c1952f13fe21@concursos-cge
+DTSTAMP:20261110T203600Z
+DTSTART:20261111T200000Z
+DTEND:20261111T210000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 7 “Gdor. Gral. Ló
+ pez Jordán” – Concordia
+DESCRIPTION:Matemática · 5 hs. · 2.º año “A” · Turno mañana · S
+ uplente (martes de 10:50 a 12:25 hs. y miércoles de 10:20 a 11:20 hs.)\nh
+ ttps://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-7-gdor-gral-lop
+ ez-jordan-concordia-9/
+LOCATION:Isthilart y República del Paraguay\, de la ciudad de Concordia
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-7-gdor-gral
+ -lopez-jordan-concordia-9/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
