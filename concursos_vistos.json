@@ -10828,6 +10828,68 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"Ruta Provincial N.º 22, km 2 y vías del Ferrocarril, Estación Yuquerí\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-17-gral-m-m-de-guemes-concordia-27/": {
+   "titulo": "Escuela Secundaria N.º 17 “Gral. M. M. de Güemes” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T13:39-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "10:00",
+     "clases": [
+      "Lunes de 14:35 a 15:45 hs.",
+      "Lunes de 17:10 a 18:20 hs.",
+      "Jueves de 13:50 a 14:25 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "10:00",
+     "clases": [
+      "Lunes de 14:35 a 15:45 hs.",
+      "Lunes de 17:10 a 18:20 hs.",
+      "Jueves de 13:50 a 14:25 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "Próspero Bovino 1520",
+   "ordinal": "primera convocatoria",
+   "grupo": "defc553a6db0d41d",
+   "issue": 40,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T13:20:10-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Lunes de 14:35 a 15:45 hs.\", \"Lunes de 17:10 a 18:20 hs.\", \"Jueves de 13:50 a 14:25 hs.\"], \"curso\": \"\", \"division\": \"B\", \"fecha\": \"2026-11-11\", \"hora\": \"10:00\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}], \"l\": \"Próspero Bovino 1520\"}"
   }
  }
 }

@@ -191,4 +191,29 @@ DESCRIPTION:Concurso
 TRIGGER:PT7H
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:750bd316e75b4dc23077153b@concursos-cge
+DTSTAMP:20261110T163900Z
+DTSTART:20261111T130000Z
+DTEND:20261111T140000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 17 “Gral. M. M. de
+  Güemes” – Concordia
+DESCRIPTION:Matemática · 5 hs. · “B” · Turno tarde · Suplente (Lun
+ es de 14:35 a 15:45 hs. | Lunes de 17:10 a 18:20 hs. | Jueves de 13:50 a 1
+ 4:25 hs.)\nhttps://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-17-
+ gral-m-m-de-guemes-concordia-27/
+LOCATION:Próspero Bovino 1520
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-17-gral-m-m
+ -de-guemes-concordia-27/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
