@@ -10637,6 +10637,197 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"calle Hipolito Yrigoyen 505\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-62/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T11:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "10:00",
+     "clases": [
+      "martes de 11:00 a 11:40 hs. y de 11:45 a 13:00 hs.; viernes de 08:50 a 10:10 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [],
+   "lugar": "el establecimiento escolar, con entrada por calle Urquiza",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T11:01:50-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-de-jovenes-y-adultos-n-o-29-prof-erich-poenitz-concordia-18/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 29 “Prof. Erich Poenitz” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T11:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir CONVOCATORIA A CONCURSO La Rectoría de la Escuela Secundaria de Jóvenes y Adultos N.º 29 “Prof. Erich Poenitz”, sita en calle C. Veiga N.º 631, convoca de forma presencial a concurso de adjudicación de un cargo, con toma de posesión inmediata, en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M.T. y sus modificatorias vigentes, Resolución N.º 2300/22 C.G.E., Art. 136. El acto concursal se llevará a cabo el día miércoles",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T10:56:22-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-de-jovenes-y-adultos-n-o-29-prof-erich-poenitz-concordia-19/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 29 “Prof. Erich Poenitz” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T11:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "14:30",
+     "clases": [
+      "viernes de 19:45 a 20:55 hs. y de 21:00 a 21:35 hs."
+     ]
+    },
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "B",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "14:30",
+     "clases": [
+      "viernes de 18:30 a 19:40 hs. y de 21:35 a 22:10 hs."
+     ]
+    },
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "14:30",
+     "clases": [
+      "miércoles de 13:30 a 14:40 hs. y jueves de 14:05 a 14:40 hs."
+     ]
+    },
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "D",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "14:30",
+     "clases": [
+      "jueves de 14:45 a 15:55 hs. y de 16:00 a 16:35 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T10:56:53-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-31-benito-juarez-est-yuqueri-concordia-10/": {
+   "titulo": "Escuela Secundaria N.º 31 “Benito Juárez”  Est. Yuquerí – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T11:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Artes Visuales",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": "10:30",
+     "clases": [
+      "jueves de 10:20 a 11:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [],
+   "lugar": "Ruta Provincial N.º 22, km 2 y vías del Ferrocarril, Estación Yuquerí",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T11:05:09-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"Ruta Provincial N.º 22, km 2 y vías del Ferrocarril, Estación Yuquerí\"}"
   }
  }
 }
