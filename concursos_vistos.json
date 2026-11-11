@@ -13746,6 +13746,88 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"el establecimiento escolar, con ingreso por calle Urquiza\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-10-republica-de-entre-rios-concordia-37/": {
+   "titulo": "Escuela Secundaria N.º 10 “República de Entre Ríos” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "11/11/2026",
+   "visto": "2026-11-11T20:16-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Prácticas educativas",
+     "buscada": false,
+     "hs": 6,
+     "curso": "6.º año",
+     "division": "A",
+     "turno": "rotativo",
+     "caracter": "suplente",
+     "fecha": "2026-11-11",
+     "hora": null,
+     "clases": [
+      "miércoles de 7:20 a 8:40 hs. y 4 hs. extráulicas."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-11"
+   ],
+   "materias": [],
+   "lugar": "calles Dr",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-11T19:33:39-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"calles Dr\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-10-republica-de-entre-rios-concordia-38/": {
+   "titulo": "Escuela Secundaria N.º 10 “República de Entre Ríos” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "11/11/2026",
+   "visto": "2026-11-11T20:16-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 4,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "19:00",
+     "clases": [
+      "martes de 21:05 a 22:20 hs. y viernes de 18:40 a 19:50 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [],
+   "lugar": "calle Dr. Sauré N.º 1125",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-11T19:35:32-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"calle Dr. Sauré N.º 1125\"}"
   }
  }
 }
