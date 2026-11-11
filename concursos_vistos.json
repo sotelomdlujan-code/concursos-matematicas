@@ -10263,7 +10263,9 @@
    "issue": 36,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-11|08:30|dia"
+   ],
    "modificado": "2026-11-10T07:50:32-03:00",
    "avisado": true,
    "parser": 2,
@@ -10391,7 +10393,9 @@
    "issue": 37,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-11|20:00|dia"
+   ],
    "modificado": "2026-11-10T13:47:10-03:00",
    "avisado": true,
    "parser": 2,
@@ -10477,7 +10481,9 @@
    "issue": 32,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-11|09:00|dia"
+   ],
    "modificado": "2026-11-10T08:03:55-03:00",
    "avisado": true,
    "parser": 2,
@@ -10563,7 +10569,9 @@
    "issue": 38,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-11|None|dia"
+   ],
    "modificado": "2026-11-10T08:10:21-03:00",
    "avisado": true,
    "parser": 2,
@@ -10885,7 +10893,9 @@
    "issue": 40,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-11|10:00|dia"
+   ],
    "modificado": "2026-11-10T13:20:10-03:00",
    "avisado": true,
    "parser": 2,
@@ -11246,7 +11256,9 @@
    "issue": 41,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-11|17:00|dia"
+   ],
    "modificado": "2026-11-10T17:23:01-03:00",
    "avisado": true,
    "parser": 2,
