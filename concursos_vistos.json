@@ -11596,6 +11596,58 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-11\"], \"i\": [], \"l\": \"Entre Ríos 1015, de la ciudad de Concordia\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-19-generala-juana-azurduy/": {
+   "titulo": "Escuela Secundaria N.º 19 “Generala Juana Azurduy” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T23:38-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir Supervisión de Educación Secundaria – Zona II – Concordia PRIMERA CONVOCATORIA A CONCURSO La Supervisión de Educación Secundaria – Zona II, del Departamento Concordia, convoca a concurso en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., artículo 136, requisitos según artículo 124 y Circular 02/2026 J.C., para cubrir: El acto de adjudicación se llevará a cabo el d",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T22:42:22-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-agrotecnica-n-o-24-general-san-martin/": {
+   "titulo": "EEscuela de Educación Agrotécnica N.º 24 “Gral. San Martín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "10/11/2026",
+   "visto": "2026-11-10T23:38-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir Supervisión de Educación Secundaria – Zona II – Concordia PRIMERA CONVOCATORIA A CONCURSO La Supervisión de Educación Secundaria – Zona II, del Departamento Concordia, convoca a concurso en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., artículo 136, requisitos según artículo 124 y Circular 02/2026 J.C., para cubrir: El acto de adjudicación se llevará a cabo el d",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-10T22:46:18-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
