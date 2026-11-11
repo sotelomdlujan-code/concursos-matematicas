@@ -8940,7 +8940,7 @@
    "grupo": "3940e0cc8fd8ca7d",
    "issue": 32,
    "issue_abierto": true,
-   "vencido": false,
+   "vencido": true,
    "recordados": [
     "2026-11-10|09:00|antes",
     "2026-11-10|09:00|dia"
@@ -9157,8 +9157,8 @@
    "ordinal": "",
    "grupo": "2b3b4e8f3d43637a",
    "issue": 33,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-10|12:00|antes",
     "2026-11-10|12:00|dia"
@@ -9246,8 +9246,8 @@
    "ordinal": "",
    "grupo": "ccd3866e2aa547b5",
    "issue": 34,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-10|18:00|antes",
     "2026-11-10|18:00|dia"
