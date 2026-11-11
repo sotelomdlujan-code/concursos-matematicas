@@ -11660,6 +11660,148 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-14-alejandro-carbo-concordia-41/": {
+   "titulo": "Escuela Secundaria N.º 14 “Alejandro Carbó” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "11/11/2026",
+   "visto": "2026-11-11T08:21-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "10:00",
+     "clases": [
+      "lunes de 10:20 a 11:40 hs.; martes de 10:20 a 11:00 hs. y de 11:45 a 13:05 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "10:00",
+     "clases": [
+      "lunes de 11:45 a 13:05 hs.; martes de 11:00 a 11:40 hs. y miércoles de 08:50 a 10:10 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "10:00",
+     "clases": [
+      "lunes de 07:20 a 08:40 hs.; martes de 08:50 a 10:10 hs. y viernes de 08:00 a 08:40 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "10:00",
+     "clases": [
+      "lunes de 08:50 a 10:10 hs.; jueves de 08:50 a 10:10 hs. y viernes de 07:20 a 08:00 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "10:00",
+     "clases": [
+      "lunes de 10:20 a 11:40 hs.; martes de 10:20 a 11:00 hs. y de 11:45 a 13:05 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "10:00",
+     "clases": [
+      "lunes de 11:45 a 13:05 hs.; martes de 11:00 a 11:40 hs. y miércoles de 08:50 a 10:10 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "10:00",
+     "clases": [
+      "lunes de 07:20 a 08:40 hs.; martes de 08:50 a 10:10 hs. y viernes de 08:00 a 08:40 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "10:00",
+     "clases": [
+      "lunes de 08:50 a 10:10 hs.; jueves de 08:50 a 10:10 hs. y viernes de 07:20 a 08:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "Hipólito Yrigoyen 1352",
+   "ordinal": "primera convocatoria",
+   "grupo": "46a496b3de39ddca",
+   "issue": 42,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-11T07:30:20-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 10:20 a 11:40 hs.; martes de 10:20 a 11:00 hs. y de 11:45 a 13:05 hs.\"], \"curso\": \"2.º año\", \"division\": \"\", \"fecha\": \"2026-11-12\", \"hora\": \"10:00\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 11:45 a 13:05 hs.; martes de 11:00 a 11:40 hs. y miércoles de 08:50 a 10:10 hs.\"], \"curso\": \"\", \"division\": \"\", \"fecha\": \"2026-11-12\", \"hora\": \"10:00\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 07:20 a 08:40 hs.; martes de 08:50 a 10:10 hs. y viernes de 08:00 a 08:40 hs.\"], \"curso\": \"\", \"division\": \"\", \"fecha\": \"2026-11-12\", \"hora\": \"10:00\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 08:50 a 10:10 hs.; jueves de 08:50 a 10:10 hs. y viernes de 07:20 a 08:00 hs.\"], \"curso\": \"\", \"division\": \"\", \"fecha\": \"2026-11-12\", \"hora\": \"10:00\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}], \"l\": \"Hipólito Yrigoyen 1352\"}"
   }
  }
 }

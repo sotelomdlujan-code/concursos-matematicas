@@ -163,4 +163,35 @@ DESCRIPTION:Concurso
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:4c3dcb1c3b27f5f5734c540f@concursos-cge
+DTSTAMP:20261111T112100Z
+DTSTART:20261112T130000Z
+DTEND:20261112T140000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 14 “Alejandro Carb
+ ó” – Concordia
+DESCRIPTION:Matemática · 5 hs. · 2.º año · Turno mañana · Suplente 
+ (lunes de 10:20 a 11:40 hs.\; martes de 10:20 a 11:00 hs. y de 11:45 a 13:
+ 05 hs.)\nMatemática · 5 hs. · Turno mañana · Suplente (lunes de 11:45
+  a 13:05 hs.\; martes de 11:00 a 11:40 hs. y miércoles de 08:50 a 10:10 h
+ s.)\nMatemática · 5 hs. · Turno mañana · Suplente (lunes de 07:20 a 0
+ 8:40 hs.\; martes de 08:50 a 10:10 hs. y viernes de 08:00 a 08:40 hs.)\nMa
+ temática · 5 hs. · Turno mañana · Suplente (lunes de 08:50 a 10:10 hs
+ .\; jueves de 08:50 a 10:10 hs. y viernes de 07:20 a 08:00 hs.)\nhttps://c
+ ge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-14-alejandro-carbo-conc
+ ordia-41/
+LOCATION:Hipólito Yrigoyen 1352
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-14-alejandr
+ o-carbo-concordia-41/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
