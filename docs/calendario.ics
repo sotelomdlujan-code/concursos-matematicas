@@ -194,4 +194,41 @@ DESCRIPTION:Concurso
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:c47db669aae79eed58b1363d@concursos-cge
+DTSTAMP:20261111T144400Z
+DTSTART:20261112T153000Z
+DTEND:20261112T163000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 25 “Gral. San Mart
+ ín” – Concordia
+DESCRIPTION:Matemática · 5 hs. · “D” · Turno mañana · Suplente (l
+ unes de 10:20 a 11:40 hs.\; martes de 08:50 a 10:10 hs. y viernes de 08:00
+  a 08:40 hs.)\nMatemática · 5 hs. · 4.º año “D” · Turno mañana 
+ · Suplente (lunes de 09:30 a 10:10 hs.\; martes de 07:20 a 08:40 hs. y vi
+ ernes de 08:50 a 10:10 hs.)\nMatemática · 5 hs. · 4.º año “A” · 
+ Turno mañana · Suplente (lunes de 07:20 a 08:40 hs. y de 08:50 a 09:30 h
+ s.\; jueves de 07:20 a 08:40 hs.)\nMatemática · 5 hs. · 2.º año “C
+ ” · Turno tarde · Suplente (martes de 17:45 a 18:25 hs.\; miércoles d
+ e 14:50 a 16:10 hs. y jueves de 16:20 a 17:40 hs.)\nMatemática · 5 hs. 
+ · 2.º año “D” · Turno tarde · Suplente (jueves de 14:50 a 16:10 h
+ s.\; viernes de 16:20 a 17:40 hs. y martes de 18:25 a 17:05 hs.)\nMatemát
+ ica · 5 hs. · “A” · Turno tarde · Suplente (jueves de 13:20 a 14:0
+ 0 hs.\; viernes de 14:50 a 16:10 hs. y de 17:45 a 18:25 hs.)\nMatemática 
+ · 5 hs. · “B” · Turno tarde · Suplente (martes de 16:20 a 17:40 hs
+ .\; miércoles de 13:20 a 14:40 hs. y jueves de 17:45 a 18:25 hs.)\nhttps:
+ //cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-25-gral-san-martin-c
+ oncordia-15/
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-25-gral-san
+ -martin-concordia-15/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
