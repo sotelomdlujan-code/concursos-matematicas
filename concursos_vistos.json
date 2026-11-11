@@ -12055,7 +12055,7 @@
      "fecha": "2026-11-12",
      "hora": "12:30",
      "clases": [
-      "jueves de 14:50 a 16:10 hs.; viernes de 16:20 a 17:40 hs. y martes de 18:25 a 17:05 hs."
+      "Jueves de 14,50 a 16,10hs – Viernes de 16,20 a 17,00hs – Martes de 18,25 a 19,05hs"
      ]
     },
     {
@@ -12069,7 +12069,7 @@
      "fecha": "2026-11-12",
      "hora": "12:30",
      "clases": [
-      "jueves de 13:20 a 14:00 hs.; viernes de 14:50 a 16:10 hs. y de 17:45 a 18:25 hs."
+      "Jueves de 13:20 a 14:40hs – viernes de 14:50 a 16:10hs – Viernes de 17:45 a 18:25hs."
      ]
     },
     {
@@ -12155,7 +12155,7 @@
      "fecha": "2026-11-12",
      "hora": "12:30",
      "clases": [
-      "jueves de 14:50 a 16:10 hs.; viernes de 16:20 a 17:40 hs. y martes de 18:25 a 17:05 hs."
+      "Jueves de 14,50 a 16,10hs – Viernes de 16,20 a 17,00hs – Martes de 18,25 a 19,05hs"
      ]
     },
     {
@@ -12169,7 +12169,7 @@
      "fecha": "2026-11-12",
      "hora": "12:30",
      "clases": [
-      "jueves de 13:20 a 14:00 hs.; viernes de 14:50 a 16:10 hs. y de 17:45 a 18:25 hs."
+      "Jueves de 13:20 a 14:40hs – viernes de 14:50 a 16:10hs – Viernes de 17:45 a 18:25hs."
      ]
     },
     {
@@ -12202,10 +12202,10 @@
    "issue_abierto": true,
    "vencido": false,
    "recordados": [],
-   "modificado": "2026-11-11T11:10:25-03:00",
+   "modificado": "2026-11-11T13:06:37-03:00",
    "avisado": true,
    "parser": 2,
-   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 10:20 a 11:40 hs.; martes de 08:50 a 10:10 hs. y viernes de 08:00 a 08:40 hs.\"], \"curso\": \"\", \"division\": \"D\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 09:30 a 10:10 hs.; martes de 07:20 a 08:40 hs. y viernes de 08:50 a 10:10 hs.\"], \"curso\": \"4.º año\", \"division\": \"D\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 07:20 a 08:40 hs. y de 08:50 a 09:30 hs.; jueves de 07:20 a 08:40 hs.\"], \"curso\": \"4.º año\", \"division\": \"A\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 17:45 a 18:25 hs.; miércoles de 14:50 a 16:10 hs. y jueves de 16:20 a 17:40 hs.\"], \"curso\": \"2.º año\", \"division\": \"C\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"jueves de 14:50 a 16:10 hs.; viernes de 16:20 a 17:40 hs. y martes de 18:25 a 17:05 hs.\"], \"curso\": \"2.º año\", \"division\": \"D\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"jueves de 13:20 a 14:00 hs.; viernes de 14:50 a 16:10 hs. y de 17:45 a 18:25 hs.\"], \"curso\": \"\", \"division\": \"A\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 16:20 a 17:40 hs.; miércoles de 13:20 a 14:40 hs. y jueves de 17:45 a 18:25 hs.\"], \"curso\": \"\", \"division\": \"B\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}], \"l\": \"\"}"
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 10:20 a 11:40 hs.; martes de 08:50 a 10:10 hs. y viernes de 08:00 a 08:40 hs.\"], \"curso\": \"\", \"division\": \"D\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 09:30 a 10:10 hs.; martes de 07:20 a 08:40 hs. y viernes de 08:50 a 10:10 hs.\"], \"curso\": \"4.º año\", \"division\": \"D\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"lunes de 07:20 a 08:40 hs. y de 08:50 a 09:30 hs.; jueves de 07:20 a 08:40 hs.\"], \"curso\": \"4.º año\", \"division\": \"A\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 17:45 a 18:25 hs.; miércoles de 14:50 a 16:10 hs. y jueves de 16:20 a 17:40 hs.\"], \"curso\": \"2.º año\", \"division\": \"C\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Jueves de 14,50 a 16,10hs – Viernes de 16,20 a 17,00hs – Martes de 18,25 a 19,05hs\"], \"curso\": \"2.º año\", \"division\": \"D\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Jueves de 13:20 a 14:40hs – viernes de 14:50 a 16:10hs – Viernes de 17:45 a 18:25hs.\"], \"curso\": \"\", \"division\": \"A\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 16:20 a 17:40 hs.; miércoles de 13:20 a 14:40 hs. y jueves de 17:45 a 18:25 hs.\"], \"curso\": \"\", \"division\": \"B\", \"fecha\": \"2026-11-12\", \"hora\": \"12:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}], \"l\": \"\"}"
   },
   "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-25-gral-san-martin-concordia-16/": {
    "titulo": "Escuela Secundaria N.º 25 “Gral. San Martín” – Concordia",
@@ -12537,6 +12537,230 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"Ruta Provincial N.º 4, km 1, Colonia Roca\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-35-cabo-primero-furriel-jorge-alberto-sendros-concordia-11/": {
+   "titulo": "Escuela Secundaria N.º 35 “Cabo 1° Furriel Jorge A. Sendros” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "11/11/2026",
+   "visto": "2026-11-11T13:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Literatura Argentina",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "11:00",
+     "clases": [
+      "Miércoles: de 13:05 a 13:40 hs. y de 13:40 a 14:15 hs.",
+      "Viernes: de 13:05 a 13:40 hs. y de 13:40 a 14:15 hs."
+     ]
+    },
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "11:30",
+     "clases": [
+      "Miércoles: de 16:20 a 16:55 hs., de 17:00 a 17:55 hs. y de 17:35 a 18:05 hs.",
+      "Viernes: de 17:00 a 17:55 hs. y de 17:35 a 18:05 hs."
+     ]
+    },
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "11:30",
+     "clases": [
+      "Lunes: de 07:15 a 07:50 hs. y de 07:50 a 08:25 hs.",
+      "Martes: horario a confirmar.",
+      "Jueves: de 07:50 a 08:25 hs."
+     ]
+    },
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "11:30",
+     "clases": [
+      "Miércoles: de 14:25 a 15:00 hs., de 15:00 a 15:35 hs. y de 15:45 a 16:20 hs.",
+      "Viernes: de 15:00 a 15:35 hs. y de 15:45 a 16:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [],
+   "lugar": "Boulevard Yuquerí 2085, de acuerdo con lo expresado en esta publicación",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-11T12:50:44-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"Boulevard Yuquerí 2085, de acuerdo con lo expresado en esta publicación\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-35-cabo-1-furriel-jorge-a-sendros-concordia-5/": {
+   "titulo": "Escuela Secundaria N.º 35 “Cabo 1° Furriel Jorge A. Sendros” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "11/11/2026",
+   "visto": "2026-11-11T13:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Geografía Ambiental",
+     "buscada": false,
+     "hs": 2,
+     "curso": "6.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "10:30",
+     "clases": [
+      "jueves de 13:05 a 13:40 hs. y de 13:40 a 14:15 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [],
+   "lugar": "calle Boulevard Yuquerí 2085",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-11T12:50:50-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"calle Boulevard Yuquerí 2085\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-9-intendente-g-yoya-concordia-30/": {
+   "titulo": "Escuela Secundaria N.º 9 “Intendente G. Yoya” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "11/11/2026",
+   "visto": "2026-11-11T13:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir PRIMERA CONVOCATORIA A CONCURSO La Rectoría de la Escuela Secundaria N.º 9 “Intendente G. Yoya” convoca a concurso, en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, artículo 136 de la Resolución N.º 2300/22 C.G.E., Resolución N.º 3735/25 C.G.E. y Circular 2/26 J.C., para cubrir las siguientes horas cátedra: LENGUA Y LITERATURA El acto concursal se llevará a cabo el día viernes 13 de noviembre",
+   "detalle": [],
+   "fechas": [
+    "2026-11-13"
+   ],
+   "materias": [],
+   "lugar": "Lamadrid 1314",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-11T12:57:59-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-13\"], \"i\": [], \"l\": \"Lamadrid 1314\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-18-velez-sarsfield-concordia-30/": {
+   "titulo": "Escuela Secundaria N.º 18 “Vélez Sarsfield” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "11/11/2026",
+   "visto": "2026-11-11T13:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Tecnología de la Información y la Comunicación (TIC)",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "17:00",
+     "clases": [
+      "jueves de 11:45 a 13:05 hs."
+     ]
+    },
+    {
+     "materia": "Tecnología de la Información y la Comunicación (TIC)",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "17:00",
+     "clases": [
+      "lunes de 17:45 a 18:25 hs. y martes de 17:45 a 18:25 hs."
+     ]
+    },
+    {
+     "materia": "Tecnología de la Información y la Comunicación (TIC)",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "17:00",
+     "clases": [
+      "miércoles de 11:45 a 13:05 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [],
+   "lugar": "calle P. del Castillo N.º 690. Los aspirantes deberán presentarse en el lugar y horario indicado con Credencial de Puntaje oficial vigente, DNI y, de corresponder",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-11T13:02:06-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"calle P. del Castillo N.º 690. Los aspirantes deberán presentarse en el lugar y horario indicado con Credencial de Puntaje oficial vigente, DNI y, de corresponder\"}"
   }
  }
 }
