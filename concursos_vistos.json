@@ -8939,7 +8939,7 @@
    "ordinal": "",
    "grupo": "3940e0cc8fd8ca7d",
    "issue": 32,
-   "issue_abierto": true,
+   "issue_abierto": false,
    "vencido": true,
    "recordados": [
     "2026-11-10|09:00|antes",
@@ -10261,8 +10261,8 @@
    "ordinal": "primera convocatoria",
    "grupo": "2ee5ed2f43062ac9",
    "issue": 36,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-11|08:30|dia"
    ],
@@ -10392,7 +10392,7 @@
    "grupo": "e826c1d73b64df2a",
    "issue": 37,
    "issue_abierto": true,
-   "vencido": false,
+   "vencido": true,
    "recordados": [
     "2026-11-11|20:00|dia"
    ],
@@ -10479,8 +10479,8 @@
    "ordinal": "",
    "grupo": "3940e0cc8fd8ca7d",
    "issue": 32,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-11|09:00|dia"
    ],
@@ -10567,8 +10567,8 @@
    "ordinal": "primera convocatoria",
    "grupo": "98ad3fdf93add46d",
    "issue": 38,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-11|None|dia"
    ],
@@ -10891,8 +10891,8 @@
    "ordinal": "primera convocatoria",
    "grupo": "defc553a6db0d41d",
    "issue": 40,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-11|10:00|dia"
    ],
@@ -11254,8 +11254,8 @@
    "ordinal": "primera convocatoria",
    "grupo": "93c4dda1e674020b",
    "issue": 41,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-11|17:00|dia"
    ],
