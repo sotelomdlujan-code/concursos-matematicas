@@ -181,4 +181,33 @@ DESCRIPTION:Concurso
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:0f25a75b18a2bf2f636d17d7@concursos-cge
+DTSTAMP:20261112T203800Z
+DTSTART:20261113T173000Z
+DTEND:20261113T183000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria de Jóvenes y Adultos N.
+ º 29 “Prof. Erich Poenitz” – Concordia
+DESCRIPTION:Matemática · 4 hs. · 1.º año “A” · Turno noche · Sup
+ lente (jueves de 21:00 a 22:10 hs. y viernes de 18:30 a 19:40 hs.)\nMatem
+ ática · 4 hs. · 1.º año “B” · Turno noche · Suplente (martes de
+  21:00 a 22:10 hs. y jueves de 18:30 a 19:40 hs.)\nMatemática · 4 hs. ·
+  2.º año “A” · Turno noche · Suplente (martes de 21:00 a 22:10 hs.
+  y miércoles de 19:45 a 20:55 hs.)\nMatemática · 4 hs. · 2.º año “
+ B” · Turno noche · Suplente (lunes de 21:00 a 22:10 hs. y miércoles d
+ e 18:30 a 19:40 hs.)\nhttps://cge.entrerios.gov.ar/2026/11/escuela-secunda
+ ria-de-jovenes-y-adultos-n-o-29-prof-erich-poenitz-concordia-20/
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-de-jovenes-y-ad
+ ultos-n-o-29-prof-erich-poenitz-concordia-20/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
