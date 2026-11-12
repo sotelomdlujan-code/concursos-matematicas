@@ -155,4 +155,30 @@ DESCRIPTION:Concurso
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:8348a484c2fb228b8ee0ad72@concursos-cge
+DTSTAMP:20261112T122000Z
+DTSTART:20261113T120000Z
+DTEND:20261113T130000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 15 “D. F. Sarmient
+ o” – Concordia
+DESCRIPTION:Matemática · 4 hs. · 5.º año “B” · Turno mañana · S
+ uplente (miércoles de 08:00 a 08:40 hs. y de 08:50 a 10:10 hs.\; viernes 
+ de 08:00 a 08:40 hs.)\nMatemática · 4 hs. · 5.º año “B” · Turno 
+ mañana · Suplente (miércoles de 10:20 a 11:40 hs.\; jueves de 11:45 a 1
+ 2:25 hs.\; viernes de 10:20 a 11:00 hs.)\nhttps://cge.entrerios.gov.ar/202
+ 6/11/escuela-secundaria-n-o-15-d-f-sarmiento-concordia-16/
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-15-d-f-sarm
+ iento-concordia-16/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
