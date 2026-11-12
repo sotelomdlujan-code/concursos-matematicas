@@ -14473,6 +14473,132 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-13\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-22-mariano-moreno-concordia-29/": {
+   "titulo": "Escuela Secundaria N.º 22 “Mariano Moreno” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "12/11/2026",
+   "visto": "2026-11-12T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Física y Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "E",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": "10:00",
+     "clases": [
+      "lunes de 14:20 a 14:55 hs. y de 14:55 a 15:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-16"
+   ],
+   "materias": [],
+   "lugar": "Perú 575, en el horario indicado",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-12T16:25:38-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"Perú 575, en el horario indicado\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-22-mariano-moreno-concordia-30/": {
+   "titulo": "Escuela Secundaria N.º 22 “Mariano Moreno” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "12/11/2026",
+   "visto": "2026-11-12T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": "10:30",
+     "clases": [
+      "lunes de 19:25 a 19:55 hs. y de 19:55 a 20:25 hs.; jueves de 18:15 a 18:45 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-16"
+   ],
+   "materias": [],
+   "lugar": "Perú 575, en el horario indicado",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-12T16:25:40-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"Perú 575, en el horario indicado\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-8-don-augusto-niez-concordia-43/": {
+   "titulo": "Escuela Secundaria N.º 8 “Don Augusto Niez”  – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "12/11/2026",
+   "visto": "2026-11-12T16:43-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Cargo de Asesoría Pedagógica",
+     "buscada": false,
+     "hs": 30,
+     "curso": "",
+     "division": "",
+     "turno": "rotativo",
+     "caracter": "suplente",
+     "fecha": "2026-11-13",
+     "hora": "13:30",
+     "clases": [
+      "Lunes: de 10:00 a 15:00 hs.",
+      "Martes: de 10:00 a 15:00 hs.",
+      "Miércoles: de 07:30 a 12:30 hs.",
+      "Jueves: de 10:00 a 15:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-13"
+   ],
+   "materias": [],
+   "lugar": "la intersección de calles De los Viñedos y Alvear",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-12T16:28:52-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-13\"], \"i\": [], \"l\": \"la intersección de calles De los Viñedos y Alvear\"}"
   }
  }
 }
