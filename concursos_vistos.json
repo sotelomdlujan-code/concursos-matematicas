@@ -14226,6 +14226,115 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-13\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-152-manuel-maria-calderon-concordia-7/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 152 “Manuel María Calderón” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "12/11/2026",
+   "visto": "2026-11-12T10:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir PRIMERA CONVOCATORIA A CONCURSO La Rectoría de la Escuela de Educación Agrotécnica N.º 152 “Manuel María Calderón” convoca a concurso para la adjudicación de cargo inicial, en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M.T. y sus modificatorias de Jurado de Concursos, según Resolución N.º 2300/22 C.G.E., Art. 136. El acto concursal se llevará a cabo el día viernes 13 de noviembre de 2026, según el siguiente detalle:",
+   "detalle": [],
+   "fechas": [
+    "2026-11-13"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-12T09:26:10-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-13\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-152-manuel-maria-calderon-concordia-8/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 152 “Manuel María Calderón” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "12/11/2026",
+   "visto": "2026-11-12T10:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-13",
+     "hora": "09:45",
+     "clases": [
+      "martes de 10:40 a 12:35 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-13",
+     "hora": "09:45",
+     "clases": [
+      "jueves de 10:40 a 12:35 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-13",
+     "hora": "09:45",
+     "clases": [
+      "jueves de 7:25 a 9:20 hs."
+     ]
+    },
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "5.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-13",
+     "hora": "09:45",
+     "clases": [
+      "martes de 12:40 a 14:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-13"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-12T09:47:41-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-13\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
