@@ -287,4 +287,28 @@ DESCRIPTION:Concurso
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:5bf35d8c3318026646ba6a2f@concursos-cge
+DTSTAMP:20261112T001000Z
+DTSTART:20261112T233000Z
+DTEND:20261113T003000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria de Jóvenes y Adultos N.
+ º 42 “M. J. Belgrano” – Concordia
+DESCRIPTION:Matemática · 3 hs. · Turno noche (lunes de 18:00 a 19:10 hs.
+  y de 19:15 a 19:50 hs.)\nhttps://cge.entrerios.gov.ar/2026/11/escuela-sec
+ undaria-de-jovenes-y-adultos-n-o-42-m-j-belgrano-concordia-2/
+LOCATION:Entre Ríos 1015\, de la ciudad de Concordia
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-de-jovenes-y-ad
+ ultos-n-o-42-m-j-belgrano-concordia-2/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR

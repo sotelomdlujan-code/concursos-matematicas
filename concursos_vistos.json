@@ -13828,6 +13828,174 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"calle Dr. Sauré N.º 1125\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-2-jose-gervasio-artigas-concordia-34/": {
+   "titulo": "Escuela Secundaria N.º 2 “José Gervasio Artigas” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "11/11/2026",
+   "visto": "2026-11-11T21:10-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "17:45",
+     "clases": [
+      "lunes de 11:15 a 11:50 hs. y miércoles de 10:00 a 10:35 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [],
+   "lugar": "calle Antártida Argentina 174 (La Bianca)",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-11T20:14:17-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"calle Antártida Argentina 174 (La Bianca)\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-2-jose-gervasio-artigas-concordia-35/": {
+   "titulo": "Escuela Secundaria N.º 2 “José Gervasio Artigas” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "11/11/2026",
+   "visto": "2026-11-11T21:10-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 4,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "17:50",
+     "clases": [
+      "jueves de 8:40 a 9:15 hs. y de 9:15 a 9:50 hs.; viernes de 8:40 a 9:15 hs. y de 10:00 a 10:35 hs."
+     ]
+    },
+    {
+     "materia": "Educación Tecnológica",
+     "buscada": false,
+     "hs": 4,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-12",
+     "hora": "17:50",
+     "clases": [
+      "lunes de 8:40 a 9:15 hs. y de 9:15 a 9:50 hs.; martes de 7:20 a 7:55 hs. y viernes de 9:15 a 9:50 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [],
+   "lugar": "calle Antártida Argentina 174 (La Bianca)",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-11T20:26:25-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [], \"l\": \"calle Antártida Argentina 174 (La Bianca)\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-de-jovenes-y-adultos-n-o-42-m-j-belgrano-concordia-2/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 42 “M. J. Belgrano” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "11/11/2026",
+   "visto": "2026-11-11T21:10-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 3,
+     "curso": "",
+     "division": "",
+     "turno": "noche",
+     "caracter": "",
+     "fecha": "2026-11-12",
+     "hora": "20:30",
+     "clases": [
+      "lunes de 18:00 a 19:10 hs. y de 19:15 a 19:50 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Tutorías del Grupo Disciplinar de Lengua y Literatura (Lengu",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "",
+     "turno": "noche",
+     "caracter": "",
+     "fecha": "2026-11-12",
+     "hora": "20:15",
+     "clases": [
+      "martes de 19:50 a 20:25 hs. y de 20:30 a 21:05 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 3,
+     "curso": "",
+     "division": "",
+     "turno": "noche",
+     "caracter": "",
+     "fecha": "2026-11-12",
+     "hora": "20:30",
+     "clases": [
+      "lunes de 18:00 a 19:10 hs. y de 19:15 a 19:50 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-12"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "Entre Ríos 1015, de la ciudad de Concordia",
+   "ordinal": "",
+   "grupo": "e826c1d73b64df2a",
+   "issue": 37,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-11T20:31:00-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-12\"], \"i\": [{\"buscada\": true, \"caracter\": \"\", \"clases\": [\"lunes de 18:00 a 19:10 hs. y de 19:15 a 19:50 hs.\"], \"curso\": \"\", \"division\": \"\", \"fecha\": \"2026-11-12\", \"hora\": \"20:30\", \"hs\": 3, \"materia\": \"Matemática\", \"turno\": \"noche\"}], \"l\": \"Entre Ríos 1015, de la ciudad de Concordia\"}"
   }
  }
 }
