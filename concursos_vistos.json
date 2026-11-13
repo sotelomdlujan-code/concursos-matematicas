@@ -14180,7 +14180,9 @@
    "issue": 46,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-13|09:00|dia"
+   ],
    "modificado": "2026-11-12T08:55:27-03:00",
    "avisado": true,
    "parser": 2,
@@ -14736,7 +14738,9 @@
    "issue": 47,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-13|14:30|dia"
+   ],
    "modificado": "2026-11-12T16:30:41-03:00",
    "avisado": true,
    "parser": 2,
