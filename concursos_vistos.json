@@ -15692,6 +15692,88 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-27-dr-domingo-santo-liotta-concordia-27/": {
+   "titulo": "Escuela Secundaria N.º 27 “Dr. Domingo Santo Liotta” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "13/11/2026",
+   "visto": "2026-11-13T14:40-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Música",
+     "buscada": false,
+     "hs": 2,
+     "curso": "1.º año",
+     "division": "D",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": "14:50",
+     "clases": [
+      "viernes de 08:40 a 10:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-16"
+   ],
+   "materias": [],
+   "lugar": "Gualeguay 1655 de la ciudad de Concordia",
+   "ordinal": "segunda convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-13T13:48:56-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"Gualeguay 1655 de la ciudad de Concordia\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-8-don-augusto-niez-concordia-44/": {
+   "titulo": "Escuela Secundaria N.º 8 “Don Augusto Niez” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "13/11/2026",
+   "visto": "2026-11-13T14:40-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Cargo de Asesoría Pedagógica",
+     "buscada": false,
+     "hs": 30,
+     "curso": "",
+     "division": "",
+     "turno": "rotativo",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": "15:30",
+     "clases": [
+      "lunes a viernes."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-16"
+   ],
+   "materias": [],
+   "lugar": "la intersección de calles De los Viñedos y Alvear",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-13T14:34:14-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"la intersección de calles De los Viñedos y Alvear\"}"
   }
  }
 }
