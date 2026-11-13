@@ -15565,6 +15565,133 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-18-velez-sarsfield-concordia-33/": {
+   "titulo": "Escuela Secundaria N.º 18 “Vélez Sarsfield”  – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "13/11/2026",
+   "visto": "2026-11-13T13:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Tutorías Disciplinares Extracurriculares de Orientador Educa",
+     "buscada": false,
+     "hs": 16,
+     "curso": "",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": "16:30",
+     "clases": [
+      "Lunes: de 15:00 a 17:00 hs.",
+      "Martes: de 15:00 a 17:00 hs.",
+      "Miércoles: de 14:20 a 17:00 hs.",
+      "Jueves: de 15:00 a 17:00 hs.",
+      "Viernes: de 14:00 a 16:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-16"
+   ],
+   "materias": [],
+   "lugar": "calle P. del Castillo N.º 690",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-13T12:33:56-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"calle P. del Castillo N.º 690\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-74/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "13/11/2026",
+   "visto": "2026-11-13T13:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "3.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": "14:00",
+     "clases": [
+      "martes de 09:30 a 10:10 hs.; miércoles de 07:20 a 08:40 hs. y jueves de 07:20 a 08:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-16"
+   ],
+   "materias": [],
+   "lugar": "el establecimiento escolar, con entrada por calle Urquiza",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-13T12:37:07-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-75/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "13/11/2026",
+   "visto": "2026-11-13T13:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Física",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": "14:30",
+     "clases": [
+      "miércoles de 14:50 a 16:10 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-16"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-13T13:03:34-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
