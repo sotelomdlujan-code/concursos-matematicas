@@ -15455,6 +15455,116 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-18-velez-sarsfield-concordia-32/": {
+   "titulo": "Escuela Secundaria N.º 18 “Vélez Sarsfield” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "13/11/2026",
+   "visto": "2026-11-13T12:37-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Tecnología de la Información y la Comunicación (TIC)",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": null,
+     "clases": [
+      "jueves de 11:45 a 13:05 hs."
+     ]
+    },
+    {
+     "materia": "Tecnología de la Información y la Comunicación (TIC)",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": null,
+     "clases": [
+      "lunes de 17:45 a 18:25 hs. y martes de 17:45 a 18:25 hs."
+     ]
+    },
+    {
+     "materia": "Tecnología de la Información y la Comunicación (TIC)",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": null,
+     "clases": [
+      "miércoles de 11:45 a 13:05 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-16"
+   ],
+   "materias": [],
+   "lugar": "calle P. del Castillo N.º 690. Los aspirantes deberán presentarse en el lugar y horario indicados con credencial de puntaje oficial vigente, DNI y, de corresponder",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-13T12:07:38-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"calle P. del Castillo N.º 690. Los aspirantes deberán presentarse en el lugar y horario indicados con credencial de puntaje oficial vigente, DNI y, de corresponder\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-22-mariano-moreno-concordia-31/": {
+   "titulo": "Escuela Secundaria N.º 22 “Mariano Moreno” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "13/11/2026",
+   "visto": "2026-11-13T12:37-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": null,
+     "clases": [
+      "lunes de 19:25 a 19:55 hs. y de 19:55 a 20:25 hs.; jueves de 18:15 a 18:45 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-16"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-13T12:28:20-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
