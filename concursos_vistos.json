@@ -15062,6 +15062,185 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/llamado-a-concurso-instituto-superior-en-disciplinas-industriales-y-ciencias-agropecuarias-isdica-concordia-18/": {
+   "titulo": "Llamado a Concurso – Instituto Superior en Disciplinas Industriales y Ciencias Agropecuarias (ISDICA) – CONCORDIA",
+   "fuente": "Concordia",
+   "fecha_pub": "13/11/2026",
+   "visto": "2026-11-13T09:19-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Sin especificar",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "",
+     "caracter": "",
+     "fecha": "2026-11-13",
+     "hora": null,
+     "clases": [
+      "Jueves de 17:30 a 18:05 de 18:05 a 18:35 y de 18:40 a 19:15 hs."
+     ]
+    },
+    {
+     "materia": "Sin especificar",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "",
+     "caracter": "",
+     "fecha": "2026-11-13",
+     "hora": null,
+     "clases": [
+      "Jueves de 20:55 a 21:30 y de 21:30 a 22:00 horas."
+     ]
+    },
+    {
+     "materia": "Sin especificar",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "",
+     "caracter": "",
+     "fecha": "2026-11-13",
+     "hora": null,
+     "clases": [
+      "Lunes: 19:50 a 20:25 y de 20:25 a 20:55 horas."
+     ]
+    },
+    {
+     "materia": "Sin especificar",
+     "buscada": false,
+     "hs": 4,
+     "curso": "3.º año",
+     "division": "",
+     "turno": "",
+     "caracter": "",
+     "fecha": "2026-11-13",
+     "hora": null,
+     "clases": [
+      "Lunes: de 20:55 a 21:30 y de 21:30 a 22:00 horas."
+     ]
+    },
+    {
+     "materia": "Sin especificar",
+     "buscada": false,
+     "hs": 7,
+     "curso": "4.º año",
+     "division": "",
+     "turno": "",
+     "caracter": "",
+     "fecha": "2026-11-13",
+     "hora": null,
+     "clases": [
+      "Miércoles de 19:15 y de19:45; de 19:50 a 20:25 horas."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-13"
+   ],
+   "materias": [],
+   "lugar": "calle Lamadrid N° 945 en el horario de 18 a 20:30 horas",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-13T08:31:09-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-13\"], \"i\": [], \"l\": \"calle Lamadrid N° 945 en el horario de 18 a 20:30 horas\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/llamado-a-concurso-instituto-superior-en-disciplinas-industriales-y-ciencias-agropecuarias-isdica-concordia-19/": {
+   "titulo": "Llamado a Concurso – Instituto Superior en Disciplinas Industriales y Ciencias Agropecuarias (ISDICA) – CONCORDIA",
+   "fuente": "Concordia",
+   "fecha_pub": "13/11/2026",
+   "visto": "2026-11-13T09:19-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Sin especificar",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "",
+     "caracter": "",
+     "fecha": "2026-11-13",
+     "hora": null,
+     "clases": [
+      "Jueves de 19:15 a 19:45; de 19:50 a 20:25; de 20:25 a 20:55horas.-"
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-13"
+   ],
+   "materias": [],
+   "lugar": "calle Lamadrid N° 945 en el horario de 18 a 20:30 horas",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-13T08:38:03-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-13\"], \"i\": [], \"l\": \"calle Lamadrid N° 945 en el horario de 18 a 20:30 horas\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/llamado-a-concurso-instituto-superior-en-disciplinas-industriales-y-ciencias-agropecuarias-isdica-concordia-20/": {
+   "titulo": "Llamado a Concurso – Instituto Superior en Disciplinas Industriales y Ciencias Agropecuarias (ISDICA) – CONCORDIA",
+   "fuente": "Concordia",
+   "fecha_pub": "13/11/2026",
+   "visto": "2026-11-13T09:19-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Sin especificar",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "",
+     "caracter": "",
+     "fecha": "2026-11-13",
+     "hora": null,
+     "clases": [
+      "Lunes de17:30 a 18:05; de 18:05 a 18:35; 18:40 a 19:15horas.-"
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-13"
+   ],
+   "materias": [],
+   "lugar": "calle Lamadrid N° 945 en el horario de 18 a 20:30 horas",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-13T08:45:40-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-13\"], \"i\": [], \"l\": \"calle Lamadrid N° 945 en el horario de 18 a 20:30 horas\"}"
   }
  }
 }
