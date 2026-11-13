@@ -15774,6 +15774,144 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"la intersección de calles De los Viñedos y Alvear\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-7-gobernador-general-lopez-jordan-concordia-5/": {
+   "titulo": "Escuela Secundaria N.º 7 “Gobernador General López Jordán” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "13/11/2026",
+   "visto": "2026-11-13T15:39-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Filosofía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": "15:30",
+     "clases": [
+      "lunes de 11:55 a 12:25 hs. y viernes de 10:20 a 11:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-16"
+   ],
+   "materias": [],
+   "lugar": "la intersección de calles Isthilart y República del Paraguay, de la ciudad de Concordia",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-13T15:10:40-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"la intersección de calles Isthilart y República del Paraguay, de la ciudad de Concordia\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-4-damian-p-garat-villa-adella-concordia/": {
+   "titulo": "Escuela Secundaria N.º 4 “Damián P. Garat”  Villa Adella– Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "13/11/2026",
+   "visto": "2026-11-13T15:39-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua Extranjera Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": "08:00",
+     "clases": [
+      "lunes de 10:10 a 11:25 hs. y martes de 12:15 a 12:50 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": "08:00",
+     "clases": [
+      "lunes de 08:40 a 10:00 hs. y martes de 08:40 a 09:20 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": "08:00",
+     "clases": [
+      "lunes de 07:10 a 08:30 hs. y martes de 11:35 a 12:15 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera Inglés",
+     "buscada": false,
+     "hs": 3,
+     "curso": "3.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": "08:00",
+     "clases": [
+      "martes de 09:20 a 10:00 hs., de 10:10 a 10:50 hs. y de 10:50 a 11:25 hs."
+     ]
+    },
+    {
+     "materia": "Lengua Extranjera Inglés– 3.º año",
+     "buscada": false,
+     "hs": 3,
+     "curso": "3.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-16",
+     "hora": "08:00",
+     "clases": [
+      "lunes de 11:35 a 12:15 hs. y viernes de 07:10 a 07:50 hs. y de 07:50 a 08:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-16"
+   ],
+   "materias": [],
+   "lugar": "Avenida Presidente Perón N.º 3940, Villa Adela",
+   "ordinal": "tercer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-13T15:11:48-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-16\"], \"i\": [], \"l\": \"Avenida Presidente Perón N.º 3940, Villa Adela\"}"
   }
  }
 }
