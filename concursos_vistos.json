@@ -14178,8 +14178,8 @@
    "ordinal": "segundo llamado",
    "grupo": "3940e0cc8fd8ca7d",
    "issue": 46,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-13|09:00|dia"
    ],
@@ -14736,8 +14736,8 @@
    "ordinal": "",
    "grupo": "5478fe0927fb4359",
    "issue": 47,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-13|14:30|dia"
    ],
