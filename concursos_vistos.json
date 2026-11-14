@@ -10618,7 +10618,8 @@
    "modificado": "2026-11-10T08:23:08-03:00",
    "avisado": true,
    "parser": 2,
-   "firma": "{\"f\": [], \"i\": [], \"l\": \"calle Lamadrid N° 945 en el horario de 18 a 20:30 horas\"}"
+   "firma": "{\"f\": [], \"i\": [], \"l\": \"calle Lamadrid N° 945 en el horario de 18 a 20:30 horas\"}",
+   "eliminada": true
   },
   "https://cge.entrerios.gov.ar/2026/11/concurso-n97-de-nivel-inicial-primario-y-sus-modalidades-11-11-2026-dpto-concordia/": {
    "titulo": "Concurso N°97 de Nivel Inicial, Primario y sus modalidades – 11/11/2026 – Dpto. Concordia",
