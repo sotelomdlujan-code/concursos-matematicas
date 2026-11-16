@@ -36,4 +36,29 @@ DESCRIPTION:Concurso
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:63c561dabbb6c135ef02f3f3@concursos-cge
+DTSTAMP:20261116T192600Z
+DTSTART:20261117T180000Z
+DTEND:20261117T190000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 19 “Gral. Juana Az
+ urduy” – Concordia
+DESCRIPTION:Matemática · 5 hs. · 4.º año “A” · Turno tarde · Sup
+ lente (lunes de 13:20 a 14:40 hs.\, jueves de 13:20 a 14:40 hs. y viernes 
+ de 15:30 a 16:10 hs.)\nhttps://cge.entrerios.gov.ar/2026/11/escuela-secund
+ aria-n-o-19-gral-juana-azurduy-concordia-3/
+LOCATION:calle Moulins 1790\, de la ciudad de Concordia
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-19-gral-jua
+ na-azurduy-concordia-3/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
