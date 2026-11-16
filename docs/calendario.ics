@@ -7,4 +7,33 @@ X-WR-CALNAME:Concursos docentes - CGE
 X-WR-TIMEZONE:America/Argentina/Buenos_Aires
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:4c96545781092596ca268302@concursos-cge
+DTSTAMP:20261116T155600Z
+DTSTART:20261117T191500Z
+DTEND:20261117T201500Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 33 “Justa Gayoso
+ ” Bto Legerén– Concordia
+DESCRIPTION:Matemática · 5 hs. · 4.º año “B” · Turno tarde · Sup
+ lente (martes de 16:40 a 17:10 hs. y de 17:10 a 17:40 hs.\; jueves de 15:3
+ 0 a 16:00 hs.\, de 16:00 a 16:30 hs. y de 16:40 a 17:10 hs.)\nMatemática 
+ · 4 hs. · 2.º año “A” · Turno noche · Suplente (miércoles de 17
+ :30 a 18:00 hs. y de 18:00 a 18:30 hs.\; jueves de 17:30 a 18:00 hs. y de 
+ 18:00 a 18:30 hs.)\nhttps://cge.entrerios.gov.ar/2026/11/escuela-secundari
+ a-n-o-33-justa-gayoso-bto-legeren-concordia-9/
+LOCATION:calle Las Violetas 1505\, entre Los Claveles y Las Azucenas\, barr
+ io Benito Legerén\, en los horarios indicados
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-33-justa-ga
+ yoso-bto-legeren-concordia-9/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
