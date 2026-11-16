@@ -16593,6 +16593,32 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-18\"], \"i\": [], \"l\": \"Ruta Provincial N.º 22, km 2 y vías del Ferrocarril, Estación Yuquerí\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-35-cabo-primero-furriel-jorge-alberto-sendros-concordia-12/": {
+   "titulo": "Escuela Secundaria N.º 35 “Cabo Primero Furriel Jorge Alberto Sendrós” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "16/11/2026",
+   "visto": "2026-11-16T14:04-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir PRIMERA CONVOCATORIA A CONCURSO La Rectoría de la institución convoca a la cobertura de cargos y/u horas cátedra, en el marco del Acuerdo Paritario / Reglamento de Concursos – Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, Resolución N.º 2300/22 CGE, artículo 136.º. El acto concursal se llevará a cabo el día martes 17 de noviembre de 2026. 10:30 hs. – CARGO COMPARTIDO 🔴 1 cargo de Maestro/a de 1.º año, división “A” – Suplente – Turno mañana – Carác",
+   "detalle": [],
+   "fechas": [
+    "2026-11-17"
+   ],
+   "materias": [],
+   "lugar": "Bv. Yuquerí 2085",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-16T12:54:55-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-17\"], \"i\": [], \"l\": \"Bv. Yuquerí 2085\"}"
   }
  }
 }
