@@ -61,4 +61,29 @@ DESCRIPTION:Concurso
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:24dfdce063e08913b1b81436@concursos-cge
+DTSTAMP:20261116T221400Z
+DTSTART:20261117T211500Z
+DTEND:20261117T221500Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 2 “José Gervasio 
+ Artigas” – Concordia
+DESCRIPTION:Matemática · 4 hs. · 1.º año “C” · Turno noche · Sup
+ lente (miércoles de 20:15 a 21:25 hs.\; viernes de 21:30 a 22:05 hs. y de
+  22:05 a 22:30 hs.)\nhttps://cge.entrerios.gov.ar/2026/11/escuela-secundar
+ ia-n-o-2-jose-gervasio-artigas-concordia-36/
+LOCATION:calle Antártida Argentina 174\, barrio La Bianca
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-2-jose-gerv
+ asio-artigas-concordia-36/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
