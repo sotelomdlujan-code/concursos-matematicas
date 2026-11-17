@@ -17082,6 +17082,32 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-18\"], \"i\": [], \"l\": \"Ruta Provincial N.º 4, km 1, Colonia Roca\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-36-juana-paula-manso-concordia-32/": {
+   "titulo": "Escuela Secundaria N.º 36 “Juana Paula Manso” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "17/11/2026",
+   "visto": "2026-11-17T13:23-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir SUPERVISIÓN DE EDUCACIÓN SECUNDARIA ZONA II – CONCORDIA PRIMERA CONVOCATORIA A CONCURSO La Supervisión de Educación Secundaria Zona II, del Departamento Concordia, convoca a Concurso en el marco del Acuerdo Paritario / Reglamento de Concursos – Resolución Ministerial N.º 783/12 M.T. y modificatorias, Resolución N.º 2300/22 CGE, art. 138.º; Resolución N.º 3735/25 CGE, Circular N.º 13/25 JC y Circular N.º 02/26 JC del CGE, para cubrir el siguiente cargo de Conducc",
+   "detalle": [],
+   "fechas": [
+    "2026-11-19"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-17T12:41:50-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-19\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
