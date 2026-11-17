@@ -16999,6 +16999,47 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-18\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-tecnica-n-o-1-brigadier-general-pascual-echague-concordia-8/": {
+   "titulo": "Escuela de Educación Técnica N.º 1 “Brigadier General Pascual Echagüe” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "17/11/2026",
+   "visto": "2026-11-17T11:04-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua Extranjera",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-18",
+     "hora": "09:00",
+     "clases": [
+      "jueves de 7:20 a 8:40 hs. y de 8:50 a 9:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-18"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-17T10:58:32-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-18\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
