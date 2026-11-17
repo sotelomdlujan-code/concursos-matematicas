@@ -16003,7 +16003,7 @@
    "grupo": "bfec6e9484e77774",
    "issue": null,
    "issue_abierto": false,
-   "vencido": false,
+   "vencido": true,
    "recordados": [],
    "modificado": "2026-11-16T07:35:54-03:00",
    "avisado": false,
