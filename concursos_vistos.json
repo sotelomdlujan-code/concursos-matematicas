@@ -16255,8 +16255,8 @@
    "ordinal": "primer llamado",
    "grupo": "d521073871d26a39",
    "issue": 48,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-17|16:15|dia"
    ],
@@ -16672,8 +16672,8 @@
    "ordinal": "primer llamado",
    "grupo": "1db981db1256be41",
    "issue": 49,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-17|15:00|dia"
    ],
@@ -16883,8 +16883,8 @@
    "ordinal": "primera convocatoria",
    "grupo": "5c22189c6535c7c4",
    "issue": 50,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-17|18:15|dia"
    ],
