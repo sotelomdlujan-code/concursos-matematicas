@@ -34,4 +34,81 @@ DESCRIPTION:Concurso
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:f8601ba50e26c27a37698295@concursos-cge
+DTSTAMP:20261118T214200Z
+DTSTART:20261120T163000Z
+DTEND:20261120T173000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 18 “Vélez Sarsfie
+ ld” – Concordia
+DESCRIPTION:Matemática · 5 hs. · 3.º año “C” · Turno tarde · Sup
+ lente (Lunes: 17:45 a 18:25 hs. | Martes: 16:20 a 17:00 hs. y de 17:00 a 1
+ 7:40 hs. | Jueves: 14:50 a 15:30 hs. y de 15:30 a 16:10 hs.)\nMatemática 
+ · 5 hs. · 2.º año “E” · Turno tarde · Suplente (Lunes: 14:00 a 1
+ 4:40 hs.\, 16:20 a 17:00 hs. y de 17:00 a 17:40 hs. | Miércoles: 14:00 a 
+ 14:40 hs. | Jueves: 14:00 a 14:40 hs.)\nhttps://cge.entrerios.gov.ar/2026/
+ 11/escuela-secundaria-n-o-18-velez-sarsfield-concordia-34/
+LOCATION:calle P. del Castillo N.º 690
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-18-velez-sa
+ rsfield-concordia-34/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a6ad1cd22547264f906c0efe@concursos-cge
+DTSTAMP:20261118T214200Z
+DTSTART:20261119T221000Z
+DTEND:20261119T231000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 7 “Gobernador Gene
+ ral López Jordán” – Concordia
+DESCRIPTION:Matemática · 4 hs. · “C” · Turno noche · Suplente (mar
+ tes de 21:30 a 22:30 hs. y jueves de 19:10 a 20:10 hs.)\nhttps://cge.entre
+ rios.gov.ar/2026/11/escuela-secundaria-n-o-7-gobernador-general-lopez-jord
+ an-concordia-6/
+LOCATION:Isthilart y República del Paraguay\, de la ciudad de Concordia
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-7-gobernado
+ r-general-lopez-jordan-concordia-6/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8923686cee01b735b0b15ef6@concursos-cge
+DTSTAMP:20261118T214200Z
+DTSTART:20261120T123000Z
+DTEND:20261120T133000Z
+SUMMARY:Concurso Matemática - Escuela Secundaria N.º 36 “Juana Paula Ma
+ nso” – Concordia
+DESCRIPTION:Matemática · 5 hs. · “B” · Turno mañana · Suplente (m
+ iércoles de 10:20 a 11:30 hs. y viernes de 09:30 a 11:30 hs.)\nhttps://cg
+ e.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-36-juana-paula-manso-con
+ cordia-34/
+URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-36-juana-pa
+ ula-manso-concordia-34/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Concurso
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR

@@ -18441,6 +18441,313 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-19\"], \"i\": [], \"l\": \"Avenida Presidente Perón N.º 3940, Villa Adela\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-18-velez-sarsfield-concordia-34/": {
+   "titulo": "Escuela Secundaria N.º 18 “Vélez Sarsfield” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "18/11/2026",
+   "visto": "2026-11-18T18:42-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "3.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "13:30",
+     "clases": [
+      "Lunes: 17:45 a 18:25 hs.",
+      "Martes: 16:20 a 17:00 hs. y de 17:00 a 17:40 hs.",
+      "Jueves: 14:50 a 15:30 hs. y de 15:30 a 16:10 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "E",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "13:30",
+     "clases": [
+      "Lunes: 14:00 a 14:40 hs., 16:20 a 17:00 hs. y de 17:00 a 17:40 hs.",
+      "Miércoles: 14:00 a 14:40 hs.",
+      "Jueves: 14:00 a 14:40 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "3.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "13:30",
+     "clases": [
+      "Lunes: 17:45 a 18:25 hs.",
+      "Martes: 16:20 a 17:00 hs. y de 17:00 a 17:40 hs.",
+      "Jueves: 14:50 a 15:30 hs. y de 15:30 a 16:10 hs."
+     ]
+    },
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "2.º año",
+     "division": "E",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "13:30",
+     "clases": [
+      "Lunes: 14:00 a 14:40 hs., 16:20 a 17:00 hs. y de 17:00 a 17:40 hs.",
+      "Miércoles: 14:00 a 14:40 hs.",
+      "Jueves: 14:00 a 14:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-20"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "calle P. del Castillo N.º 690",
+   "ordinal": "primer llamado",
+   "grupo": "2ab3e039eb12a959",
+   "issue": 52,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-18T17:48:11-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-20\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Lunes: 17:45 a 18:25 hs.\", \"Martes: 16:20 a 17:00 hs. y de 17:00 a 17:40 hs.\", \"Jueves: 14:50 a 15:30 hs. y de 15:30 a 16:10 hs.\"], \"curso\": \"3.º año\", \"division\": \"C\", \"fecha\": \"2026-11-20\", \"hora\": \"13:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Lunes: 14:00 a 14:40 hs., 16:20 a 17:00 hs. y de 17:00 a 17:40 hs.\", \"Miércoles: 14:00 a 14:40 hs.\", \"Jueves: 14:00 a 14:40 hs.\"], \"curso\": \"2.º año\", \"division\": \"E\", \"fecha\": \"2026-11-20\", \"hora\": \"13:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}], \"l\": \"calle P. del Castillo N.º 690\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-7-gobernador-general-lopez-jordan-concordia-6/": {
+   "titulo": "Escuela Secundaria N.º 7 “Gobernador General López Jordán” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "18/11/2026",
+   "visto": "2026-11-18T18:42-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "",
+     "division": "C",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "19:10",
+     "clases": [
+      "martes de 21:30 a 22:30 hs. y jueves de 19:10 a 20:10 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 4,
+     "curso": "",
+     "division": "C",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "19:10",
+     "clases": [
+      "martes de 21:30 a 22:30 hs. y jueves de 19:10 a 20:10 hs."
+     ]
+    },
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "19:30",
+     "clases": [
+      "lunes de 21:30 a 22:30 hs. y martes de 19:10 a 19:40 hs."
+     ]
+    },
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "B",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "19:30",
+     "clases": [
+      "martes de 20:20 a 21:20 hs. y jueves de 20:20 a 20:50 hs."
+     ]
+    },
+    {
+     "materia": "Biología",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "C",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "19:30",
+     "clases": [
+      "lunes de 20:20 a 21:20 hs. y martes de 19:40 a 20:10 hs."
+     ]
+    },
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 4,
+     "curso": "",
+     "division": "C",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "19:50",
+     "clases": [
+      "lunes de 19:10 a 20:10 hs. y miércoles de 21:30 a 22:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-19"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "Isthilart y República del Paraguay, de la ciudad de Concordia",
+   "ordinal": "primera convocatoria",
+   "grupo": "4e72a4139d711154",
+   "issue": 53,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-18T17:54:31-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-19\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"martes de 21:30 a 22:30 hs. y jueves de 19:10 a 20:10 hs.\"], \"curso\": \"\", \"division\": \"C\", \"fecha\": \"2026-11-19\", \"hora\": \"19:10\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"noche\"}], \"l\": \"Isthilart y República del Paraguay, de la ciudad de Concordia\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-81/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "18/11/2026",
+   "visto": "2026-11-18T18:42-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Geografía Ambiental",
+     "buscada": false,
+     "hs": 2,
+     "curso": "6.º año",
+     "division": "7",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "18:00",
+     "clases": [
+      "miércoles de 17:40 a 18:50 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-19"
+   ],
+   "materias": [],
+   "lugar": "el establecimiento escolar, con entrada por calle Urquiza",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-18T17:57:45-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-19\"], \"i\": [], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-36-juana-paula-manso-concordia-34/": {
+   "titulo": "Escuela Secundaria N.º 36 “Juana Paula Manso” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "18/11/2026",
+   "visto": "2026-11-18T18:42-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "09:30",
+     "clases": [
+      "miércoles de 10:20 a 11:30 hs. y viernes de 09:30 a 11:30 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "09:30",
+     "clases": [
+      "miércoles de 10:20 a 11:30 hs. y viernes de 09:30 a 11:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-20"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "",
+   "ordinal": "segundo llamado",
+   "grupo": "134cecf6fad950d4",
+   "issue": 54,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-18T17:59:20-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-20\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"miércoles de 10:20 a 11:30 hs. y viernes de 09:30 a 11:30 hs.\"], \"curso\": \"\", \"division\": \"B\", \"fecha\": \"2026-11-20\", \"hora\": \"09:30\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"mañana\"}], \"l\": \"\"}"
   }
  }
 }
