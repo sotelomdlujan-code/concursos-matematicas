@@ -19267,6 +19267,431 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-20\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-4-damian-p-garat-desconvoca-concurso-de-forma-parcial/": {
+   "titulo": "Escuela Secundaria N.º 4 “Damián P. Garat” DESCONVOCA CONCURSO de Forma Parcial  – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "18/11/2026",
+   "visto": "2026-11-19T13:28-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "17:15",
+     "clases": [
+      "viernes de 14:30 a 15:10 hs. y de 15:10 a 15:50 hs."
+     ]
+    },
+    {
+     "materia": "Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "17:30",
+     "clases": [
+      "martes de 18:40 a 19:20 hs. y de 19:30 a 20:10 hs."
+     ]
+    },
+    {
+     "materia": "Principios Básicos de Contabilidad",
+     "buscada": false,
+     "hs": 2,
+     "curso": "2.º año",
+     "division": "A",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "17:45",
+     "clases": [
+      "jueves de 21:00 a 21:40 hs. y de 21:40 a 22:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-19"
+   ],
+   "materias": [],
+   "lugar": "Avenida Presidente Perón N.º 3940, Villa Adela",
+   "ordinal": "",
+   "grupo": "f102d07adec3870a",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-19T12:31:33-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-19\"], \"i\": [], \"l\": \"Avenida Presidente Perón N.º 3940, Villa Adela\"}",
+   "cancelacion": true,
+   "cancel_coincide": false
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-36-juana-paula-manso-concordia-35/": {
+   "titulo": "Escuela Secundaria N.º 36 “Juana Paula Manso” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "19/11/2026",
+   "visto": "2026-11-19T13:28-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir PRIMER LLAMADO A CONCURSO La Rectoría de la Escuela Secundaria N.º 36 “Juana Paula Manso” (CUE N.º 300-2664), de la ciudad de Concordia, convoca a la cobertura de cargos iniciales y/u horas cátedra, en el marco del Acuerdo Paritario/Reglamento de Concursos, Resolución Ministerial N.º 783/12 M. T. y sus modificatorias, Resolución N.º 2300/22 C.G.E., artículo 138.º, para cubrir el siguiente cargo: El acto concursal se llevará a cabo el día viernes 20 de noviembre ",
+   "detalle": [],
+   "fechas": [
+    "2026-11-20"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-19T12:20:58-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-20\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-est-grande-concordia-9/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín”  Est. Grande  – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "19/11/2026",
+   "visto": "2026-11-19T13:28-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Tecnología de Control",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "1",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-24",
+     "hora": "08:15",
+     "clases": [
+      "Lunes: 09:10 a 10:30 hs.",
+      "Jueves: 09:10 a 10:30 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-24"
+   ],
+   "materias": [],
+   "lugar": "ruta 14, km 244, Estancia Grande",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-19T12:51:06-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-24\"], \"i\": [], \"l\": \"ruta 14, km 244, Estancia Grande\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-agrotecnica-n-o-24-gral-san-martin-est-grande/": {
+   "titulo": "Escuela de Educación Agrotécnica N.º 24 “Gral. San Martín”  Est. Grande  – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "19/11/2026",
+   "visto": "2026-11-19T13:28-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Tecnología de la Información y la Comunicación",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "1",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-24",
+     "hora": "08:30",
+     "clases": [
+      "Lunes: 07:40 a 09:00 hs.",
+      "Miércoles: 11:20 a 12:30 hs."
+     ]
+    },
+    {
+     "materia": "Tecnología de la Información y la Comunicación",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "2",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-24",
+     "hora": "08:30",
+     "clases": [
+      "Lunes: 10:45 a 12:30 hs.",
+      "Jueves: 10:45 a 11:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-24"
+   ],
+   "materias": [],
+   "lugar": "ruta 14, km 244, Estancia Grande",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-19T12:55:51-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-24\"], \"i\": [], \"l\": \"ruta 14, km 244, Estancia Grande\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-de-educacion-tecnica-n-o-2-independencia-desconvoca-concurso-concordia/": {
+   "titulo": "Escuela de Educación Técnica N.º 2 “Independencia” – DESCONVOCA CONCURSO – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "19/11/2026",
+   "visto": "2026-11-19T13:28-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Ciencias Sociales (Historia)",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "13:40",
+     "clases": [
+      "Lunes: 15:40 a 16:20 hs.",
+      "Martes: 14:10 a 15:40 hs."
+     ]
+    },
+    {
+     "materia": "Ciencias Sociales (Historia)",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "13:40",
+     "clases": [
+      "Lunes: 11:45 a 13:05 hs.",
+      "Martes: 12:25 a 13:05 hs."
+     ]
+    },
+    {
+     "materia": "Ciencias Sociales (Historia)",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "13:40",
+     "clases": [
+      "Jueves: 07:20 a 09:30 hs."
+     ]
+    },
+    {
+     "materia": "Historia Económica y Social Universal",
+     "buscada": false,
+     "hs": 2,
+     "curso": "5.º año",
+     "division": "",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-19",
+     "hora": "14:00",
+     "clases": [
+      "Viernes: 10:20 a 11:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-19"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primera convocatoria",
+   "grupo": "1dab927267cb0573",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-19T13:01:22-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-19\"], \"i\": [], \"l\": \"\"}",
+   "cancelacion": true,
+   "cancel_coincide": false
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-27-dr-domingo-santo-liotta-concordia-29/": {
+   "titulo": "Escuela Secundaria N.º 27 “Dr. Domingo Santo Liotta” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "19/11/2026",
+   "visto": "2026-11-19T13:28-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Física y Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "3.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "12:30",
+     "clases": [
+      "Miércoles: 10:05 a 11:25 hs."
+     ]
+    },
+    {
+     "materia": "Química",
+     "buscada": false,
+     "hs": 3,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "12:40",
+     "clases": [
+      "Martes: 15:55 a 17:15 hs.",
+      "Viernes: 17:20 a 18:00 hs."
+     ]
+    },
+    {
+     "materia": "Química",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "12:40",
+     "clases": [
+      "Lunes: 14:30 a 15:50 hs.",
+      "Martes: 14:30 a 15:50 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-20"
+   ],
+   "materias": [],
+   "lugar": "Gualeguay 1655 de la ciudad de Concordia",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-19T13:17:43-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-20\"], \"i\": [], \"l\": \"Gualeguay 1655 de la ciudad de Concordia\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-27-dr-domingo-santo-liotta-concordia-30/": {
+   "titulo": "Escuela Secundaria N.º 27 “Dr. Domingo Santo Liotta” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "19/11/2026",
+   "visto": "2026-11-19T13:28-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Física y Química",
+     "buscada": false,
+     "hs": 2,
+     "curso": "3.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "12:30",
+     "clases": [
+      "Miércoles: 10:05 a 11:25 hs."
+     ]
+    },
+    {
+     "materia": "Química",
+     "buscada": false,
+     "hs": 3,
+     "curso": "5.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "12:40",
+     "clases": [
+      "Martes: 15:55 a 17:15 hs.",
+      "Viernes: 17:20 a 18:00 hs."
+     ]
+    },
+    {
+     "materia": "Química",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "12:40",
+     "clases": [
+      "Lunes: 14:30 a 15:50 hs.",
+      "Martes: 14:30 a 15:50 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-20"
+   ],
+   "materias": [],
+   "lugar": "Gualeguay 1655 de la ciudad de Concordia",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-19T13:13:05-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-20\"], \"i\": [], \"l\": \"Gualeguay 1655 de la ciudad de Concordia\"}"
   }
  }
 }
