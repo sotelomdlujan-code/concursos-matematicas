@@ -8,33 +8,6 @@ X-WR-TIMEZONE:America/Argentina/Buenos_Aires
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:095dd82cd659d97211401d17@concursos-cge
-DTSTAMP:20261117T204200Z
-DTSTART:20261118T194500Z
-DTEND:20261118T204500Z
-SUMMARY:Concurso Matemática - Escuela Secundaria N.º 36 “Juana Paula Ma
- nso” – Concordia
-DESCRIPTION:Matemática · 5 hs. · 3.º año “B” · Turno mañana · S
- uplente (miércoles de 10:20 a 11:30 hs. y viernes de 09:30 a 11:30 hs.)\n
- Matemática · 4 hs. · 5.º año “A” · Turno tarde · Suplente (mart
- es de 17:10 a 18:25 hs. y jueves de 15:05 a 16:25 hs.)\nMatemática · 4 h
- s. · 6.º año “A” · Turno tarde · Suplente (martes de 15:50 a 17:0
- 0 hs. y jueves de 16:25 a 17:50 hs.)\nhttps://cge.entrerios.gov.ar/2026/11
- /escuela-secundaria-n-o-36-juana-paula-manso-concordia-33/
-URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-36-juana-pa
- ula-manso-concordia-33/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Concurso
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Concurso
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:f8601ba50e26c27a37698295@concursos-cge
 DTSTAMP:20261118T214200Z
 DTSTART:20261120T163000Z

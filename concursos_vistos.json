@@ -17144,7 +17144,7 @@
    "grupo": "b1c5a0452b23298e",
    "issue": null,
    "issue_abierto": false,
-   "vencido": false,
+   "vencido": true,
    "recordados": [],
    "modificado": "2026-11-17T16:57:18-03:00",
    "avisado": false,
@@ -17352,8 +17352,8 @@
    "ordinal": "",
    "grupo": "78d36222a3a1bc48",
    "issue": 51,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-18|16:45|dia"
    ],
@@ -17749,7 +17749,7 @@
    "grupo": "b191a2829f4856ea",
    "issue": null,
    "issue_abierto": false,
-   "vencido": false,
+   "vencido": true,
    "recordados": [],
    "modificado": "2026-11-18T09:28:49-03:00",
    "avisado": false,
