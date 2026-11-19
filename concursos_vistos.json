@@ -18530,7 +18530,9 @@
    "issue": 52,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-20|13:30|antes"
+   ],
    "modificado": "2026-11-18T17:48:11-03:00",
    "avisado": true,
    "parser": 2,
@@ -18745,7 +18747,9 @@
    "issue": 54,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-20|09:30|antes"
+   ],
    "modificado": "2026-11-18T17:59:20-03:00",
    "avisado": true,
    "parser": 2,
@@ -19775,6 +19779,219 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-20\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-36-juana-paula-manso-concordia-36/": {
+   "titulo": "Escuela Secundaria N.º 36 “Juana Paula Manso” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "19/11/2026",
+   "visto": "2026-11-19T19:16-03:00",
+   "relevante": true,
+   "items": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "1.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "15:20",
+     "clases": [
+      "Lunes: 13:10 a 15:05 hs.",
+      "Jueves: 15:05 a 16:25 hs."
+     ]
+    }
+   ],
+   "todos": [
+    {
+     "materia": "Matemática",
+     "buscada": true,
+     "hs": 5,
+     "curso": "1.º año",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "15:20",
+     "clases": [
+      "Lunes: 13:10 a 15:05 hs.",
+      "Jueves: 15:05 a 16:25 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-20"
+   ],
+   "materias": [
+    "Matemática"
+   ],
+   "lugar": "",
+   "ordinal": "segundo llamado",
+   "grupo": "ae34d54b3bd6d06a",
+   "issue": 55,
+   "issue_abierto": true,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-19T18:12:47-03:00",
+   "avisado": true,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-20\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Lunes: 13:10 a 15:05 hs.\", \"Jueves: 15:05 a 16:25 hs.\"], \"curso\": \"1.º año\", \"division\": \"C\", \"fecha\": \"2026-11-20\", \"hora\": \"15:20\", \"hs\": 5, \"materia\": \"Matemática\", \"turno\": \"tarde\"}], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-44-dr-enrique-romero-brest-concordia-12/": {
+   "titulo": "Escuela Secundaria N.º 44 “Dr. Enrique Romero Brest” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "19/11/2026",
+   "visto": "2026-11-19T19:16-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Economía",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "16:00",
+     "clases": [
+      "Viernes: 15:40 a 16:15 hs. y 16:15 a 16:50 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-20"
+   ],
+   "materias": [],
+   "lugar": "Libertad 157",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-19T18:15:46-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-20\"], \"i\": [], \"l\": \"Libertad 157\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-36-juana-paula-manso-concordia-37/": {
+   "titulo": "Escuela Secundaria N.º 36 “Juana Paula Manso” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "19/11/2026",
+   "visto": "2026-11-19T19:16-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "1.º año",
+     "division": "B",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-20",
+     "hora": "17:20",
+     "clases": [
+      "Jueves: 14:00 a 16:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-20"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-19T18:19:55-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-20\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-3-francisco-ramirez-los-charruas-concordia-12/": {
+   "titulo": "Escuela Secundaria N.º 3 “Francisco Ramírez”  Los Charrúas – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "19/11/2026",
+   "visto": "2026-11-19T19:16-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Lengua y Literatura",
+     "buscada": false,
+     "hs": 5,
+     "curso": "4.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-24",
+     "hora": "10:00",
+     "clases": [
+      "Lunes: 15:05 a 15:45 hs. y 15:55 a 17:15 hs.",
+      "Jueves: 15:55 a 17:15 hs."
+     ]
+    },
+    {
+     "materia": "Literatura Latinoamericana",
+     "buscada": false,
+     "hs": 4,
+     "curso": "5.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-24",
+     "hora": "10:10",
+     "clases": [
+      "Miércoles: 14:25 a 15:45 hs.",
+      "Jueves: 14:25 a 15:45 hs."
+     ]
+    },
+    {
+     "materia": "Literatura Argentina",
+     "buscada": false,
+     "hs": 4,
+     "curso": "6.º año",
+     "division": "A",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-24",
+     "hora": "10:20",
+     "clases": [
+      "Miércoles: 13:00 a 14:20 hs. y 15:55 a 17:15 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-24"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-19T18:24:19-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-24\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
