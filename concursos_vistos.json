@@ -20124,6 +20124,47 @@
    "firma": "{\"f\": [\"2026-11-20\"], \"i\": [], \"l\": \"calle Antártida Argentina 174 (La Bianca)\"}",
    "cancelacion": true,
    "cancel_coincide": false
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-82/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "20/11/2026",
+   "visto": "2026-11-20T09:23-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Historia",
+     "buscada": false,
+     "hs": 2,
+     "curso": "",
+     "division": "B",
+     "turno": "noche",
+     "caracter": "suplente",
+     "fecha": "2026-11-24",
+     "hora": "18:00",
+     "clases": [
+      "Jueves de 20:10 a 21:15 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-24"
+   ],
+   "materias": [],
+   "lugar": "el establecimiento escolar, con entrada por calle Urquiza",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-20T08:32:24-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-24\"], \"i\": [], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
   }
  }
 }
