@@ -36,31 +36,6 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a6ad1cd22547264f906c0efe@concursos-cge
-DTSTAMP:20261118T214200Z
-DTSTART:20261119T221000Z
-DTEND:20261119T231000Z
-SUMMARY:Concurso Matemática - Escuela Secundaria N.º 7 “Gobernador Gene
- ral López Jordán” – Concordia
-DESCRIPTION:Matemática · 4 hs. · “C” · Turno noche · Suplente (mar
- tes de 21:30 a 22:30 hs. y jueves de 19:10 a 20:10 hs.)\nhttps://cge.entre
- rios.gov.ar/2026/11/escuela-secundaria-n-o-7-gobernador-general-lopez-jord
- an-concordia-6/
-LOCATION:Isthilart y República del Paraguay\, de la ciudad de Concordia
-URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-7-gobernado
- r-general-lopez-jordan-concordia-6/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Concurso
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Concurso
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:8923686cee01b735b0b15ef6@concursos-cge
 DTSTAMP:20261118T214200Z
 DTSTART:20261120T123000Z
