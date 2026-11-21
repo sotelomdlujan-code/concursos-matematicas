@@ -9677,7 +9677,7 @@
    "grupo": "bdb6fb859d7723b3",
    "issue": 35,
    "issue_abierto": false,
-   "vencido": false,
+   "vencido": true,
    "recordados": [],
    "modificado": "2026-11-06T17:59:21-03:00",
    "avisado": true,
@@ -18528,8 +18528,8 @@
    "ordinal": "primer llamado",
    "grupo": "2ab3e039eb12a959",
    "issue": 52,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-20|13:30|antes",
     "2026-11-20|13:30|dia"
@@ -18746,8 +18746,8 @@
    "ordinal": "segundo llamado",
    "grupo": "134cecf6fad950d4",
    "issue": 54,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-20|09:30|antes",
     "2026-11-20|09:30|dia"
@@ -19834,8 +19834,8 @@
    "ordinal": "segundo llamado",
    "grupo": "ae34d54b3bd6d06a",
    "issue": 55,
-   "issue_abierto": true,
-   "vencido": false,
+   "issue_abierto": false,
+   "vencido": true,
    "recordados": [
     "2026-11-20|15:20|dia"
    ],
@@ -20116,7 +20116,7 @@
    "grupo": "e20f0f73037a83c6",
    "issue": null,
    "issue_abierto": false,
-   "vencido": false,
+   "vencido": true,
    "recordados": [],
    "modificado": "2026-11-20T08:20:38-03:00",
    "avisado": false,
