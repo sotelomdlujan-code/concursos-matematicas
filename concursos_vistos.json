@@ -20565,7 +20565,9 @@
    "issue": 56,
    "issue_abierto": true,
    "vencido": false,
-   "recordados": [],
+   "recordados": [
+    "2026-11-24|18:00|antes"
+   ],
    "modificado": "2026-11-20T18:05:28-03:00",
    "avisado": true,
    "parser": 2,
