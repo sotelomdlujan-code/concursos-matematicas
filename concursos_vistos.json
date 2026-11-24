@@ -20445,7 +20445,7 @@
      "turno": "noche",
      "caracter": "suplente",
      "fecha": "2026-11-24",
-     "hora": "18:00",
+     "hora": "18:20",
      "clases": [
       "Miércoles de 21:30 a 22:30 hs. y jueves de 21:30 a 22:30 hs."
      ]
@@ -20459,7 +20459,7 @@
      "turno": "noche",
      "caracter": "suplente",
      "fecha": "2026-11-24",
-     "hora": "18:00",
+     "hora": "18:20",
      "clases": [
       "Martes de 21:30 a 22:30 hs. y jueves de 19:10 a 20:10 hs."
      ]
@@ -20473,7 +20473,7 @@
      "turno": "noche",
      "caracter": "suplente",
      "fecha": "2026-11-24",
-     "hora": "18:00",
+     "hora": "18:20",
      "clases": [
       "Martes de 20:20 a 21:20 hs. y miércoles de 19:10 a 20:10 hs."
      ]
@@ -20487,7 +20487,7 @@
      "turno": "noche",
      "caracter": "suplente",
      "fecha": "2026-11-24",
-     "hora": "18:00",
+     "hora": "18:20",
      "clases": [
       "Jueves de 20:20 a 21:20 hs. y miércoles de 20:20 a 21:20 hs."
      ]
@@ -20503,7 +20503,7 @@
      "turno": "noche",
      "caracter": "suplente",
      "fecha": "2026-11-24",
-     "hora": "18:00",
+     "hora": "18:20",
      "clases": [
       "Miércoles de 21:30 a 22:30 hs. y jueves de 21:30 a 22:30 hs."
      ]
@@ -20517,7 +20517,7 @@
      "turno": "noche",
      "caracter": "suplente",
      "fecha": "2026-11-24",
-     "hora": "18:00",
+     "hora": "18:20",
      "clases": [
       "Martes de 21:30 a 22:30 hs. y jueves de 19:10 a 20:10 hs."
      ]
@@ -20531,7 +20531,7 @@
      "turno": "noche",
      "caracter": "suplente",
      "fecha": "2026-11-24",
-     "hora": "18:00",
+     "hora": "18:20",
      "clases": [
       "Martes de 20:20 a 21:20 hs. y miércoles de 19:10 a 20:10 hs."
      ]
@@ -20545,7 +20545,7 @@
      "turno": "noche",
      "caracter": "suplente",
      "fecha": "2026-11-24",
-     "hora": "18:00",
+     "hora": "18:20",
      "clases": [
       "Jueves de 20:20 a 21:20 hs. y miércoles de 20:20 a 21:20 hs."
      ]
@@ -20567,12 +20567,13 @@
    "vencido": false,
    "recordados": [
     "2026-11-24|18:00|antes",
-    "2026-11-24|18:00|dia"
+    "2026-11-24|18:00|dia",
+    "2026-11-24|18:20|dia"
    ],
-   "modificado": "2026-11-20T18:05:28-03:00",
+   "modificado": "2026-11-24T08:31:38-03:00",
    "avisado": true,
    "parser": 2,
-   "firma": "{\"f\": [\"2026-11-24\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Miércoles de 21:30 a 22:30 hs. y jueves de 21:30 a 22:30 hs.\"], \"curso\": \"\", \"division\": \"A\", \"fecha\": \"2026-11-24\", \"hora\": \"18:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"noche\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Martes de 21:30 a 22:30 hs. y jueves de 19:10 a 20:10 hs.\"], \"curso\": \"\", \"division\": \"B\", \"fecha\": \"2026-11-24\", \"hora\": \"18:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"noche\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Martes de 20:20 a 21:20 hs. y miércoles de 19:10 a 20:10 hs.\"], \"curso\": \"\", \"division\": \"C\", \"fecha\": \"2026-11-24\", \"hora\": \"18:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"noche\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Jueves de 20:20 a 21:20 hs. y miércoles de 20:20 a 21:20 hs.\"], \"curso\": \"2.º año\", \"division\": \"B\", \"fecha\": \"2026-11-24\", \"hora\": \"18:00\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"noche\"}], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
+   "firma": "{\"f\": [\"2026-11-24\"], \"i\": [{\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Miércoles de 21:30 a 22:30 hs. y jueves de 21:30 a 22:30 hs.\"], \"curso\": \"\", \"division\": \"A\", \"fecha\": \"2026-11-24\", \"hora\": \"18:20\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"noche\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Martes de 21:30 a 22:30 hs. y jueves de 19:10 a 20:10 hs.\"], \"curso\": \"\", \"division\": \"B\", \"fecha\": \"2026-11-24\", \"hora\": \"18:20\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"noche\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Martes de 20:20 a 21:20 hs. y miércoles de 19:10 a 20:10 hs.\"], \"curso\": \"\", \"division\": \"C\", \"fecha\": \"2026-11-24\", \"hora\": \"18:20\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"noche\"}, {\"buscada\": true, \"caracter\": \"suplente\", \"clases\": [\"Jueves de 20:20 a 21:20 hs. y miércoles de 20:20 a 21:20 hs.\"], \"curso\": \"2.º año\", \"division\": \"B\", \"fecha\": \"2026-11-24\", \"hora\": \"18:20\", \"hs\": 4, \"materia\": \"Matemática\", \"turno\": \"noche\"}], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
   },
   "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-2-jose-gervasio-artigas-concordia-41/": {
    "titulo": "Escuela Secundaria N.º 2 “José Gervasio Artigas” – Concordia",
@@ -20615,6 +20616,131 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-24\"], \"i\": [], \"l\": \"calle Antártida Argentina 174 (La Bianca)\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-17-gral-m-m-de-guemes-concordia-29/": {
+   "titulo": "Escuela Secundaria N.º 17 “Gral. M. M. de Güemes” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "24/11/2026",
+   "visto": "2026-11-24T08:47-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Macroeconomía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "6.º año",
+     "division": "A",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-12-19",
+     "hora": "09:15",
+     "clases": [
+      "Jueves de 07:50 a 08:25 hs.",
+      "Jueves de 08:35 a 09:45 hs."
+     ]
+    },
+    {
+     "materia": "Macroeconomía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "6.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "interino",
+     "fecha": "2026-12-19",
+     "hora": "09:15",
+     "clases": [
+      "Jueves de 09:55 a 11:05 hs.",
+      "Jueves de 11:10 a 11:45 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-12-19"
+   ],
+   "materias": [],
+   "lugar": "Próspero Bovino 1520, de acuerdo con lo expresado en esta publicación",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-24T08:25:58-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-12-19\"], \"i\": [], \"l\": \"Próspero Bovino 1520, de acuerdo con lo expresado en esta publicación\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/concurso-n102-de-nivel-inicial-primario-y-sus-modalidades-25-11-2026-dpto-concordia/": {
+   "titulo": "Concurso N°102 de Nivel Inicial, Primario y sus modalidades – 25/11/2026 – Dpto. Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "24/11/2026",
+   "visto": "2026-11-24T08:47-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir La Dirección Departamental de Escuelas Concordia convoca al Concurso N°102 de Suplencias de Nivel Inicial, Primario y sus modalidades. Consideraciones para tener en cuenta: 📌Los cargos de ascenso se cubrirán según Res N°0691/21 CGE y sus modificatorias. 📌Los cargos de Director de 4° Categoría se cubrirán según Res. N°1000/13 CGE. 📌Para los cargos iniciales al empezar cada instancia se procederá con el listado oficial desde el último orden de mérito que adjudicó ",
+   "detalle": [],
+   "fechas": [
+    "2026-11-25"
+   ],
+   "materias": [],
+   "lugar": "calle Hipolito Yrigoyen 505",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-24T08:38:27-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-25\"], \"i\": [], \"l\": \"calle Hipolito Yrigoyen 505\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-de-jovenes-y-adultos-n-o-29-prof-erich-poenitz-concordia-23/": {
+   "titulo": "Escuela Secundaria de Jóvenes y Adultos N.º 29 “Prof. Erich Poenitz” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "24/11/2026",
+   "visto": "2026-11-24T08:47-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Derecho Comercial",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "C",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-25",
+     "hora": null,
+     "clases": [
+      "Miércoles de 14:45 a 15:55 hs.",
+      "Miércoles de 16:00 a 16:35 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-25"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-24T08:40:11-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-25\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
