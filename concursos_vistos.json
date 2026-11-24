@@ -20878,6 +20878,47 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-30\"], \"i\": [], \"l\": \"Urdinarrain 752 de la ciudad de Concordia, provincia de Entre Ríos: dos sobres que contengan:\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-7-gdor-gral-lopez-jordan-concordia-10/": {
+   "titulo": "Escuela Secundaria N.º 7 “Gdor. Gral. López Jordán” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "24/11/2026",
+   "visto": "2026-11-24T20:40-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 2,
+     "curso": "6.º año",
+     "division": "B",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-25",
+     "hora": "18:00",
+     "clases": [
+      "Miércoles de 10:20 a 11:20 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-25"
+   ],
+   "materias": [],
+   "lugar": "Isthilart y República del Paraguay, de la ciudad de Concordia",
+   "ordinal": "primera convocatoria",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-24T19:55:05-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-25\"], \"i\": [], \"l\": \"Isthilart y República del Paraguay, de la ciudad de Concordia\"}"
   }
  }
 }
