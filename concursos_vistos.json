@@ -20566,7 +20566,8 @@
    "issue_abierto": true,
    "vencido": false,
    "recordados": [
-    "2026-11-24|18:00|antes"
+    "2026-11-24|18:00|antes",
+    "2026-11-24|18:00|dia"
    ],
    "modificado": "2026-11-20T18:05:28-03:00",
    "avisado": true,
