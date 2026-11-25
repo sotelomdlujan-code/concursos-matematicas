@@ -20919,6 +20919,32 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-25\"], \"i\": [], \"l\": \"Isthilart y República del Paraguay, de la ciudad de Concordia\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-84/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "24/11/2026",
+   "visto": "2026-11-24T21:49-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir CONVOCATORIA A CONCURSO La Rectoría de la Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” convoca a concurso de adjudicación de cargo, en el marco del Reglamento de Concursos, Resolución Ministerial N.º 783/12 M.T. y sus modificatorias, y Resolución N.º 2300/22 C.G.E., artículo 136, de Jurado de Concursos. El acto concursal se llevará a cabo el día miércoles 25 de noviembre de 2026. 21:00 hs. 🔴 1 cargo de Preceptor/a – Suplente – Turno tarde. Horario: Lune",
+   "detalle": [],
+   "fechas": [
+    "2026-11-25"
+   ],
+   "materias": [],
+   "lugar": "el establecimiento escolar, con entrada por calle Urquiza",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-24T21:01:52-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-25\"], \"i\": [], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
   }
  }
 }
