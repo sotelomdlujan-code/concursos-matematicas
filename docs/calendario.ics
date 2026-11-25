@@ -7,34 +7,4 @@ X-WR-CALNAME:Concursos docentes - CGE
 X-WR-TIMEZONE:America/Argentina/Buenos_Aires
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
-BEGIN:VEVENT
-UID:08f42fd1976bf734eb4812de@concursos-cge
-DTSTAMP:20261120T213700Z
-DTSTART:20261124T212000Z
-DTEND:20261124T222000Z
-SUMMARY:Concurso Matemática - Escuela Secundaria N.º 16 “Profesor Gerar
- do Victorín” – Concordia
-DESCRIPTION:Matemática · 4 hs. · “A” · Turno noche · Suplente (Mi
- ércoles de 21:30 a 22:30 hs. y jueves de 21:30 a 22:30 hs.)\nMatemática 
- · 4 hs. · “B” · Turno noche · Suplente (Martes de 21:30 a 22:30 hs
- . y jueves de 19:10 a 20:10 hs.)\nMatemática · 4 hs. · “C” · Turno
-  noche · Suplente (Martes de 20:20 a 21:20 hs. y miércoles de 19:10 a 20
- :10 hs.)\nMatemática · 4 hs. · 2.º año “B” · Turno noche · Supl
- ente (Jueves de 20:20 a 21:20 hs. y miércoles de 20:20 a 21:20 hs.)\nhttp
- s://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerard
- o-victorin-concordia-83/
-LOCATION:el establecimiento escolar\, con entrada por calle Urquiza
-URL:https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor
- -gerardo-victorin-concordia-83/
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Concurso
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Concurso
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
 END:VCALENDAR
