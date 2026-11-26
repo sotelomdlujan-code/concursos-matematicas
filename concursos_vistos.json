@@ -21273,7 +21273,7 @@
    "grupo": "99e97bfd66ee39f3",
    "issue": null,
    "issue_abierto": false,
-   "vencido": false,
+   "vencido": true,
    "recordados": [],
    "modificado": "2026-11-25T14:30:03-03:00",
    "avisado": false,
