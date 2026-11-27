@@ -21441,7 +21441,7 @@
    "grupo": "466c6169a6847104",
    "issue": null,
    "issue_abierto": false,
-   "vencido": false,
+   "vencido": true,
    "recordados": [],
    "modificado": "2026-11-25T20:04:19-03:00",
    "avisado": false,
