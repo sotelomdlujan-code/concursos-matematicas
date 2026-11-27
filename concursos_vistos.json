@@ -21678,6 +21678,32 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-30\"], \"i\": [], \"l\": \"Av. Patria N.º 43 Oeste, de Colonia Ayuí, departamento Concordia\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/concurso-n104-de-nivel-inicial-primario-y-sus-modalidades-30-11-2026-dpto-concordia/": {
+   "titulo": "Concurso N°104 de Nivel Inicial, Primario y sus modalidades – 30/11/2026 – Dpto. Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "27/11/2026",
+   "visto": "2026-11-27T11:14-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [],
+   "texto": "Compartir Tweet WhatsApp Imprimir La Dirección Departamental de Escuelas Concordia convoca al Concurso N°104 de Suplencias de Nivel Inicial, Primario y sus modalidades. Consideraciones para tener en cuenta: 📌Los cargos de ascenso se cubrirán según Res N°0691/21 CGE y sus modificatorias. 📌Los cargos de Director de 4° Categoría se cubrirán según Res. N°1000/13 CGE. 📌Para los cargos iniciales al empezar cada instancia se procederá con el listado oficial desde el último orden de mérito que adjudicó ",
+   "detalle": [],
+   "fechas": [
+    "2026-11-30"
+   ],
+   "materias": [],
+   "lugar": "calle Hipolito Yrigoyen 505",
+   "ordinal": "segundo llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-27T10:00:18-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-30\"], \"i\": [], \"l\": \"calle Hipolito Yrigoyen 505\"}"
   }
  }
 }
