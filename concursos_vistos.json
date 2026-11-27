@@ -21704,6 +21704,226 @@
    "avisado": false,
    "parser": 2,
    "firma": "{\"f\": [\"2026-11-30\"], \"i\": [], \"l\": \"calle Hipolito Yrigoyen 505\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-86/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "27/11/2026",
+   "visto": "2026-11-27T12:25-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "03",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-30",
+     "hora": "11:00",
+     "clases": [
+      "Jueves de 13:20 a 14:40 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 2,
+     "curso": "4.º año",
+     "division": "04",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-30",
+     "hora": "11:00",
+     "clases": [
+      "Viernes de 14:50 a 16:10 hs."
+     ]
+    },
+    {
+     "materia": "Geografía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "",
+     "division": "04",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-30",
+     "hora": "11:00",
+     "clases": [
+      "Lunes de 08:00 a 09:30 hs. – Jueves de 11:00 a 11:40 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-27T11:15:16-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-30\"], \"i\": [], \"l\": \"\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-87/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "27/11/2026",
+   "visto": "2026-11-27T12:25-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Filosofía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "5.º año",
+     "division": "01",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-30",
+     "hora": "11:15",
+     "clases": [
+      "Lunes de 17:45 a 19:00 hs. – Martes de 17:45 a 18:25 hs."
+     ]
+    },
+    {
+     "materia": "Filosofía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "5.º año",
+     "division": "02",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-30",
+     "hora": "11:15",
+     "clases": [
+      "Martes de 16:20 a 17:40 hs. – Jueves de 17:45 a 18:25 hs."
+     ]
+    },
+    {
+     "materia": "Filosofía",
+     "buscada": false,
+     "hs": 3,
+     "curso": "5.º año",
+     "division": "05",
+     "turno": "tarde",
+     "caracter": "suplente",
+     "fecha": "2026-11-30",
+     "hora": "11:15",
+     "clases": [
+      "Viernes de 16:20 a 18:25 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-30"
+   ],
+   "materias": [],
+   "lugar": "el establecimiento escolar, con entrada por calle Urquiza",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-27T11:20:35-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-30\"], \"i\": [], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-16-profesor-gerardo-victorin-concordia-88/": {
+   "titulo": "Escuela Secundaria N.º 16 “Profesor Gerardo Victorín” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "27/11/2026",
+   "visto": "2026-11-27T12:25-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Formación Ética y Ciudadana",
+     "buscada": false,
+     "hs": 2,
+     "curso": "3.º año",
+     "division": "06",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-30",
+     "hora": "11:30",
+     "clases": [
+      "Jueves de 08:50 a 10:10 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-30"
+   ],
+   "materias": [],
+   "lugar": "el establecimiento escolar, con entrada por calle Urquiza",
+   "ordinal": "",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-27T11:22:33-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-30\"], \"i\": [], \"l\": \"el establecimiento escolar, con entrada por calle Urquiza\"}"
+  },
+  "https://cge.entrerios.gov.ar/2026/11/escuela-secundaria-n-o-19-grala-j-azurduy-concordia-14/": {
+   "titulo": "Escuela Secundaria N.º 19 “Grala. J. Azurduy” – Concordia",
+   "fuente": "Concordia",
+   "fecha_pub": "27/11/2026",
+   "visto": "2026-11-27T12:25-03:00",
+   "relevante": false,
+   "items": [],
+   "todos": [
+    {
+     "materia": "Educación Física",
+     "buscada": false,
+     "hs": 3,
+     "curso": "2.º año",
+     "division": "C",
+     "turno": "mañana",
+     "caracter": "suplente",
+     "fecha": "2026-11-30",
+     "hora": "16:00",
+     "clases": [
+      "Martes y jueves de 15:00 a 16:00 hs."
+     ]
+    }
+   ],
+   "texto": "",
+   "detalle": [],
+   "fechas": [
+    "2026-11-30"
+   ],
+   "materias": [],
+   "lugar": "",
+   "ordinal": "primer llamado",
+   "grupo": "",
+   "issue": null,
+   "issue_abierto": false,
+   "vencido": false,
+   "recordados": [],
+   "modificado": "2026-11-27T11:25:24-03:00",
+   "avisado": false,
+   "parser": 2,
+   "firma": "{\"f\": [\"2026-11-30\"], \"i\": [], \"l\": \"\"}"
   }
  }
 }
